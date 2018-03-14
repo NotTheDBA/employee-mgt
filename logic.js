@@ -9,14 +9,15 @@ var database = firebase.database();
 // Assign the reference to the database to a variable named 'database'
 // var database = ...
 
+// Initial Values 
+var initialEmployee = "No one :-(";
+var name = "";
+var email = "";
+var age = 0;
+var comment = "";
+var employeeRate = 0;
 
-// Initial Values
-var initialBid = 0;
-var initialemployee = "No one :-(";
-var highrate = initialBid;
-var highemployee = initialemployee;
-var employeerate
-    // --------------------------------------------------------------
+// --------------------------------------------------------------
 
 // At the initial load and subsequent value changes, get a snapshot of the stored data.
 // This function allows you to update your page in real-time when the firebase database changes.
