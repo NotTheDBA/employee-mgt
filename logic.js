@@ -7,7 +7,6 @@ var config = {
             storageBucket: "employee-tracker-b587e.appspot.com",
             messagingSenderId: "924425356946"
         };
-        firebase.initializeApp(config);
 
 firebase.initializeApp(config);
 // Create a variable to reference the database
