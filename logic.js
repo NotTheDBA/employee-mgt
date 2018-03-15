@@ -1,14 +1,12 @@
 // Initialize Firebase
 var config = {
     apiKey: "AIzaSyCwT5tPYY3WtYfyNlWmgRqHvBPgMn2Sy3s",
-            authDomain: "employee-tracker-b587e.firebaseapp.com",
-            databaseURL: "https://employee-tracker-b587e.firebaseio.com",
-            projectId: "employee-tracker-b587e",
-            storageBucket: "employee-tracker-b587e.appspot.com",
-            messagingSenderId: "924425356946"
-        };
-        firebase.initializeApp(config);
-
+    authDomain: "employee-tracker-b587e.firebaseapp.com",
+    databaseURL: "https://employee-tracker-b587e.firebaseio.com",
+    projectId: "employee-tracker-b587e",
+    storageBucket: "employee-tracker-b587e.appspot.com",
+    messagingSenderId: "924425356946"
+};
 firebase.initializeApp(config);
 // Create a variable to reference the database
 var database = firebase.database();
@@ -18,10 +16,9 @@ var database = firebase.database();
 
 // Initial Values 
 var initialEmployee = "No one :-(";
-var name = "";
-var email = "";
-var age = 0;
-var comment = "";
+
+var employeeName = "";
+var employeeRole = "";
 var employeeRate = 0;
 
 // --------------------------------------------------------------
@@ -68,27 +65,18 @@ $("#add-employee").on("click", function(event) {
     // employeeRate = parseInt($("#employee-rate").val());
     // employeeName = $("#employee-name").val();
 
-
+    employeeName = $("#employee-name").val();
+    employeeRole = $("#employee-role").val();
+    employeeRate = $("#employee-rate").val();
     // if (employeeRate > highrate) {
-
     // Save the new employee in Firebase
     database.ref().push({
-        name: "Randy",
-        role: "Tester",
-        rate: 0,
+        name: employeeName,
+        role: employeeRole,
+        rate: employeeRate,
         started: firebase.database.ServerValue.TIMESTAMP
 
     })
-
-
-    // // Save the new employee in Firebase
-    // database.ref().push({
-    //     name: employeeName,
-    //     role: employeerole,
-    //     rate: employeeRate,
-    //     started: firebase.database.ServerValue.TIMESTAMP
-
-    // })
 
     //     // Store the new high rate and employee name as a local variable
     //     highrate = employeeRate
