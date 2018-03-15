@@ -1,7 +1,14 @@
 // Initialize Firebase
 var config = {
+    apiKey: "AIzaSyCwT5tPYY3WtYfyNlWmgRqHvBPgMn2Sy3s",
+            authDomain: "employee-tracker-b587e.firebaseapp.com",
+            databaseURL: "https://employee-tracker-b587e.firebaseio.com",
+            projectId: "employee-tracker-b587e",
+            storageBucket: "employee-tracker-b587e.appspot.com",
+            messagingSenderId: "924425356946"
+        };
+        firebase.initializeApp(config);
 
-};
 firebase.initializeApp(config);
 // Create a variable to reference the database
 var database = firebase.database();
