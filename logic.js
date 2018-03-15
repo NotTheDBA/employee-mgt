@@ -64,11 +64,24 @@ $("#add-employee").on("click", function(event) {
 
     // if (employeeRate > highrate) {
 
-    //     // Save the new rate in Firebase
-    //     database.ref().set({
-    //         highrate: employeeRate,
-    //         highemployee: employeeName
-    //     })
+    // Save the new employee in Firebase
+    database.ref().push({
+        name: "Randy",
+        role: "Tester",
+        rate: 0,
+        started: firebase.database.ServerValue.TIMESTAMP
+
+    })
+
+
+    // // Save the new employee in Firebase
+    // database.ref().push({
+    //     name: employeeName,
+    //     role: employeerole,
+    //     rate: employeeRate,
+    //     started: firebase.database.ServerValue.TIMESTAMP
+
+    // })
 
     //     // Store the new high rate and employee name as a local variable
     //     highrate = employeeRate
