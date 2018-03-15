@@ -23,37 +23,32 @@ var employeeRole = "";
 var employeeRate = 0;
 
 // --------------------------------------------------------------
+database.ref().on("child_added", function(childSnapshot) {
 
-// At the initial load and subsequent value changes, get a snapshot of the stored data.
-// This function allows you to update your page in real-time when the firebase database changes.
-database.ref().on("value", function(snapshot) {
+    // Log everything that's coming out of snapshot 
+    console.log(childSnapshot.val().name);
+    console.log(childSnapshot.val().role);
+    console.log(childSnapshot.val().rate);
+    console.log(childSnapshot.val().started);
 
-        //     // Change this to find the most recent added record
-        //     if (snapshot.child("highemployee").exists() && snapshot.child("highrate").exists()) {
+    // // full list of items to the well
+    // $("#full-member-list").append("<div class='well'><span class='member-name'> " + childSnapshot.val().name +
+    //     " </span><span class='member-email'> " + childSnapshot.val().email +
+    //     " </span><span class='member-age'> " + childSnapshot.val().age +
+    //     " </span><span class='member-comment'> " + childSnapshot.val().comment + " </span></div>");
 
-        //         // Set the variables for highemployee/highrate equal to the stored values in firebase.
+    // Handle the errors
+}, function(errorObject) {
+    console.log("Errors handled: " + errorObject.code);
+});
 
-        //         // Change the HTML to reflect the stored values
-        //         $("#recent-employee").text(highemployee);
+database.ref().orderByChild("dateAdded").limitToLast(1).on("child_added", function(snapshot) {
 
-
-        //     }
-
-        //     // Else Firebase doesn't have a highrate/highemployee, so use the initial local values.
-        //     else {
-
-        //         // Change the HTML to reflect the initial values
-        //         $("#recent-employee").text(initialBid);
-        //         $("#recent-rate").text(initialemployee);
-
-        //     }
-
-
-        //     // If any errors are experienced, log them to console.
-    },
-    function(errorObject) {
-        console.log("The read failed: " + errorObject.code);
-    });
+    // Change the HTML to reflect
+    $("#employee-name").text(snapshot.val().name);
+    $("#employee-role").text(snapshot.val().role);
+    $("#employee-rate").text(snapshot.val().rate);
+});
 
 // --------------------------------------------------------------
 
