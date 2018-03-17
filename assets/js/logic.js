@@ -16,20 +16,15 @@ var database = firebase.database();
 // var database = ...
 
 // Initial Values 
-var initialEmployee = "No one :-(";
+var firstVar = "";
 
-var employeeName = "";
-var employeeRole = "";
-var employeeRate = 0;
 
 // --------------------------------------------------------------
 database.ref().on("child_added", function(childSnapshot) {
 
     // Log everything that's coming out of snapshot 
-    console.log(childSnapshot.val().name);
-    console.log(childSnapshot.val().role);
-    console.log(childSnapshot.val().rate);
-    console.log(childSnapshot.val().started);
+    console.log(childSnapshot.val());
+
 
     // // full list of items to the well
     // $("#full-member-list").append("<div class='well'><span class='member-name'> " + childSnapshot.val().name +
@@ -45,9 +40,7 @@ database.ref().on("child_added", function(childSnapshot) {
 database.ref().orderByChild("dateAdded").limitToLast(1).on("child_added", function(snapshot) {
 
     // Change the HTML to reflect
-    $("#employee-name").text(snapshot.val().name);
-    $("#employee-role").text(snapshot.val().role);
-    $("#employee-rate").text(snapshot.val().rate);
+    $("#employee-name").text(snapshot.val());
 });
 
 // --------------------------------------------------------------
@@ -61,27 +54,15 @@ $("#add-employee").on("click", function(event) {
     // employeeRate = parseInt($("#employee-rate").val());
     // employeeName = $("#employee-name").val();
 
-    employeeName = $("#employee-name").val();
-    employeeRole = $("#employee-role").val();
-    employeeRate = $("#employee-rate").val();
+    firstVar = $("#employee-name").val();
+
     // if (employeeRate > highrate) {
     // Save the new employee in Firebase
     database.ref().push({
-        name: employeeName,
-        role: employeeRole,
-        rate: employeeRate,
-        started: firebase.database.ServerValue.TIMESTAMP
+        myVar: firstVar,
+        created: firebase.database.ServerValue.TIMESTAMP
 
     })
-
-    //     // Store the new high rate and employee name as a local variable
-    //     highrate = employeeRate
-    //     highemployee = employeeName
-
-
-    //     // Change the HTML to reflect the new high rate and employee
-    //     $("#recent-employee").text(highemployee);
-    //     $("#recent-rate").text(highrate);
 
     // } else {
     //     // Alert
