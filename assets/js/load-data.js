@@ -15,6 +15,11 @@ $(document).ready(function() {
     // use:
     // MapData.Map[0] - Get all neighborhood data
     // MapData.Map[0].properties.listname - gets the name of neighborhood
+    // MORE IMPORTANTLY - It includes geoJson data needed to draw maps on Google.
+    // https://stackoverflow.com/questions/38491370/how-to-add-geojsonmultilinestring-layer-to-a-google-map
+    //http://zevross.com/blog/2014/04/01/google-maps-api-adds-geojson-support-here-is-an-example/
+    //  Here's how to get an array of coordinates for one neighborhood:
+    // MapData.Map[0].geometry.coordinates
     getMapData();
 
 
@@ -46,6 +51,8 @@ function makeLoadButton(label) {
         // console.log(MapData.Map[0]);
         // console.log(MapData.Map[0].properties);
         // console.log(MapData.Map[0].properties.listname);
+
+        console.log(MapData.Map[0].geometry.coordinates);
     });
 
     $("#loader").empty().append(button);
