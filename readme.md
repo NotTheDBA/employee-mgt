@@ -1,9 +1,9 @@
 # Group Project 1
 ### Team:
-Kushagra Bhavsar
-Anthony Elliott
-Clay Fairbanks
-Randy Reitz
+* Kushagra Bhavsar
+* Anthony Elliott
+* Clay Fairbanks
+* Randy Reitz
 
 ## Coding Requirements:
 
