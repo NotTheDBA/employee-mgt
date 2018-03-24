@@ -32,21 +32,22 @@ $(document).ready(function() {
     //http://zevross.com/blog/2014/04/01/google-maps-api-adds-geojson-support-here-is-an-example/
     //  Here's how to get an array of coordinates for one neighborhood:
     // MapData.Map[0].geometry.coordinates
-    getMapData();
+    // getMapData();
 
     // This button is necessary to access the data 
     // - we can't just load the data on page launch for some reason
 
     $("#loader").empty();
     makeLoadButton("load");
-    makeQueryButton();
+    makeQueryIncomeButton();
+    makeQueryMapButton();
 
 });
 
-// Example data query...   Find income in a range.
-function makeQueryButton() {
+// TODO: Clay: use this example data query to find neighborhoods with income in a range.
+function makeQueryIncomeButton() {
 
-    var button = $("<button>").text("Query").addClass("btn btn-primary btn-block");
+    var button = $("<button>").text("Query Income").addClass("btn btn-primary btn-block");
     button.on("click", function() {
 
         var hoodsRef = database.ref("Philly").child("hoods");
@@ -66,15 +67,36 @@ function makeQueryButton() {
 }
 
 
+// TODO: Kush: Use this example data query to pull geodata coordinates
+function makeQueryMapButton() {
+
+    var button = $("<button>").text("Query Map Data").addClass("btn btn-primary btn-block");
+    button.on("click", function() {
+
+        var hoodsRef = database.ref("Geo").child("hoods");
+        var placeName = "PENNYPACK_PARK"
+
+        window.GeoResults = [];
+
+        hoodsRef.orderByChild("name").equalTo(placeName).on("child_added", function(snapshot) {
+            window.GeoResults.push(snapshot.val());
+        });
+
+        console.log(GeoResults);
+    });
+
+    $("#loader").append(button);
+}
 
 
 function makeLoadButton(label) {
 
     var button = $("<button>").text(label).addClass("btn btn-primary btn-block");
     button.on("click", function() {
-        loadList();
-        loadIncomes();
-        verifyCounts();
+        // loadList();
+        // loadIncomes();
+        // verifyCounts();
+        getMapData();
     });
 
     $("#loader").append(button);
@@ -171,7 +193,6 @@ function loadIncomes() {
 }
 
 
-
 function getData() {
     // Only needs to run once on load.
     var queryurl = "assets/data/n1.json";
@@ -190,6 +211,7 @@ function getData() {
 
 }
 
+// TODO: Merge this data with income data for searching.
 function getMapData() {
     // Only needs to run once on load.
     var queryurl = "assets/data/n1.geojson";
@@ -199,8 +221,29 @@ function getMapData() {
         method: "GET"
     }).then(function(jsonData) {
         //puts the data in our global space
-        window.MapData = jsonData;
+        // window.MapData = jsonData;
         // console.log(jsonData);
+        // console.log(jsonData.Map[0].geometry.coordinates);
+
+        database.ref("Geo").remove()
+        var hoodsRef = database.ref("Geo").child("hoods");
+
+        var hoodCount = 0;
+        jsonData.Map.forEach(thisHood => {
+            // // console.log(thisHood);
+            // console.log(thisHood.properties.name);
+            // console.log(thisHood.properties.listname);
+            // console.log(thisHood.geometry.coordinates);
+            hoodsRef.child(hoodCount).child("name").set(thisHood.properties.name);
+            hoodsRef.child(hoodCount).child("listname").set(thisHood.properties.listname);
+            hoodsRef.child(hoodCount).child("geometry").child("coordinates").set(thisHood.geometry.coordinates[0][0]);
+            hoodCount += 1;
+        })
+
+        // database.ref("Geo").child("List").remove()
+        // database.ref("Geo").child("List").set(jsonData.Map)
+
+
     });
 
 }
