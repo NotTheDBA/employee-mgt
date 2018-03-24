@@ -34,27 +34,50 @@ $(document).ready(function() {
     // MapData.Map[0].geometry.coordinates
     getMapData();
 
-
     // This button is necessary to access the data 
     // - we can't just load the data on page launch for some reason
-    makeLoadButton("load")
+
+    $("#loader").empty();
+    makeLoadButton("load");
+    makeQueryButton();
 
 });
+
+// Example data query...   Find income in a range.
+function makeQueryButton() {
+
+    var button = $("<button>").text("Query").addClass("btn btn-primary btn-block");
+    button.on("click", function() {
+
+        var hoodsRef = database.ref("Philly").child("hoods");
+        var startIncome = "$25,000"
+        var endIncome = "$30,000"
+
+        window.NeighborResults = [];
+
+        hoodsRef.orderByChild("median-income").startAt(startIncome).endAt(endIncome).on("child_added", function(snapshot) {
+            window.NeighborResults.push(snapshot.val());
+        });
+
+        console.log(NeighborResults);
+    });
+
+    $("#loader").append(button);
+}
+
+
 
 
 function makeLoadButton(label) {
 
     var button = $("<button>").text(label).addClass("btn btn-primary btn-block");
     button.on("click", function() {
-
-
         loadList();
         loadIncomes();
-        // pushIncomes();
         verifyCounts();
     });
 
-    $("#loader").empty().append(button);
+    $("#loader").append(button);
 }
 
 function verifyCounts() {
@@ -82,13 +105,6 @@ function verifyCounts() {
     // console.log(MapData.Map[0].geometry.coordinates);
 }
 
-function pushIncomes() {
-
-    console.log(Philly[10].Name);
-    // console.log(Philly[10]["Median household income in 2016"]);
-    console.log(Philly[10]["Median household income in 2016"][Philly[10].Name]);
-
-}
 
 function loadList() {
     //this initializes a global object called "Hoods"
@@ -136,9 +152,6 @@ function loadIncomes() {
                 hoodCount += 1;
             }
 
-
-            // hoodsRef.child(hoodCount).child("name").set(thisHood.Name)
-            // 
         });
 
 
