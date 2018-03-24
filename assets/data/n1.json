@@ -1,589 +1,4 @@
-[
-
-    {
-        "Name": "4th St Tattoo Alley",
-        "Area": "0.004 square miles",
-        "Population": "161",
-        "Population density": {
-            "4th St Tattoo Alley": "40,596 people per square mile",
-            "Philadelphia": "11,606 people per square mile"
-        },
-        "Median household income in 2016": {
-            "4th St Tattoo Alley": "$93,750 ",
-            "Philadelphia": "$41,449"
-        },
-        "Median rent in in 2016": {
-            "4th St Tattoo Alley": "$1,180 ",
-            "Philadelphia": "$808"
-        },
-        "Male vs Females": {
-            "Males": "88",
-            "Females": "72"
-        },
-        "Median age": {
-            "Males": "31.6 years",
-            "Females": "34.8 years"
-        },
-        "Most popular occupations of males": [
-            "management occupations (except farmers) (38.1%)"
-        ],
-        "Most popular occupations of females": [
-            "healthcare practitioners and technical occupations (28.9%)"
-        ],
-        "Roads and streets": [
-            "S 4th St."
-        ],
-        "detailed profile": "4th St Tattoo Alley neighborhood detailed profile"
-    },
-    {
-        "Name": "52nd St Discount Shopping",
-        "Area": "0.122 square miles",
-        "Population": "3,554",
-        "Population density": {
-            "52nd St Discount Shopping": "29,244 people per square mile",
-            "Philadelphia": "11,606 people per square mile"
-        },
-        "Median household income in 2016": {
-            "52nd St Discount Shopping": "$29,319 ",
-            "Philadelphia": "$41,449"
-        },
-        "Median rent in in 2016": {
-            "52nd St Discount Shopping": "$717",
-            "Philadelphia": "$808"
-        },
-        "Male vs Females": {
-            "Males": "1,627",
-            "Females": "1,926"
-        },
-        "Median age": {
-            "Males": "38.4 years",
-            "Females": "32.9 years"
-        },
-        "Housing prices": {
-            "Average estimated value of detached houses in 2016(8.0 % of all units)": {
-                "52nd St Discount Shopping": "$130,385 ",
-                "Philadelphia": "$278,085"
-            },
-            "Average estimated value of townhouses or other attached units in 2016(58.1 % of all units)": {
-                "This neighborhood": "$174,969 ",
-                "city": "$162,850"
-            }
-        },
-        "Most popular occupations of males": [
-            "service occupations (37.4%)"
-        ],
-        "Most popular occupations of females": [
-            "service occupations (33.2%)"
-        ],
-        "Highways in this neighborhood": [
-            "S 52nd St",
-            "Walnut St(State Rte 3)",
-            "State Rte 3(Chestnut St)."
-        ],
-        "Roads and streets": [
-            "S 51st St",
-            "Ludlow St",
-            "Pine St",
-            "Ranstead St",
-            "Chancellor St",
-            "Spruce St",
-            "Irving St",
-            "Sansom St",
-            "Locust St",
-            "Delancey St",
-            "Market St."
-        ],
-        "detailed profile": "52nd St Discount Shopping neighborhood detailed profile"
-    },
-    {
-        "Name": "63rd St Discount Shopping",
-        "Area": "0.070 square miles",
-        "Population": "1,873",
-        "Population density": {
-            "63rd St Discount Shopping": "26,766 people per square mile",
-            "Philadelphia": "11,606 people per square mile"
-        },
-        "Median household income in 2016": {
-            "63rd St Discount Shopping": "$150,800 ",
-            "Philadelphia": "$41,449"
-        },
-        "Median rent in in 2016": {
-            "63rd St Discount Shopping": "$2,961 ",
-            "Philadelphia": "$808"
-        },
-        "Male vs Females": {
-            "Males": "712",
-            "Females": "1,161"
-        },
-        "Median age": {
-            "Males": "206.8 years",
-            "Females": "197.1 years"
-        },
-        "Most popular occupations of males": [
-            "service occupations (26.7%)"
-        ],
-        "Most popular occupations of females": [
-            "sales and office occupations(61.8 % )",
-            "service occupations(19.0 % )",
-            "healthcare practitioners and technical occupations(14.4 % )",
-            "business and financial operations occupations(8.5 % )",
-            "management occupations(except farmers)(8.0 % )",
-            "production occupations(4.4 % )",
-            "material moving occupations(4.1 % )"
-        ],
-        "Highways in this neighborhood": [
-            "State Rte 3(Chestnut St)."
-        ],
-        "Roads and streets": [
-            "S 60th St",
-            "S Salford St",
-            "Sansom St",
-            "Ludlow St",
-            "Cedar Ave",
-            "Larchwood Ave",
-            "Hazel Ave."
-        ],
-        "detailed profile": "63rd St Discount Shopping neighborhood detailed profile"
-    },
-    {
-        "Name": "Abbotsford",
-        "Area": "0.777 square miles",
-        "Population": "7,739",
-        "Population density": {
-            "Abbotsford": "9,964 people per square mile",
-            "Philadelphia": "11,606 people per square mile"
-        },
-        "Median household income in 2016": {
-            "Abbotsford": "$38,403 ",
-            "Philadelphia": "$41,449"
-        },
-        "Median rent in in 2016": {
-            "Abbotsford": "$928",
-            "Philadelphia": "$808"
-        },
-        "Male vs Females": {
-            "Males": "3,635",
-            "Females": "4,104"
-        },
-        "Median age": {
-            "Males": "31.4 years",
-            "Females": "37.2 years"
-        },
-        "Housing prices": {
-            "Average estimated value of detached houses in 2016(9.1 % of all units)": {
-                "Abbotsford": "$296,225 ",
-                "Philadelphia": "$278,085"
-            },
-            "Average estimated value of townhouses or other attached units in 2016(50.9 % of all units)": {
-                "This neighborhood": "$79,734 ",
-                "city": "$162,850"
-            },
-            "Average estimated value of housing units in 2 - unit structures in 2016(5.6 % of all units)": {
-                "This neighborhood": "$157,361 ",
-                "Philadelphia": "$206,309"
-            }
-        },
-        "Most popular occupations of males": [
-            "service occupations(19.5 % )",
-            "sales and office occupations(18.8 % )",
-            "management occupations(except farmers)(9.7 % )",
-            "business and financial operations occupations(8.7 % )",
-            "production occupations(6.9 % )",
-            "healthcare practitioners and technical occupations(6.6 % )",
-            "computer and mathematical occupations(5.2 % )"
-        ],
-        "Most popular occupations of females": [
-            "sales and office occupations (32.4%)"
-        ],
-        "Highways in this neighborhood": [
-            "US Hwy 1(Roosevelt Blvd)",
-            "Wissahickon Ave",
-            "Roberts Ave",
-            "Henry Ave",
-            "US Hwy 13(W Hunting Park Ave)."
-        ],
-        "Roads and streets": [
-            "Fox St",
-            "W Queen Ln",
-            "W Abbottsford Ave",
-            "Abbottsford Ave",
-            "McMichael St",
-            "Berkeley Dr",
-            "Conrad St",
-            "Indian Queen Ln",
-            "Bowman St",
-            "Ainslie St",
-            "Tilden St",
-            "S Abbottsford Ave",
-            "Vaux St",
-            "Stokley St",
-            "W Roosevelt Blvd",
-            "Deacon St",
-            "Sunnyside Ave",
-            "Scotts Ln",
-            "Mc Michael St",
-            "Defense Ter",
-            "Division St",
-            "Barclay St",
-            "Authority Ter",
-            "Osmond St",
-            "Ruffner",
-            "Crawford St",
-            "W Stokley St",
-            "King St."
-        ],
-        "Railroad features": [
-            "Norfolk Southern Rlwy(Penn Central RR)",
-            "Reading RR(Norfolk Southern Rlwy)."
-        ],
-        "detailed profile": "Abbotsford neighborhood detailed profile"
-    },
-    {
-        "Name": "Academy Gardens",
-        "Area": "2.950 square miles",
-        "Population": "28,837",
-        "Population density": {
-            "Academy Gardens": "9,774 people per square mile",
-            "Philadelphia": "11,606 people per square mile"
-        },
-        "Median household income in 2016": {
-            "Academy Gardens": "$55,281 ",
-            "Philadelphia": "$41,449"
-        },
-        "Median rent in in 2016": {
-            "Academy Gardens": "$845",
-            "Philadelphia": "$808"
-        },
-        "Male vs Females": {
-            "Males": "14,187",
-            "Females": "14,650"
-        },
-        "Median age": {
-            "Males": "38.7 years",
-            "Females": "42.2 years"
-        },
-        "Housing prices": {
-            "Average estimated value of detached houses in 2016(15.8 % of all units)": {
-                "Academy Gardens": "$195,064 ",
-                "Philadelphia": "$278,085"
-            },
-            "Average estimated value of townhouses or other attached units in 2016(55.8 % of all units)": {
-                "This neighborhood": "$182,427 ",
-                "city": "$162,850"
-            },
-            "Average estimated value of housing units in 2 - unit structures in 2016(12.7 % of all units)": {
-                "This neighborhood": "$214,000 ",
-                "Philadelphia": "$206,309"
-            },
-            "Average estimated '16 value of housing units in 5-or-more-unit structures (8.1% of all units)": {
-                "Academy Gardens": "$125,950 ",
-                "Philadelphia": "$374,953"
-            }
-        },
-        "Most popular occupations of males": [
-            "service occupations (21.2%)"
-        ],
-        "Most popular occupations of females": [
-            "sales and office occupations (29.8%)"
-        ],
-        "Highways in this neighborhood": [
-            "Holme Ave",
-            "Grant Ave",
-            "Welsh Rd",
-            "Willits Rd",
-            "Academy Rd",
-            "Bustleton Ave."
-        ],
-        "Roads and streets": [
-            "Roosevelt Blvd",
-            "Ashton Rd",
-            "Tremont St",
-            "Blue Grass Rd",
-            "Convent Ave",
-            "Gregg St",
-            "Annapolis Rd",
-            "Fordham Rd",
-            "Primrose Rd",
-            "Walnut Hill St",
-            "Winchester Ave",
-            "Revere St",
-            "Fairfield St",
-            "Treaty Rd",
-            "Maxwell St",
-            "Outlook Ave",
-            "Colfax St",
-            "Andover Rd",
-            "Dewees St",
-            "Albion St",
-            "Nester St",
-            "Lansford St",
-            "Beyer Ave",
-            "Fitler St",
-            "Woodward St",
-            "Tolbut St",
-            "Holyoke Rd",
-            "Winthrop St",
-            "Hargrave St",
-            "Jamison Ave",
-            "Brous Ave",
-            "Calvert St",
-            "Wesleyan Rd",
-            "Stamford St",
-            "Holme Dr",
-            "Woodenbridge Rd",
-            "Cloverly Rd",
-            "Narvon St",
-            "Eden St",
-            "Old Bustleton Ave",
-            "Kirkwood Rd",
-            "Neil Rd",
-            "Exeter Rd",
-            "E Roosevelt Blvd",
-            "Goodnaw St",
-            "Old Newtown Rd",
-            "Woodbridge Rd",
-            "Stanwood St",
-            "Marshall St",
-            "Draper St",
-            "Campus Ln",
-            "Bickley St",
-            "Manchester Ave",
-            "Leonard St",
-            "Brocklehurst St",
-            "Macon St",
-            "Ryerson Rd",
-            "Angus Rd",
-            "Clayton St",
-            "Masland St",
-            "Michener St",
-            "Axe Factory Rd",
-            "Lenola St",
-            "Horatio Rd",
-            "Banes St",
-            "Ambassador St",
-            "Shipley Rd",
-            "Donaldson St",
-            "Bradford St",
-            "Wilson St",
-            "Brookdale Rd",
-            "Gelena Rd",
-            "Taunton St",
-            "Michael Rd",
-            "Joey Dr",
-            "Martindale St",
-            "Dale Rd",
-            "Puritan Rd",
-            "Weston St",
-            "Aubrey Ave",
-            "Chelfield St",
-            "Sebring Rd",
-            "Fairgreen Ln",
-            "Northview St",
-            "Danbury St",
-            "Clark St",
-            "Holme Cir",
-            "Hilspach St",
-            "Sperry St",
-            "Stoney Ln",
-            "Scotchbrook Dr",
-            "Arlan St",
-            "Lister St",
-            "Chase Rd",
-            "Legion St",
-            "Shelly Rd",
-            "Angus Pl",
-            "Norcross Ln",
-            "Hoff St",
-            "Pilgrim Ln",
-            "Jenny Pl",
-            "Maxwell Pl",
-            "Old Ashton Rd",
-            "Colima Rd",
-            "Diplomat Pl",
-            "Saxton Rd",
-            "Ryerson Pl",
-            "Lewin Pl",
-            "Wooden Bridge Rd",
-            "Colony Dr",
-            "Marcy Pl",
-            "Rachael St",
-            "Eastview St",
-            "Tracey St",
-            "Voits Ln",
-            "Dean Plz",
-            "Ambassador Pl",
-            "Northview Rd",
-            "Lavender St",
-            "Linden Ave",
-            "Nester Pl",
-            "Arthur St",
-            "Alicia St",
-            "Shipley Pl",
-            "Pearson Ave",
-            "Holyoke Pl",
-            "Haven Pl",
-            "Chestnut Ln",
-            "Pennypack St",
-            "Evans St."
-        ],
-        "Railroad features": [
-            "Norfolk Southern Rlwy(Penn Central RR)",
-            "Norfolk Southern Rlwy(Pennsylvania RR)."
-        ],
-        "detailed profile": "Academy Gardens neighborhood detailed profile"
-    },
-    {
-        "Name": "Allegheny West",
-        "Area": "1.646 square miles",
-        "Population": "18,561",
-        "Population density": {
-            "Allegheny West": "11,274 people per square mile",
-            "Philadelphia": "11,606 people per square mile"
-        },
-        "Median household income in 2016": {
-            "Allegheny West": "$33,083 ",
-            "Philadelphia": "$41,449"
-        },
-        "Median rent in in 2016": {
-            "Allegheny West": "$721",
-            "Philadelphia": "$808"
-        },
-        "Male vs Females": {
-            "Males": "8,436",
-            "Females": "10,124"
-        },
-        "Median age": {
-            "Males": "29.1 years",
-            "Females": "35.6 years"
-        },
-        "Housing prices": {
-            "Average estimated value of detached houses in 2016(6.4 % of all units)": {
-                "Allegheny West": "$63,714 ",
-                "Philadelphia": "$278,085"
-            },
-            "Average estimated value of townhouses or other attached units in 2016(74.3 % of all units)": {
-                "This neighborhood": "$76,186 ",
-                "city": "$162,850"
-            }
-        },
-        "Average estimated value of housing units in 2 - unit structures in 2016(5.7 % of all units)": {
-            "This neighborhood": "$157,361 ",
-            "Philadelphia": "$206,309"
-        },
-        "Most popular occupations of males": [
-            "service occupations (29.1%)"
-        ],
-        "Most popular occupations of females": [
-            "sales and office occupations (29.2%)"
-        ],
-        "Highways in this neighborhood": [
-            "W Lehigh Ave",
-            "W Allegheny Ave",
-            "Roosevelt Blvd(US Hwy 1)",
-            "US Hwy 13(Ridge Ave)",
-            "N 29th St",
-            "Henry Ave",
-            "Roberts Ave",
-            "State Rte 611(N Broad St)",
-            "Kelly Dr(E River Dr)."
-        ],
-        "Roads and streets": [
-            "W Clearfield St",
-            "W Hunting Park Ave",
-            "W Indiana Ave",
-            "W Somerset St",
-            "W Cambria St",
-            "Fox St",
-            "N 25th St",
-            "W Westmoreland St",
-            "N 26th St",
-            "N 27th St",
-            "N 23rd St",
-            "N 22nd St",
-            "W Lippincott St",
-            "N 24th St",
-            "Stokley St",
-            "N Marston St",
-            "N Bambrey St",
-            "N Stillman St",
-            "N Judson St",
-            "W Toronto St",
-            "W Willard St",
-            "N 21st St",
-            "Chalmers Ave",
-            "N 20th St",
-            "W Roosevelt Blvd",
-            "Abbottsford Ave",
-            "N Bailey St",
-            "W Seltzer St",
-            "W Glenwood Ave",
-            "N Taylor St",
-            "N Bonsall St",
-            "N Croskey St",
-            "N 19th St",
-            "McMichael St",
-            "N 17th St",
-            "Berkeley Dr",
-            "N Ringgold St",
-            "Scotts Ln",
-            "N 28th St",
-            "W Silver St",
-            "W Sterner St",
-            "W Sedgley Ave",
-            "N Hemberger St",
-            "N Newkirk St",
-            "N 34th St",
-            "N 35th St",
-            "N Taney St",
-            "N Garnet St",
-            "N Lambert St",
-            "N Woodstock St",
-            "W Wishart St",
-            "N Dover St",
-            "W Clementine St",
-            "N Opal St",
-            "N Shedwick St",
-            "N Van Pelt St",
-            "W Hilton St",
-            "W Stella St",
-            "N 32nd St",
-            "N 33rd St",
-            "N 16th St",
-            "N Spangler St",
-            "N 18th St",
-            "W Mayfield St",
-            "N 15th St",
-            "Mc Michael St",
-            "N 30th St",
-            "N Hicks St",
-            "N Napa St",
-            "Defense Ter",
-            "N Pennock St",
-            "W Commissioner St",
-            "W Elkhart St",
-            "N Etting St",
-            "N Sydenham St",
-            "N Patton St",
-            "Authority Ter",
-            "W Rush St",
-            "W Stokley St",
-            "Ferry Rd",
-            "N Hollywood St",
-            "N Gratz St",
-            "N Natrona St",
-            "Madison",
-            "Old Bridge Rd",
-            "Dobson Row",
-            "W Abbottsford Ave."
-        ],
-        "Railroad features": [
-            "Norfolk Southern Rlwy(Reading RR)",
-            "Penn Central RR(Norfolk Southern Rlwy)",
-            "Norfolk Southern Rlwy."
-        ],
-        "detailed profile": "Allegheny West neighborhood detailed profile"
-    },
-    {
+[{
         "Name": "3rd St Fabric Row",
         "Area": "0.004 square miles",
         "Population": "175",
@@ -681,11 +96,11 @@
             "Females": "32.9 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(8.0 % of all units)": {
+            "Average estimated value of detached houses in 2016 [8.0% of all units]": {
                 "52nd St Discount Shopping": "$130,385 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(58.1 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [58.1% of all units]": {
                 "This neighborhood": "$174,969 ",
                 "city": "$162,850"
             }
@@ -744,13 +159,13 @@
             "service occupations (26.7%)"
         ],
         "Most popular occupations of females": [
-            "sales and office occupations(61.8 % )",
-            "service occupations(19.0 % )",
-            "healthcare practitioners and technical occupations(14.4 % )",
-            "business and financial operations occupations(8.5 % )",
-            "management occupations(except farmers)(8.0 % )",
-            "production occupations(4.4 % )",
-            "material moving occupations(4.1 % )"
+            "sales and office occupations [61.8  %]",
+            "service occupations [19.0  %]",
+            "healthcare practitioners and technical occupations [14.4  %]",
+            "business and financial operations occupations [8.5  %]",
+            "management occupations [except farmers)(8.0  %]",
+            "production occupations [4.4  %]",
+            "material moving occupations [4.1 % )"
         ],
         "Highways in this neighborhood": [
             "State Rte 3(Chestnut St)."
@@ -791,27 +206,27 @@
             "Females": "37.2 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(9.1 % of all units)": {
+            "Average estimated value of detached houses in 2016 [9.1% of all units]": {
                 "Abbotsford": "$296,225 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(50.9 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [50.9% of all units]": {
                 "This neighborhood": "$79,734 ",
                 "city": "$162,850"
             },
-            "Average estimated value of housing units in 2 - unit structures in 2016(5.6 % of all units)": {
+            "Average estimated value of housing units in 2 - unit structures in 2016 [5.6% of all units]": {
                 "This neighborhood": "$157,361 ",
                 "Philadelphia": "$206,309"
             }
         },
         "Most popular occupations of males": [
-            "service occupations(19.5 % )",
-            "sales and office occupations(18.8 % )",
-            "management occupations(except farmers)(9.7 % )",
-            "business and financial operations occupations(8.7 % )",
-            "production occupations(6.9 % )",
-            "healthcare practitioners and technical occupations(6.6 % )",
-            "computer and mathematical occupations(5.2 % )"
+            "service occupations [19.5  %]",
+            "sales and office occupations [18.8  %]",
+            "management occupations [except farmers)(9.7  %]",
+            "business and financial operations occupations [8.7  %]",
+            "production occupations [6.9  %]",
+            "healthcare practitioners and technical occupations [6.6  %]",
+            "computer and mathematical occupations [5.2 % )"
         ],
         "Most popular occupations of females": [
             "sales and office occupations (32.4%)"
@@ -884,19 +299,19 @@
             "Females": "42.2 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(15.8 % of all units)": {
+            "Average estimated value of detached houses in 2016 [15.8% of all units]": {
                 "Academy Gardens": "$195,064 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(55.8 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [55.8% of all units]": {
                 "This neighborhood": "$182,427 ",
                 "city": "$162,850"
             },
-            "Average estimated value of housing units in 2 - unit structures in 2016(12.7 % of all units)": {
+            "Average estimated value of housing units in 2 - unit structures in 2016 [12.7% of all units]": {
                 "This neighborhood": "$214,000 ",
                 "Philadelphia": "$206,309"
             },
-            "Average estimated '16 value of housing units in 5-or-more-unit structures (8.1% of all units)": {
+            "Average estimated '16 value of housing units in 5-or-more-unit structures [8.1% of all units]": {
                 "Academy Gardens": "$125,950 ",
                 "Philadelphia": "$374,953"
             }
@@ -1078,16 +493,16 @@
             "Females": "35.6 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(6.4 % of all units)": {
+            "Average estimated value of detached houses in 2016 [6.4% of all units]": {
                 "Allegheny West": "$63,714 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(74.3 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [74.3% of all units]": {
                 "This neighborhood": "$76,186 ",
                 "city": "$162,850"
             }
         },
-        "Average estimated value of housing units in 2 - unit structures in 2016(5.7 % of all units)": {
+        "Average estimated value of housing units in 2 - unit structures in 2016 [5.7% of all units]": {
             "This neighborhood": "$157,361 ",
             "Philadelphia": "$206,309"
         },
@@ -1228,23 +643,23 @@
             "Females": "46.4 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(29.7 % of all units)": {
+            "Average estimated value of detached houses in 2016 [29.7% of all units]": {
                 "Andorra": "$266,809 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(16.7 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [16.7% of all units]": {
                 "This neighborhood": "$201,643 ",
                 "city": "$162,850"
             }
         },
         "Most popular occupations of males": [
-            "sales and office occupations(21.8 % )",
-            "service occupations(21.6 % )",
-            "management occupations(except farmers)(10.1 % )",
-            "architecture and engineering occupations(8.2 % )",
-            "production occupations(7.8 % )",
-            "transportation occupations(5.4 % )",
-            "business and financial operations occupations(3.9 % )"
+            "sales and office occupations [21.8  %]",
+            "service occupations [21.6  %]",
+            "management occupations [except farmers)(10.1  %]",
+            "architecture and engineering occupations [8.2  %]",
+            "production occupations [7.8  %]",
+            "transportation occupations [5.4  %]",
+            "business and financial operations occupations [3.9 % )"
         ],
         "Most popular occupations of females": [
             "sales and office occupations (31.1%)"
@@ -1363,20 +778,20 @@
             "Females": "42.4 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(12.9 % of all units)": {
+            "Average estimated value of detached houses in 2016 [12.9% of all units]": {
                 "Ashton Woodenbridge": "$236,349 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(61.1 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [61.1% of all units]": {
                 "This neighborhood": "$188,922 ",
                 "city": "$162,850"
             }
         },
-        "Average estimated value of housing units in 2 - unit structures in 2016(23.8 % of all units)": {
+        "Average estimated value of housing units in 2 - unit structures in 2016 [23.8% of all units]": {
             "This neighborhood": "$174,449 ",
             "Philadelphia": "$206,309"
         },
-        "Average estimated '16 value of housing units in 5-or-more-unit structures (3.4% of all units)": {
+        "Average estimated '16 value of housing units in 5-or-more-unit structures [3.4% of all units]": {
             "Ashton Woodenbridge": "$110,933 ",
             "Philadelphia": "$374,953"
         },
@@ -1579,19 +994,19 @@
         "detailed profile": "Ashton Woodenbridge neighborhood detailed profile"
     },
     {
-        "Name": "Aston",
+        "Name": "Aston (Astonville)",
         "Area": "0.931 square miles",
         "Population": "7,417",
         "Population density": {
-            "Aston(Astonville)": "7,966 people per square mile",
+            "Aston (Astonville)": "7,966 people per square mile",
             "Philadelphia": "11,606 people per square mile"
         },
         "Median household income in 2016": {
-            "Aston(Astonville)": "$50,248 ",
+            "Aston (Astonville)": "$50,248 ",
             "Philadelphia": "$41,449"
         },
         "Median rent in in 2016": {
-            "Aston(Astonville)": "$1,049 ",
+            "Aston (Astonville)": "$1,049 ",
             "Philadelphia": "$808"
         },
         "Male vs Females": {
@@ -1603,27 +1018,27 @@
             "Females": "54.6 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(6.2 % of all units)": {
-                "Aston(Astonville)": "$334,595 ",
+            "Average estimated value of detached houses in 2016 [6.2% of all units]": {
+                "Aston (Astonville)": "$334,595 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(28.7 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [28.7% of all units]": {
                 "This neighborhood": "$156,782 ",
                 "city": "$162,850"
             },
-            "Average estimated '16 value of housing units in 5-or-more-unit structures (49.1% of all units)": {
-                "Aston(Astonville)": "$409,214 ",
+            "Average estimated '16 value of housing units in 5-or-more-unit structures [49.1% of all units]": {
+                "Aston (Astonville)": "$409,214 ",
                 "Philadelphia": "$374,953"
             }
         },
         "Most popular occupations of males": [
-            "sales and office occupations(22.6 % )",
-            "service occupations(21.0 % )",
-            "transportation occupations(13.3 % )",
-            "community and social services occupations(8.5 % )",
-            "computer and mathematical occupations(5.8 % )",
-            "legal occupations(5.6 % )",
-            "healthcare practitioners and technical occupations(4.5 % )"
+            "sales and office occupations [22.6  %]",
+            "service occupations [21.0  %]",
+            "transportation occupations [13.3  %]",
+            "community and social services occupations [8.5  %]",
+            "computer and mathematical occupations [5.8  %]",
+            "legal occupations [5.6  %]",
+            "healthcare practitioners and technical occupations [4.5 % )"
         ],
         "Most popular occupations of females": [
             "sales and office occupations (32.4%)"
@@ -1737,23 +1152,23 @@
             "Females": "59.1 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(5.2 % of all units)": {
+            "Average estimated value of detached houses in 2016 [5.2% of all units]": {
                 "Bainbridge St Booksellers Row": "$73,405 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(50.4 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [50.4% of all units]": {
                 "This neighborhood": "$267,377 ",
                 "city": "$162,850"
             },
-            "Average estimated value of housing units in 2 - unit structures in 2016(15.3 % of all units)": {
+            "Average estimated value of housing units in 2 - unit structures in 2016 [15.3% of all units]": {
                 "This neighborhood": "$285,336 ",
                 "Philadelphia": "$206,309"
             },
-            "Average estimated '16 value of housing units in 3-to-4-unit structures (23.0% of all units)": {
+            "Average estimated '16 value of housing units in 3-to-4-unit structures [23.0% of all units]": {
                 "Bainbridge St Booksellers Row": "$129,242 ",
                 "city": "$222,568"
             },
-            "Average estimated '16 value of housing units in 5-or-more-unit structures (3.2% of all units)": {
+            "Average estimated '16 value of housing units in 5-or-more-unit structures [3.2% of all units]": {
                 "Bainbridge St Booksellers Row": "$225,733 ",
                 "Philadelphia": "$374,953"
             }
@@ -1844,11 +1259,11 @@
             "Females": "29.6 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(5.3 % of all units)": {
+            "Average estimated value of detached houses in 2016 [5.3% of all units]": {
                 "Baring": "$29,695 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(45.9 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [45.9% of all units]": {
                 "This neighborhood": "$69,386 ",
                 "city": "$162,850"
             }
@@ -1913,19 +1328,19 @@
         "detailed profile": "Baring neighborhood detailed profile"
     },
     {
-        "Name": "Bartram Gardens",
+        "Name": "Bartram Gardens (Bartram's Gardens)",
         "Area": "0.344 square miles",
         "Population": "3,730",
         "Population density": {
-            "Bartram Gardens(Bartram's Gardens)": "10,829 people per square mile",
+            "Bartram Gardens (Bartram's Gardens)": "10,829 people per square mile",
             "Philadelphia": "11,606 people per square mile"
         },
         "Median household income in 2016": {
-            "Bartram Gardens(Bartram's Gardens)": "$27,384 ",
+            "Bartram Gardens (Bartram's Gardens)": "$27,384 ",
             "Philadelphia": "$41,449"
         },
         "Median rent in in 2016": {
-            "Bartram Gardens(Bartram's Gardens)": "$472",
+            "Bartram Gardens (Bartram's Gardens)": "$472",
             "Philadelphia": "$808,"
         },
         "Male vs Females": {
@@ -1937,11 +1352,11 @@
             "Females": "39.0 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(4.9 % of all units)": {
-                "Bartram Gardens(Bartram's Gardens)": "$57,987 ",
+            "Average estimated value of detached houses in 2016 [4.9% of all units]": {
+                "Bartram Gardens (Bartram's Gardens)": "$57,987 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(74.0 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [74.0% of all units]": {
                 "This neighborhood": "$63,999 ",
                 "city": "$162,850"
             }
@@ -1988,15 +1403,15 @@
             "Females": "38.0 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(8.7 % of all units)": {
+            "Average estimated value of detached houses in 2016 [8.7% of all units]": {
                 "Belfield": "$148,545 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(50.6 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [50.6% of all units]": {
                 "This neighborhood": "$103,619 ",
                 "city": "$162,850"
             },
-            "Average estimated value of housing units in 2 - unit structures in 2016(15.8 % of all units)": {
+            "Average estimated value of housing units in 2 - unit structures in 2016 [15.8% of all units]": {
                 "This neighborhood": "$125,593 ",
                 "Philadelphia": "$206,309"
             }
@@ -2043,15 +1458,15 @@
             "Females": "40.2 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(26.7 % of all units)": {
+            "Average estimated value of detached houses in 2016 [26.7% of all units]": {
                 "Bell's Corners": "$220,167 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(31.7 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [31.7% of all units]": {
                 "This neighborhood": "$169,830 ",
                 "city": "$162,850"
             },
-            "Average estimated value of housing units in 2 - unit structures in 2016(24.4 % of all units)": {
+            "Average estimated value of housing units in 2 - unit structures in 2016 [24.4% of all units]": {
                 "This neighborhood": "$173,621 ",
                 "Philadelphia": "$206,309"
             }
@@ -2060,7 +1475,7 @@
             "sales and office occupations (15.8%)"
         ],
         "Most popular occupations of females": [
-            "sales and office occupations(34.0 % )"
+            "sales and office occupations [34.0 % )"
         ],
         "Highways in this neighborhood": [
             "Rhawn St"
@@ -2096,29 +1511,29 @@
             "Females": "34.6 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(5.0 % of all units)": {
+            "Average estimated value of detached houses in 2016 [5.0% of all units]": {
                 "Bella Vista": "$378,571 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(50.6 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [50.6% of all units]": {
                 "This neighborhood": "$250,514 ",
                 "city": "$162,850"
             },
-            "Average estimated value of housing units in 2 - unit structures in 2016(12.4 % of all units)": {
+            "Average estimated value of housing units in 2 - unit structures in 2016 [12.4% of all units]": {
                 "This neighborhood": "$429,208 ",
                 "Philadelphia": "$206,309"
             },
-            "Average estimated '16 value of housing units in 3-to-4-unit structures (19.7% of all units)": {
+            "Average estimated '16 value of housing units in 3-to-4-unit structures [19.7% of all units]": {
                 "Bella Vista": "$420,974 ",
                 "city": "$222,568"
             },
-            "Average estimated '16 value of housing units in 5-or-more-unit structures (19.2% of all units)": {
+            "Average estimated '16 value of housing units in 5-or-more-unit structures [19.2% of all units]": {
                 "Bella Vista": "$333,269 ",
                 "Philadelphia": "$374,953"
             }
         },
         "Most popular occupations of males": [
-            "service occupations(16.6 % )"
+            "service occupations [16.6 % )"
         ],
         "Most popular occupations of females": [
             "sales and office occupations (22.6%)"
@@ -2153,11 +1568,11 @@
             "Females": "31.1 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(4.7 % of all units)": {
+            "Average estimated value of detached houses in 2016 [4.7% of all units]": {
                 "Belmont": "$84,231 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(50.8 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [50.8% of all units]": {
                 "This neighborhood": "$80,102 ",
                 "city": "$162,850"
             }
@@ -2203,15 +1618,15 @@
             "Females": "32.0 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(4.2 % of all units)": {
+            "Average estimated value of detached houses in 2016 [4.2% of all units]": {
                 "Ben Franklin Parkway - Kelly Drive": "$263,478 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(44.5 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [44.5% of all units]": {
                 "This neighborhood": "$576,993 ",
                 "city": "$162,850"
             },
-            "Average estimated '16 value of housing units in 5-or-more-unit structures (71.8% of all units)": {
+            "Average estimated '16 value of housing units in 5-or-more-unit structures [71.8% of all units]": {
                 "Ben Franklin Parkway - Kelly Drive": "$418,369 ",
                 "Philadelphia": "$374,953"
             }
@@ -2257,21 +1672,21 @@
             "Females": "32.2 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(2.0 % of all units)": {
+            "Average estimated value of detached houses in 2016 [2.0% of all units]": {
                 "Big Hotels": "$263,478 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(15.4 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [15.4% of all units]": {
                 "This neighborhood": "$576,993 ",
                 "city": "$162,850"
             },
-            "Average estimated '16 value of housing units in 5-or-more-unit structures (58.3% of all units)": {
+            "Average estimated '16 value of housing units in 5-or-more-unit structures [58.3% of all units]": {
                 "Big Hotels": "$418,369 ",
                 "Philadelphia": "$374,953"
             }
         },
         "Most popular occupations of males": [
-            "business and financial operations occupations(15.7 % )"
+            "business and financial operations occupations [15.7 % )"
         ],
         "Most popular occupations of females": [
             "business and financial operations occupations (22.9%)"
@@ -2310,11 +1725,11 @@
             "Females": "37.1 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(8.2 % of all units)": {
+            "Average estimated value of detached houses in 2016 [8.2% of all units]": {
                 "Brewerytown": "$166,720 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(69.1 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [69.1% of all units]": {
                 "This neighborhood": "$185,896 ",
                 "city": "$162,850"
             }
@@ -2359,11 +1774,11 @@
             "Females": "42.8 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(14.1 % of all units)": {
+            "Average estimated value of detached houses in 2016 [14.1% of all units]": {
                 "Bridesburg": "$171,535 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(79.9 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [79.9% of all units]": {
                 "This neighborhood": "$143,109 ",
                 "city": "$162,850"
             }
@@ -2410,15 +1825,15 @@
             "Females": "38.1 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(22.8 % of all units)": {
+            "Average estimated value of detached houses in 2016 [22.8% of all units]": {
                 "Burholme": "$181,894 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(53.2 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [53.2% of all units]": {
                 "This neighborhood": "$169,816 ",
                 "city": "$162,850"
             },
-            "Average estimated value of housing units in 2 - unit structures in 2016(14.7 % of all units)": {
+            "Average estimated value of housing units in 2 - unit structures in 2016 [14.7% of all units]": {
                 "This neighborhood": "$126,333 ",
                 "Philadelphia": "$206,309"
             }
@@ -2464,19 +1879,19 @@
             "Females": "46.3 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(38.9 % of all units)": {
+            "Average estimated value of detached houses in 2016 [38.9% of all units]": {
                 "Bustleton": "$299,550 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(39.8 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [39.8% of all units]": {
                 "This neighborhood": "$199,302 ",
                 "city": "$162,850"
             },
-            "Average estimated value of housing units in 2 - unit structures in 2016(13.0 % of all units)": {
+            "Average estimated value of housing units in 2 - unit structures in 2016 [13.0% of all units]": {
                 "This neighborhood": "$213,297 ",
                 "Philadelphia": "$206,309"
             },
-            "Average estimated '16 value of housing units in 5-or-more-unit structures (16.0% of all units)": {
+            "Average estimated '16 value of housing units in 5-or-more-unit structures [16.0% of all units]": {
                 "Bustleton": "$108,181 ",
                 "Philadelphia": "$374,953"
             }
@@ -2521,23 +1936,23 @@
             "Females": "40.9 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(12.0 % of all units)": {
+            "Average estimated value of detached houses in 2016 [12.0% of all units]": {
                 "Byberry": "$226,072 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(75.0 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [75.0% of all units]": {
                 "This neighborhood": "$189,499 ",
                 "city": "$162,850"
             },
-            "Average estimated value of housing units in 2 - unit structures in 2016(9.7 % of all units)": {
+            "Average estimated value of housing units in 2 - unit structures in 2016 [9.7% of all units]": {
                 "This neighborhood": "$189,127 ",
                 "Philadelphia": "$206,309"
             },
-            "Average estimated '16 value of housing units in 5-or-more-unit structures (30.8% of all units)": {
+            "Average estimated '16 value of housing units in 5-or-more-unit structures [30.8% of all units]": {
                 "Byberry": "$110,933 ",
                 "Philadelphia": "$374,953"
             },
-            "Average estimated value of mobile home in 2016(3.2 % of all units)": {
+            "Average estimated value of mobile home in 2016 [3.2% of all units]": {
                 "Byberry": "$54,588 ",
                 "Philadelphia": "$159,865"
             }
@@ -2585,7 +2000,7 @@
             "Females": "30.4 years"
         },
         "Most popular occupations of males": [
-            "management occupations(except farmers)(18.3 % )"
+            "management occupations [except farmers)(18.3 % )"
         ],
         "Most popular occupations of females": [
             "healthcare practitioners and technical occupations (22.9%)"
@@ -2625,15 +2040,15 @@
             "Females": "36.8 years"
         },
         "Housing prices": {
-            "Average estimated value of detached houses in 2016(7.9 % of all units)": {
+            "Average estimated value of detached houses in 2016 [7.9% of all units]": {
                 "Carroll Park": "$101,320 ",
                 "Philadelphia": "$278,085"
             },
-            "Average estimated value of townhouses or other attached units in 2016(71.1 % of all units)": {
+            "Average estimated value of townhouses or other attached units in 2016 [71.1% of all units]": {
                 "This neighborhood": "$68,033 ",
                 "city": "$162,850"
             },
-            "Average estimated value of housing units in 2 - unit structures in 2016(14.8 % of all units)": {
+            "Average estimated value of housing units in 2 - unit structures in 2016 [14.8% of all units]": {
                 "This neighborhood": "$169,362 ",
                 "Philadelphia": "$206,309"
             }
