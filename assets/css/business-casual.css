@@ -15,6 +15,32 @@ h6 {
   font-family: 'Raleway';
 }
 
+.bundle {
+  height: 300px;
+  width: 100%;
+  /* margin: 10px; */
+  /* border: 3px solid black; */
+}
+
+
+.bundleTitle {
+    font-family: Helvetica,sans-serif;
+    font-size: 19px;
+    line-height: 22px;
+    color: #484848;
+    font-weight: 700;
+}
+
+.bundleDescription {
+    font-family: Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: #484848;
+    font-weight: 300;
+    margin-left: 0px;
+}
+
 p {
   line-height: 1.75;
 }
@@ -134,6 +160,12 @@ p {
   .intro .intro-text {
     width: 45%;
   }
+}
+
+.resultsContainer {
+  max-width: 1400px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .cta {
