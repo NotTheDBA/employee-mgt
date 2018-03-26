@@ -12,14 +12,34 @@ firebase.initializeApp(config);
 // Create a variable to reference the database
 var database = firebase.database();
 
-// Assign the reference to the database to a variable named 'database'
-// var database = ...
+$(document).ready(function() {
+    //this initializes a global object called "neighborhoods"
+    // use:
+    // neighborhoods.list[0].value()
+    loadData();
+
+
+    console.log(neighborhoods);
+
+});
+var neighborhoods;
+
+function loadData() {
+    // Only needs to run once on load.
+    var queryurl = "assets/data/neighborhoods-list.json";
+    $.ajax({
+        url: queryurl,
+        dataType: 'json',
+        method: "GET"
+    }).then(function(jsonData) {
+        //puts the data in our global space
+        window.neighborhoods = jsonData;
+    });
+
+}
 
 // Initial Values 
 var firstVar = "";
-
-
-
 
 // Whenever a user clicks the submit-bid button
 $("#findIncome").on("click", function(event) {
