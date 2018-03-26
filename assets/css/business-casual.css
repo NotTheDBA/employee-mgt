@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora';
-  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  background: linear-gradient(rgb(88, 125, 196),rgb(152, 66, 37)),url(../img/bg.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -13,6 +13,32 @@ h4,
 h5,
 h6 {
   font-family: 'Raleway';
+}
+
+.bundle {
+  height: 300px;
+  width: 100%;
+  /* margin: 10px; */
+  /* border: 3px solid black; */
+}
+
+
+.bundleTitle {
+    font-family: Helvetica,sans-serif;
+    font-size: 19px;
+    line-height: 22px;
+    color: #484848;
+    font-weight: 700;
+}
+
+.bundleDescription {
+    font-family: Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: #484848;
+    font-weight: 300;
+    margin-left: 0px;
 }
 
 p {
@@ -69,12 +95,12 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgb(96, 130, 202);
   font-family: 'Raleway';
 }
 
 #mainNav .navbar-brand {
-  color: #e6a756;
+  color: #ffffff;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -83,7 +109,7 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
+  color: #f3be84;
 }
 
 @media (min-width: 992px) {
@@ -136,10 +162,14 @@ p {
   }
 }
 
+.resultsContainer {
+  max-width: 1400px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
 }
 
 .cta .cta-inner {
@@ -223,7 +253,7 @@ p {
 }
 
 .text-primary {
-  color: #e6a756 !important;
+      color: #f3be84 !important;
 }
 
 .bg-primary {
