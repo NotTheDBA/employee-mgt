@@ -4,7 +4,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"PENNYPACK_PARK",
+            "geoname":"PENNYPACK_PARK",
             "listname":"Pennypack Park",
             "mapname":"Pennypack Park",
             "shape_leng":87084.2855886,
@@ -6454,7 +6454,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"OVERBROOK",
+            "geoname":"OVERBROOK",
             "listname":"Overbrook",
             "mapname":"Overbrook",
             "shape_leng":57004.9246069,
@@ -8956,7 +8956,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"GERMANTOWN_SOUTHWEST",
+            "geoname":"GERMANTOWN_SOUTHWEST",
             "listname":"Germantown, Southwest",
             "mapname":"Southwest Germantown",
             "shape_leng":14880.7436082,
@@ -9174,7 +9174,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"EAST_PARKSIDE",
+            "geoname":"EAST_PARKSIDE",
             "listname":"East Parkside",
             "mapname":"East Parkside",
             "shape_leng":10885.7815353,
@@ -9304,7 +9304,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"GERMANY_HILL",
+            "geoname":"GERMANY_HILL",
             "listname":"Germany Hill",
             "mapname":"Germany Hill",
             "shape_leng":13041.9390872,
@@ -9458,7 +9458,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"MOUNT_AIRY_EAST",
+            "geoname":"MOUNT_AIRY_EAST",
             "listname":"East Mount Airy",
             "mapname":"East Mount Airy",
             "shape_leng":28845.549808,
@@ -9920,7 +9920,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"MECHANICSVILLE",
+            "geoname":"MECHANICSVILLE",
             "listname":"Mechanicsville",
             "mapname":"Mechanicsville",
             "shape_leng":5941.33261823,
@@ -10090,7 +10090,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"DEARNLEY_PARK",
+            "geoname":"DEARNLEY_PARK",
             "listname":"Dearnley Park",
             "mapname":"Dearnley Park",
             "shape_leng":17330.8420224,
@@ -10320,7 +10320,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WISSAHICKON_HILLS",
+            "geoname":"WISSAHICKON_HILLS",
             "listname":"Wissahickon Hills",
             "mapname":"Wissahickon Hills",
             "shape_leng":7113.02864233,
@@ -10430,7 +10430,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WISSINOMING",
+            "geoname":"WISSINOMING",
             "listname":"Wissinoming",
             "mapname":"Wissinoming",
             "shape_leng":29226.4744992,
@@ -10724,7 +10724,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"BELLA_VISTA",
+            "geoname":"BELLA_VISTA",
             "listname":"Bella Vista",
             "mapname":"Bella Vista",
             "shape_leng":8360.05369559,
@@ -10878,7 +10878,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"ALLEGHENY_WEST",
+            "geoname":"ALLEGHENY_WEST",
             "listname":"Allegheny West",
             "mapname":"Allegheny West",
             "shape_leng":24468.9064427,
@@ -11184,7 +11184,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"GLENWOOD",
+            "geoname":"GLENWOOD",
             "listname":"Glenwood",
             "mapname":"Glenwood",
             "shape_leng":12350.882116,
@@ -11334,7 +11334,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"GREENWICH",
+            "geoname":"GREENWICH",
             "listname":"Greenwich",
             "mapname":"Greenwich",
             "shape_leng":6232.87043811,
@@ -11420,7 +11420,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"FRANCISVILLE",
+            "geoname":"FRANCISVILLE",
             "listname":"Francisville",
             "mapname":"Francisville",
             "shape_leng":10512.7437017,
@@ -11562,7 +11562,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"PENROSE",
+            "geoname":"PENROSE",
             "listname":"Penrose",
             "mapname":"Penrose",
             "shape_leng":11694.2136344,
@@ -11692,7 +11692,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"POWELTON",
+            "geoname":"POWELTON",
             "listname":"Powelton",
             "mapname":"Powelton",
             "shape_leng":8846.6881179,
@@ -11786,7 +11786,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"GARDEN_COURT",
+            "geoname":"GARDEN_COURT",
             "listname":"Garden Court",
             "mapname":"Garden Court",
             "shape_leng":8630.28226907,
@@ -11856,7 +11856,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"BELMONT",
+            "geoname":"BELMONT",
             "listname":"Belmont",
             "mapname":"Belmont",
             "shape_leng":10727.5746146,
@@ -11958,7 +11958,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"NORMANDY_VILLAGE",
+            "geoname":"NORMANDY_VILLAGE",
             "listname":"Normandy Village",
             "mapname":"Normandy Village",
             "shape_leng":12444.2215274,
@@ -12144,7 +12144,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"PENNSPORT",
+            "geoname":"PENNSPORT",
             "listname":"Pennsport",
             "mapname":"Pennsport",
             "shape_leng":11823.2331084,
@@ -12230,7 +12230,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"STANTON",
+            "geoname":"STANTON",
             "listname":"Stanton",
             "mapname":"Stanton",
             "shape_leng":16115.7451693,
@@ -12396,7 +12396,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WEST_OAK_LANE",
+            "geoname":"WEST_OAK_LANE",
             "listname":"West Oak Lane",
             "mapname":"West Oak Lane",
             "shape_leng":30804.2062001,
@@ -12830,7 +12830,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WINCHESTER_PARK",
+            "geoname":"WINCHESTER_PARK",
             "listname":"Winchester Park",
             "mapname":"Winchester Park",
             "shape_leng":11984.696725,
@@ -18360,7 +18360,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"BURHOLME",
+            "geoname":"BURHOLME",
             "listname":"Burholme",
             "mapname":"Burholme",
             "shape_leng":18179.2233406,
@@ -18682,7 +18682,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"FERN_ROCK",
+            "geoname":"FERN_ROCK",
             "listname":"Fern Rock",
             "mapname":"Fern Rock",
             "shape_leng":11426.5545597,
@@ -18792,7 +18792,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"DUNLAP",
+            "geoname":"DUNLAP",
             "listname":"Dunlap",
             "mapname":"Dunlap",
             "shape_leng":6513.13059011,
@@ -18878,7 +18878,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"MELROSE_PARK_GARDENS",
+            "geoname":"MELROSE_PARK_GARDENS",
             "listname":"Melrose Park Gardens",
             "mapname":"Melrose Park Gardens",
             "shape_leng":11457.2652622,
@@ -19152,7 +19152,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"FRANKLINVILLE",
+            "geoname":"FRANKLINVILLE",
             "listname":"Franklinville",
             "mapname":"Franklinville",
             "shape_leng":17874.5350814,
@@ -19358,7 +19358,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"HAWTHORNE",
+            "geoname":"HAWTHORNE",
             "listname":"Hawthorne",
             "mapname":"Hawthorne",
             "shape_leng":8321.26991108,
@@ -19496,7 +19496,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"BARTRAM_VILLAGE",
+            "geoname":"BARTRAM_VILLAGE",
             "listname":"Bartram Village",
             "mapname":"Bartram Village",
             "shape_leng":20667.980476,
@@ -19698,7 +19698,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"EAST_POPLAR",
+            "geoname":"EAST_POPLAR",
             "listname":"East Poplar",
             "mapname":"East Poplar",
             "shape_leng":9108.87313506,
@@ -19800,7 +19800,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"BUSTLETON",
+            "geoname":"BUSTLETON",
             "listname":"Bustleton",
             "mapname":"Bustleton",
             "shape_leng":48868.4583648,
@@ -20262,7 +20262,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"CEDARBROOK",
+            "geoname":"CEDARBROOK",
             "listname":"Cedarbrook",
             "mapname":"Cedarbrook",
             "shape_leng":20021.4158021,
@@ -20612,7 +20612,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"LUDLOW",
+            "geoname":"LUDLOW",
             "listname":"Ludlow",
             "mapname":"Ludlow",
             "shape_leng":8574.16968706,
@@ -20734,7 +20734,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"BRIDESBURG",
+            "geoname":"BRIDESBURG",
             "listname":"Bridesburg",
             "mapname":"Bridesburg",
             "shape_leng":27814.5465208,
@@ -21876,7 +21876,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"EAST_FALLS",
+            "geoname":"EAST_FALLS",
             "listname":"East Falls",
             "mapname":"East Falls",
             "shape_leng":27400.7764171,
@@ -22198,7 +22198,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"NORTH_CENTRAL",
+            "geoname":"NORTH_CENTRAL",
             "listname":"North Central",
             "mapname":"North Central",
             "shape_leng":19020.1009197,
@@ -22376,7 +22376,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"PORT_RICHMOND",
+            "geoname":"PORT_RICHMOND",
             "listname":"Port Richmond",
             "mapname":"Port Richmond",
             "shape_leng":17870.1822878,
@@ -22546,7 +22546,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"GRAYS_FERRY",
+            "geoname":"GRAYS_FERRY",
             "listname":"Grays Ferry",
             "mapname":"Grays Ferry",
             "shape_leng":25521.5723562,
@@ -22816,7 +22816,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"FRANKFORD",
+            "geoname":"FRANKFORD",
             "listname":"Frankford",
             "mapname":"Frankford",
             "shape_leng":26646.6063939,
@@ -23194,7 +23194,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"CHESTNUT_HILL",
+            "geoname":"CHESTNUT_HILL",
             "listname":"Chestnut Hill",
             "mapname":"Chestnut Hill",
             "shape_leng":56394.2971946,
@@ -24172,7 +24172,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"OLNEY",
+            "geoname":"OLNEY",
             "listname":"Olney",
             "mapname":"Olney",
             "shape_leng":32197.2052706,
@@ -24574,7 +24574,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"MOUNT_AIRY_WEST",
+            "geoname":"MOUNT_AIRY_WEST",
             "listname":"West Mount Airy",
             "mapname":"West Mount Airy",
             "shape_leng":37723.3789332,
@@ -25184,7 +25184,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"SOMERTON",
+            "geoname":"SOMERTON",
             "listname":"Somerton",
             "mapname":"Somerton",
             "shape_leng":55054.575496,
@@ -26022,7 +26022,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"MANTUA",
+            "geoname":"MANTUA",
             "listname":"Mantua",
             "mapname":"Mantua",
             "shape_leng":25053.449835,
@@ -26160,7 +26160,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"NORTHEAST_AIRPORT",
+            "geoname":"NORTHEAST_AIRPORT",
             "listname":"Northeast Phila Airport",
             "mapname":"Northeast Phila Airport",
             "shape_leng":36657.1016715,
@@ -26638,7 +26638,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"MODENA",
+            "geoname":"MODENA",
             "listname":"Modena",
             "mapname":"Modena",
             "shape_leng":20886.7062751,
@@ -26956,7 +26956,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"ROXBOROUGH_PARK",
+            "geoname":"ROXBOROUGH_PARK",
             "listname":"Roxborough Park",
             "mapname":"Roxborough Park",
             "shape_leng":13388.15641,
@@ -27150,7 +27150,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WISSAHICKON_PARK",
+            "geoname":"WISSAHICKON_PARK",
             "listname":"Wissahickon Park",
             "mapname":"Wissahickon Park",
             "shape_leng":95219.1927059,
@@ -28436,7 +28436,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"MORRELL_PARK",
+            "geoname":"MORRELL_PARK",
             "listname":"Morrell Park",
             "mapname":"Morrell Park",
             "shape_leng":22335.0658962,
@@ -28790,7 +28790,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"RIVERFRONT",
+            "geoname":"RIVERFRONT",
             "listname":"Riverfront",
             "mapname":"Riverfront",
             "shape_leng":47425.5088329,
@@ -29436,7 +29436,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"PENNYPACK",
+            "geoname":"PENNYPACK",
             "listname":"Pennypack",
             "mapname":"Pennypack",
             "shape_leng":24887.2118247,
@@ -29714,7 +29714,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"BYBERRY",
+            "geoname":"BYBERRY",
             "listname":"Byberry",
             "mapname":"Byberry",
             "shape_leng":33932.9472042,
@@ -30416,7 +30416,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WEST_TORRESDALE",
+            "geoname":"WEST_TORRESDALE",
             "listname":"West Torresdale",
             "mapname":"West Torresdale",
             "shape_leng":10730.0049215,
@@ -30586,7 +30586,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"YORKTOWN",
+            "geoname":"YORKTOWN",
             "listname":"Yorktown",
             "mapname":"Yorktown",
             "shape_leng":11213.9637532,
@@ -30700,7 +30700,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"PARKWOOD_MANOR",
+            "geoname":"PARKWOOD_MANOR",
             "listname":"Parkwood Manor",
             "mapname":"Parkwood Manor",
             "shape_leng":36872.9348753,
@@ -31470,7 +31470,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"ASTON_WOODBRIDGE",
+            "geoname":"ASTON_WOODBRIDGE",
             "listname":"Aston-Woodbridge",
             "mapname":"Aston-Woodbridge",
             "shape_leng":17216.8671936,
@@ -31680,7 +31680,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"FRANKLIN_MILLS",
+            "geoname":"FRANKLIN_MILLS",
             "listname":"Franklin Mills",
             "mapname":"Franklin Mills",
             "shape_leng":18142.2281448,
@@ -32290,7 +32290,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"PENNYPACK_WOODS",
+            "geoname":"PENNYPACK_WOODS",
             "listname":"Pennypack Woods",
             "mapname":"Pennypack Woods",
             "shape_leng":19811.0332176,
@@ -32572,7 +32572,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"MILLBROOK",
+            "geoname":"MILLBROOK",
             "listname":"Millbrook",
             "mapname":"Millbrook",
             "shape_leng":15957.8199402,
@@ -33050,7 +33050,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"CRESTMONT_FARMS",
+            "geoname":"CRESTMONT_FARMS",
             "listname":"Crestmont Farms",
             "mapname":"Crestmont Farms",
             "shape_leng":9263.538528,
@@ -33340,7 +33340,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"ACADEMY_GARDENS",
+            "geoname":"ACADEMY_GARDENS",
             "listname":"Academy Gardens",
             "mapname":"Academy Gardens",
             "shape_leng":18120.0398063,
@@ -33546,7 +33546,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"TORRESDALE",
+            "geoname":"TORRESDALE",
             "listname":"Torresdale",
             "mapname":"Torresdale",
             "shape_leng":35702.4924982,
@@ -34220,7 +34220,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"LEXINGTON_PARK",
+            "geoname":"LEXINGTON_PARK",
             "listname":"Lexington Park",
             "mapname":"Lexington Park",
             "shape_leng":15293.6136901,
@@ -34438,7 +34438,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"RHAWNHURST",
+            "geoname":"RHAWNHURST",
             "listname":"Rhawnhurst",
             "mapname":"Rhawnhurst",
             "shape_leng":37982.4400094,
@@ -34916,7 +34916,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"FOX_CHASE",
+            "geoname":"FOX_CHASE",
             "listname":"Fox Chase",
             "mapname":"Fox Chase",
             "shape_leng":35027.5171787,
@@ -35358,7 +35358,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"OXFORD_CIRCLE",
+            "geoname":"OXFORD_CIRCLE",
             "listname":"Oxford Circle",
             "mapname":"Oxford Circle",
             "shape_leng":31820.6223266,
@@ -35764,7 +35764,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"SUMMERDALE",
+            "geoname":"SUMMERDALE",
             "listname":"Summerdale",
             "mapname":"Summerdale",
             "shape_leng":12065.377599,
@@ -35994,7 +35994,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"CRESCENTVILLE",
+            "geoname":"CRESCENTVILLE",
             "listname":"Crescentville",
             "mapname":"Crescentville",
             "shape_leng":18197.1391982,
@@ -36304,7 +36304,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"LAWNDALE",
+            "geoname":"LAWNDALE",
             "listname":"Lawndale",
             "mapname":"Lawndale",
             "shape_leng":32758.368098,
@@ -37086,7 +37086,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"SHARSWOOD",
+            "geoname":"SHARSWOOD",
             "listname":"Sharswood",
             "mapname":"Sharswood",
             "shape_leng":9641.89101249,
@@ -37200,7 +37200,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"PASSYUNK_SQUARE",
+            "geoname":"PASSYUNK_SQUARE",
             "listname":"Passyunk Square",
             "mapname":"Passyunk Square",
             "shape_leng":11751.5037197,
@@ -37302,7 +37302,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"NORTHWOOD",
+            "geoname":"NORTHWOOD",
             "listname":"Northwood",
             "mapname":"Northwood",
             "shape_leng":27334.1220893,
@@ -37792,7 +37792,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"HOLMESBURG",
+            "geoname":"HOLMESBURG",
             "listname":"Holmesburg",
             "mapname":"Holmesburg",
             "shape_leng":40376.2775353,
@@ -38246,7 +38246,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"MAYFAIR",
+            "geoname":"MAYFAIR",
             "listname":"Mayfair",
             "mapname":"Mayfair",
             "shape_leng":38261.5752063,
@@ -38836,7 +38836,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"TACONY",
+            "geoname":"TACONY",
             "listname":"Tacony",
             "mapname":"Tacony",
             "shape_leng":32404.9977888,
@@ -39210,7 +39210,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"HARTRANFT",
+            "geoname":"HARTRANFT",
             "listname":"Hartranft",
             "mapname":"Hartranft",
             "shape_leng":23082.015936,
@@ -39436,7 +39436,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"ANDORRA",
+            "geoname":"ANDORRA",
             "listname":"Andorra",
             "mapname":"Andorra",
             "shape_leng":26469.7742884,
@@ -39810,7 +39810,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"MANAYUNK",
+            "geoname":"MANAYUNK",
             "listname":"Manayunk",
             "mapname":"Manayunk",
             "shape_leng":16157.0546719,
@@ -40100,7 +40100,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"UPPER_ROXBOROUGH",
+            "geoname":"UPPER_ROXBOROUGH",
             "listname":"Upper Roxborough",
             "mapname":"Upper Roxborough",
             "shape_leng":50882.0814075,
@@ -40594,7 +40594,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"ROXBOROUGH",
+            "geoname":"ROXBOROUGH",
             "listname":"Roxborough",
             "mapname":"Roxborough",
             "shape_leng":23054.7098435,
@@ -40900,7 +40900,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"NICETOWN",
+            "geoname":"NICETOWN",
             "listname":"Nicetown",
             "mapname":"Nicetown",
             "shape_leng":11237.318154,
@@ -41014,7 +41014,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WISSAHICKON",
+            "geoname":"WISSAHICKON",
             "listname":"Wissahickon",
             "mapname":"Wissahickon",
             "shape_leng":17714.1859718,
@@ -41304,7 +41304,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"DICKINSON_NARROWS",
+            "geoname":"DICKINSON_NARROWS",
             "listname":"Dickinson Narrows",
             "mapname":"Dickinson Narrows",
             "shape_leng":10062.1547741,
@@ -41394,7 +41394,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"GERMANTOWN_EAST",
+            "geoname":"GERMANTOWN_EAST",
             "listname":"East Germantown",
             "mapname":"East Germantown",
             "shape_leng":22052.7346609,
@@ -41684,7 +41684,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"GERMANTOWN_MORTON",
+            "geoname":"GERMANTOWN_MORTON",
             "listname":"Germantown, Morton",
             "mapname":"Germantown - Morton",
             "shape_leng":13572.1805481,
@@ -41854,7 +41854,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"OLD_KENSINGTON",
+            "geoname":"OLD_KENSINGTON",
             "listname": "Olde Kensington",
             "mapname":"Olde Kensington",
             "shape_leng":10913.733421,
@@ -41976,7 +41976,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"GERMANTOWN_WEST_CENT",
+            "geoname":"GERMANTOWN_WEST_CENT",
             "listname":"Germantown, West Central",
             "mapname":"West Central Germantown",
             "shape_leng":17090.4513309,
@@ -42202,7 +42202,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"GERMANTOWN_PENN_KNOX",
+            "geoname":"GERMANTOWN_PENN_KNOX",
             "listname":"Germantown, Penn Knox",
             "mapname":"Germantown - Penn Knox",
             "shape_leng":9550.41261311,
@@ -42340,7 +42340,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"GERMANTOWN_WESTSIDE",
+            "geoname":"GERMANTOWN_WESTSIDE",
             "listname":"Germantown, Westside",
             "mapname":"Germantown - Westside",
             "shape_leng":10355.1783896,
@@ -42462,7 +42462,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"OGONTZ",
+            "geoname":"OGONTZ",
             "listname":"Ogontz",
             "mapname":"Ogontz",
             "shape_leng":17256.5827084,
@@ -42712,7 +42712,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WISTER",
+            "geoname":"WISTER",
             "listname":"Wister",
             "mapname":"Wister",
             "shape_leng":15136.0986992,
@@ -42954,7 +42954,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"TIOGA",
+            "geoname":"TIOGA",
             "listname":"Nicetown - Tioga",
             "mapname":"Tioga",
             "shape_leng":27189.6670807,
@@ -43204,7 +43204,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"EAST_OAK_LANE",
+            "geoname":"EAST_OAK_LANE",
             "listname":"East Oak Lane",
             "mapname":"East Oak Lane",
             "shape_leng":20501.3566277,
@@ -43506,7 +43506,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"FELTONVILLE",
+            "geoname":"FELTONVILLE",
             "listname":"Feltonville",
             "mapname":"Feltonville",
             "shape_leng":22648.9887485,
@@ -43736,7 +43736,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"FAIRHILL",
+            "geoname":"FAIRHILL",
             "listname":"Fairhill",
             "mapname":"Fairhill",
             "shape_leng":12327.7650097,
@@ -43914,7 +43914,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"RICHMOND",
+            "geoname":"RICHMOND",
             "listname":"Richmond",
             "mapname":"Richmond",
             "shape_leng":45405.1546272,
@@ -45288,7 +45288,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"HUNTING_PARK",
+            "geoname":"HUNTING_PARK",
             "listname":"Hunting Park(Franklinville)",
             "mapname":"Hunting Park",
             "shape_leng":32920.7993595,
@@ -45598,7 +45598,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"JUNIATA_PARK",
+            "geoname":"JUNIATA_PARK",
             "listname":"Juniata Park(Juniata)",
             "mapname":"Juniata Park",
             "shape_leng":30347.1877843,
@@ -46080,7 +46080,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"BREWERYTOWN",
+            "geoname":"BREWERYTOWN",
             "listname":"Brewerytown",
             "mapname":"Brewerytown",
             "shape_leng":14790.6737359,
@@ -46282,7 +46282,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"HARROWGATE",
+            "geoname":"HARROWGATE",
             "listname":"Harrowgate",
             "mapname":"Harrowgate",
             "shape_leng":23231.2468158,
@@ -46540,7 +46540,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"UPPER_KENSINGTON",
+            "geoname":"UPPER_KENSINGTON",
             "listname":"Upper Kensington",
             "mapname":"Upper Kensington",
             "shape_leng":19841.0992776,
@@ -46818,7 +46818,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"MCGUIRE",
+            "geoname":"MCGUIRE",
             "listname":"McGuire",
             "mapname":"McGuire",
             "shape_leng":8681.67645939,
@@ -46964,7 +46964,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WEST_KENSINGTON",
+            "geoname":"WEST_KENSINGTON",
             "listname":"Kensington, West",
             "mapname":"West Kensington",
             "shape_leng":20074.2409466,
@@ -47270,7 +47270,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"FISHTOWN",
+            "geoname":"FISHTOWN",
             "listname":"Fishtown (Lower Kensington)",
             "mapname":"Fishtown - Lower Kensington",
             "shape_leng":25973.3958005,
@@ -47532,7 +47532,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"NORTHERN_LIBERTIES",
+            "geoname":"NORTHERN_LIBERTIES",
             "listname":"Northern Liberties",
             "mapname":"Northern Liberties",
             "shape_leng":20685.0153986,
@@ -47758,7 +47758,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"LOGAN",
+            "geoname":"LOGAN",
             "listname":"Logan",
             "mapname":"Logan",
             "shape_leng":29512.474658,
@@ -48072,7 +48072,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"SOCIETY_HILL",
+            "geoname":"SOCIETY_HILL",
             "listname":"Society Hill",
             "mapname":"Society Hill",
             "shape_leng":10711.7713783,
@@ -48206,7 +48206,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"OLD_CITY",
+            "geoname":"OLD_CITY",
             "listname":"Old City",
             "mapname":"Old City",
             "shape_leng":14323.3716974,
@@ -48404,7 +48404,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"CHINATOWN",
+            "geoname":"CHINATOWN",
             "listname":"Chinatown",
             "mapname":"Chinatown",
             "shape_leng":4936.52461685,
@@ -48478,7 +48478,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"CENTER_CITY",
+            "geoname":"CENTER_CITY",
             "listname":"Center City East",
             "mapname":"Center City East",
             "shape_leng":10358.0900976,
@@ -48660,7 +48660,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WASHINGTON_SQUARE",
+            "geoname":"WASHINGTON_SQUARE",
             "listname":"Washington Square West",
             "mapname":"Washington Square West",
             "shape_leng":12119.2682525,
@@ -48854,7 +48854,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"FAIRMOUNT",
+            "geoname":"FAIRMOUNT",
             "listname":"Fairmount",
             "mapname":"Fairmount",
             "shape_leng":13473.0527819,
@@ -49060,7 +49060,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"SPRING_GARDEN",
+            "geoname":"SPRING_GARDEN",
             "listname":"Spring Garden",
             "mapname":"Spring Garden",
             "shape_leng":13574.8062342,
@@ -49222,7 +49222,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"LOGAN_SQUARE",
+            "geoname":"LOGAN_SQUARE",
             "listname":"Logan Square",
             "mapname":"Logan Square",
             "shape_leng":18613.9089914,
@@ -49460,7 +49460,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"RITTENHOUSE",
+            "geoname":"RITTENHOUSE",
             "listname":"Rittenhouse",
             "mapname":"Rittenhouse",
             "shape_leng":16365.2709581,
@@ -49678,7 +49678,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"FITLER_SQUARE",
+            "geoname":"FITLER_SQUARE",
             "listname":"Fitler Square",
             "mapname":"Fitler Square",
             "shape_leng":6822.59824096,
@@ -49772,7 +49772,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"GRADUATE_HOSPITAL",
+            "geoname":"GRADUATE_HOSPITAL",
             "listname":"Southwest Center City(Graduate Hospital)",
             "mapname":"Graduate Hospital",
             "shape_leng":18603.0117459,
@@ -50014,7 +50014,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"POINT_BREEZE",
+            "geoname":"POINT_BREEZE",
             "listname":"Point Breeze",
             "mapname":"Point Breeze",
             "shape_leng":17529.2837139,
@@ -50224,7 +50224,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"QUEEN_VILLAGE",
+            "geoname":"QUEEN_VILLAGE",
             "listname":"Queen Village",
             "mapname":"Queen Village",
             "shape_leng":10414.195744,
@@ -50426,7 +50426,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"LOWER_MOYAMENSING",
+            "geoname":"LOWER_MOYAMENSING",
             "listname":"Lower Moyamensing",
             "mapname":"Lower Moyamensing",
             "shape_leng":12975.3434458,
@@ -50668,7 +50668,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WHITMAN",
+            "geoname":"WHITMAN",
             "listname":"Whitman",
             "mapname":"Whitman",
             "shape_leng":10895.2137948,
@@ -50806,7 +50806,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"INDUSTRIAL",
+            "geoname":"INDUSTRIAL",
             "listname":"Industrial",
             "mapname":"Industrial",
             "shape_leng":53290.7829178,
@@ -51116,7 +51116,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"SOUTHWEST_SCHUYLKILL",
+            "geoname":"SOUTHWEST_SCHUYLKILL",
             "listname":"Southwest Schuylkill",
             "mapname":"Southwest Schuylkill",
             "shape_leng":19282.6381694,
@@ -51290,7 +51290,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"CLEARVIEW",
+            "geoname":"CLEARVIEW",
             "listname":"Clearview",
             "mapname":"Clearview",
             "shape_leng":14683.4594501,
@@ -51960,7 +51960,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WEST_PARKSIDE",
+            "geoname":"WEST_PARKSIDE",
             "listname":"West Parkside",
             "mapname":"West Parkside",
             "shape_leng":11392.2493318,
@@ -52102,7 +52102,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"MILL_CREEK",
+            "geoname":"MILL_CREEK",
             "listname":"Mill Creek",
             "mapname":"Mill Creek",
             "shape_leng":16852.5280123,
@@ -52292,7 +52292,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"AIRPORT",
+            "geoname":"AIRPORT",
             "listname":"Airport",
             "mapname":"Airport",
             "shape_leng":49698.1915211,
@@ -53154,7 +53154,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"PASCHALL",
+            "geoname":"PASCHALL",
             "listname":"Paschall",
             "mapname":"Paschall",
             "shape_leng":22650.029678,
@@ -53836,7 +53836,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"SPRUCE_HILL",
+            "geoname":"SPRUCE_HILL",
             "listname":"Spruce Hill",
             "mapname":"Spruce Hill",
             "shape_leng":14095.2624941,
@@ -53986,7 +53986,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WEST_POWELTON",
+            "geoname":"WEST_POWELTON",
             "listname":"West Powelton",
             "mapname":"West Powelton",
             "shape_leng":12588.9313207,
@@ -54144,7 +54144,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"KINGSESSING",
+            "geoname":"KINGSESSING",
             "listname":"Kingsessing",
             "mapname":"Kingsessing",
             "shape_leng":30544.7764449,
@@ -55358,7 +55358,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"UNIVERSITY_CITY",
+            "geoname":"UNIVERSITY_CITY",
             "listname":"University City",
             "mapname":"University City",
             "shape_leng":26985.3088647,
@@ -55664,7 +55664,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"HADDINGTON",
+            "geoname":"HADDINGTON",
             "listname":"Haddington",
             "mapname":"Haddington",
             "shape_leng":22913.7361917,
@@ -55930,7 +55930,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"CARROLL_PARK",
+            "geoname":"CARROLL_PARK",
             "listname":"Carroll Park",
             "mapname":"Carroll Park",
             "shape_leng":17104.323942,
@@ -56116,7 +56116,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"HAVERFORD_NORTH",
+            "geoname":"HAVERFORD_NORTH",
             "listname":"Haverford North",
             "mapname":"Haverford North",
             "shape_leng":8163.07457694,
@@ -56246,7 +56246,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WYNNEFIELD_HEIGHTS",
+            "geoname":"WYNNEFIELD_HEIGHTS",
             "listname":"Wynnefield Heights",
             "mapname":"Wynnefield Heights",
             "shape_leng":19368.9785372,
@@ -56444,7 +56444,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"COBBS_CREEK",
+            "geoname":"COBBS_CREEK",
             "listname":"Cobbs Creek",
             "mapname":"Cobbs Creek",
             "shape_leng":25355.9944604,
@@ -57602,7 +57602,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WALNUT_HILL",
+            "geoname":"WALNUT_HILL",
             "listname":"Walnut Hill",
             "mapname":"Walnut Hill",
             "shape_leng":10705.1426541,
@@ -57708,7 +57708,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"CEDAR_PARK",
+            "geoname":"CEDAR_PARK",
             "listname":"Cedar Park",
             "mapname":"Cedar Park",
             "shape_leng":12495.3704755,
@@ -57826,7 +57826,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WOODLAND_TERRACE",
+            "geoname":"WOODLAND_TERRACE",
             "listname":"Woodland Terrace",
             "mapname":"Woodland Terrace",
             "shape_leng":5188.77055752,
@@ -57896,7 +57896,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"CALLOWHILL",
+            "geoname":"CALLOWHILL",
             "listname":"Callowhill",
             "mapname":"Callowhill",
             "shape_leng":10543.653354,
@@ -58146,7 +58146,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WEST_POPLAR",
+            "geoname":"WEST_POPLAR",
             "listname":"West Poplar",
             "mapname":"West Poplar",
             "shape_leng":11636.9581236,
@@ -58328,7 +58328,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"STRAWBERRY_MANSION",
+            "geoname":"STRAWBERRY_MANSION",
             "listname":"Strawberry Mansion",
             "mapname":"Strawberry Mansion",
             "shape_leng":28308.1681324,
@@ -58686,7 +58686,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"PACKER_PARK",
+            "geoname":"PACKER_PARK",
             "listname":"Packer Park",
             "mapname":"Packer Park",
             "shape_leng":21816.0179479,
@@ -58860,7 +58860,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"EAST_PARK",
+            "geoname":"EAST_PARK",
             "listname":"East Park",
             "mapname":"East Park",
             "shape_leng":34259.9978561,
@@ -59202,7 +59202,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WYNNEFIELD",
+            "geoname":"WYNNEFIELD",
             "listname":"Wynnefield",
             "mapname":"Wynnefield",
             "shape_leng":29540.6131177,
@@ -59532,7 +59532,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WEST_PASSYUNK",
+            "geoname":"WEST_PASSYUNK",
             "listname":"West Passyunk",
             "mapname":"West Passyunk",
             "shape_leng":10499.291848,
@@ -59650,7 +59650,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"EAST_PASSYUNK",
+            "geoname":"EAST_PASSYUNK",
             "listname":"East Passyunk",
             "mapname":"East Passyunk",
             "shape_leng":10987.761846,
@@ -59760,7 +59760,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"NEWBOLD",
+            "geoname":"NEWBOLD",
             "listname":"Newbold",
             "mapname":"Newbold",
             "shape_leng":10052.5708849,
@@ -59850,7 +59850,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"WEST_PARK",
+            "geoname":"WEST_PARK",
             "listname":"West Park",
             "mapname":"West Park",
             "shape_leng":46219.2623016,
@@ -60288,7 +60288,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"STADIUM_DISTRICT",
+            "geoname":"STADIUM_DISTRICT",
             "listname":"Stadium District",
             "mapname":"Stadium District",
             "shape_leng":37632.2859292,
@@ -60582,8 +60582,8 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"NAVY_YARD",
-            "listname":"Navy Yard",
+            "geoname":"NAVY_YARD",
+            "listname":"US Navy Yard",
             "mapname":"Navy Yard",
             "shape_leng":42694.5496439,
             "shape_area":80181568.733,
@@ -60880,7 +60880,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"EAST_KENSINGTON",
+            "geoname":"EAST_KENSINGTON",
             "listname":"East Kensington",
             "mapname":"East Kensington",
             "shape_leng":11570.5147893,
@@ -61042,7 +61042,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"ELMWOOD",
+            "geoname":"ELMWOOD",
             "listname":"Elmwood",
             "mapname":"Elmwood",
             "shape_leng":23215.7245206,
@@ -61228,7 +61228,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"GIRARD_ESTATES",
+            "geoname":"GIRARD_ESTATES",
             "listname":"Girard Estates",
             "mapname":"Girard Estates",
             "shape_leng":17375.9724498,
@@ -61414,7 +61414,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"EASTWICK",
+            "geoname":"EASTWICK",
             "listname":"Eastwick",
             "mapname":"Eastwick",
             "shape_leng":43668.9052843,
