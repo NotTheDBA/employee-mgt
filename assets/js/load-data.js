@@ -169,17 +169,16 @@ function loadIncomes() {
         var hoodsRef = database.ref("Geo").child("hoods");
 
         Philly.forEach(thisHood => {
+            // console.log(thisHood);
 
             var namedHood = hoodsRef.child(thisHood.geoname);
             console.log(thisHood.geoname);
 
             if (typeof thisHood["Median household income in 2016"] !== 'undefined') {
                 namedHood.child("median-income").set(thisHood["Median household income in 2016"]["This neighborhood"].trim())
-
             }
             if (typeof thisHood["Median rent in 2016"] !== 'undefined') {
                 namedHood.child("median-rent").set(thisHood["Median rent in 2016"]["This neighborhood"].trim())
-
             }
 
 
@@ -187,21 +186,24 @@ function loadIncomes() {
 
                 // console.log(thisHood["Male_vs_Females"]);
 
+                // console.log(thisHood["Most common occupations of males"]);
                 namedHood.child("Male_vs_Females").child("males").child("population").set(thisHood["Male_vs_Females"]["Males"]);
                 namedHood.child("Male_vs_Females").child("males").child("median_age").set(thisHood["Median age"]["Males"]);
+                namedHood.child("Male_vs_Females").child("males").child("occupations").set(thisHood["Most popular occupations of males"]);
 
                 namedHood.child("Male_vs_Females").child("females").child("population").set(thisHood["Male_vs_Females"]["Females"]);
                 namedHood.child("Male_vs_Females").child("females").child("median_age").set(thisHood["Median age"]["Males"]);
-                // namedHood.child("Male_vs_Females").set(thisHood["Median rent in 2016"]["This neighborhood"].trim()
+                namedHood.child("Male_vs_Females").child("females").child("occupations").set(thisHood["Most popular occupations of females"]);
+
             }
 
-            // if (typeof thisHood["Housing prices"] !== 'undefined') {
+            if (typeof thisHood["Housing prices"] !== 'undefined') {
 
-            //     if (typeof thisHood["Median rent in 2016"] !== 'undefined') {
-            //         namedHood.child("median-rent").set(thisHood["Median rent in 2016"]["This neighborhood"].trim())
+                if (typeof thisHood["Median rent in 2016"] !== 'undefined') {
+                    namedHood.child("median-rent").set(thisHood["Median rent in 2016"]["This neighborhood"].trim())
 
-            //     }
-            // }
+                }
+            }
 
         }, function(error) {
             // The Promise was rejected.
