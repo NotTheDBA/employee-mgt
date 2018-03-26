@@ -21,9 +21,11 @@
     <link href="assets/css/business-casual.min.css" rel="stylesheet">
     <link href="assets/css/business-casual.css" rel="stylesheet">
 
+    <!-- Firebase Reference -->
+   <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
 
-    <!-- Custom JS file for this template, firebase DB has been intergrated -->
-    <script src="assets/js/logic.js"></script>
+
+    
 
 </head>
 
@@ -48,18 +50,23 @@
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="packages.html">Packages</a>
-            </li>
+            
+            
+            
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="Results.html">Results</a>
             </li>
+            
             <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="packages.html">Packages</a>
+              </li>
+            
+            <!-- <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="Details.html">Details</a>
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="index2.html">Index2 (The Point of No Return)</a>
-            </li>
+            </li> -->
           </ul>
         </div>
     </nav>
@@ -79,12 +86,12 @@
               
               <div class="form-group">
                 <label for="exampleInput1">Yearly Income</label>
-                <input type="input1" class="form-control" id="exampleInput1" placeholder="Income">
+                <input type="input" class="form-control" id="exampleInput1" placeholder="Income">
               </div>
               
             </form>
             <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="Results.html?name=Income&name=exampleInput1">Search within my budget!</a>
+              <div class="btn btn-primary btn-xl" id="findIncome">Search within my budget!</div>
             </div>
         </div>
     </section>
@@ -113,10 +120,15 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js">
+
+      </script>
+
+    <!-- Custom JS file for this template, firebase DB has been intergrated -->
+    <script src="assets/js/logic.js"></script>
     
   
     
-    </script>
+    
 
 </body>
 
