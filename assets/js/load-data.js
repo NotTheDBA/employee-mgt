@@ -168,16 +168,10 @@ function loadIncomes() {
 
         var hoodsRef = database.ref("Geo").child("hoods");
 
-        // var hoodCount = 0;
-
         Philly.forEach(thisHood => {
 
-            // hoodCount += 1;
             var namedHood = hoodsRef.child(thisHood.geoname);
-            // console.log(thisHood);
-            // console.log(thisHood.geoname);
-            // console.log(thisHood.listname);
-            // console.log(thisHood["Median household income in 2016"]);
+            console.log(thisHood.geoname);
 
             if (typeof thisHood["Median household income in 2016"] !== 'undefined') {
                 namedHood.child("median-income").set(thisHood["Median household income in 2016"]["This neighborhood"].trim())
@@ -188,13 +182,26 @@ function loadIncomes() {
 
             }
 
-            if (typeof thisHood["Housing prices"] !== 'undefined') {
 
-                if (typeof thisHood["Median rent in 2016"] !== 'undefined') {
-                    namedHood.child("median-rent").set(thisHood["Median rent in 2016"]["This neighborhood"].trim())
+            if (typeof thisHood["Male_vs_Females"] !== 'undefined') {
 
-                }
+                // console.log(thisHood["Male_vs_Females"]);
+
+                namedHood.child("Male_vs_Females").child("males").child("population").set(thisHood["Male_vs_Females"]["Males"]);
+                namedHood.child("Male_vs_Females").child("males").child("median_age").set(thisHood["Median age"]["Males"]);
+
+                namedHood.child("Male_vs_Females").child("females").child("population").set(thisHood["Male_vs_Females"]["Females"]);
+                namedHood.child("Male_vs_Females").child("females").child("median_age").set(thisHood["Median age"]["Males"]);
+                // namedHood.child("Male_vs_Females").set(thisHood["Median rent in 2016"]["This neighborhood"].trim()
             }
+
+            // if (typeof thisHood["Housing prices"] !== 'undefined') {
+
+            //     if (typeof thisHood["Median rent in 2016"] !== 'undefined') {
+            //         namedHood.child("median-rent").set(thisHood["Median rent in 2016"]["This neighborhood"].trim())
+
+            //     }
+            // }
 
         }, function(error) {
             // The Promise was rejected.

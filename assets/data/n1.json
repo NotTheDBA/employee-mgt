@@ -5068,7 +5068,7 @@
         "detailed profile": "Juniata Park neighborhood detailed profile"
     },
     {
-        "geoname": "_unidentified",
+        "geoname": "EAST_KENSINGTON",
         "listname": "Kensington",
         "Area": "0.957 square miles",
         "Population": "31,053",
@@ -9079,7 +9079,7 @@
         "detailed profile": "Washington Square neighborhood detailed profile"
     },
     {
-        "geoname": "_unidentified",
+        "geoname": "WEST_KENSINGTON",
         "listname": "West Kensington",
         "Area": "0.716 square miles",
         "Population": "23,465",
