@@ -9459,7 +9459,7 @@
          "type":"Feature",
          "properties":{
             "name":"MOUNT_AIRY_EAST",
-            "listname":"Mount Airy, East",
+            "listname":"East Mount Airy",
             "mapname":"East Mount Airy",
             "shape_leng":28845.549808,
             "shape_area":43152469.5661,
@@ -24575,7 +24575,7 @@
          "type":"Feature",
          "properties":{
             "name":"MOUNT_AIRY_WEST",
-            "listname":"Mount Airy, West",
+            "listname":"West Mount Airy",
             "mapname":"West Mount Airy",
             "shape_leng":37723.3789332,
             "shape_area":53743368.5593,
@@ -41395,7 +41395,7 @@
          "type":"Feature",
          "properties":{
             "name":"GERMANTOWN_EAST",
-            "listname":"Germantown, East",
+            "listname":"East Germantown",
             "mapname":"East Germantown",
             "shape_leng":22052.7346609,
             "shape_area":25689796.5206,
@@ -41855,8 +41855,8 @@
          "type":"Feature",
          "properties":{
             "name":"OLD_KENSINGTON",
-            "listname":"Kensington, Old",
-            "mapname":"Old Kensington",
+            "listname": "Olde Kensington",
+            "mapname":"Olde Kensington",
             "shape_leng":10913.733421,
             "shape_area":7476740.47963,
             "cartodb_id":88,
@@ -42955,7 +42955,7 @@
          "type":"Feature",
          "properties":{
             "name":"TIOGA",
-            "listname":"Tioga",
+            "listname":"Nicetown - Tioga",
             "mapname":"Tioga",
             "shape_leng":27189.6670807,
             "shape_area":31627964.4932,
@@ -45289,7 +45289,7 @@
          "type":"Feature",
          "properties":{
             "name":"HUNTING_PARK",
-            "listname":"Hunting Park",
+            "listname":"Hunting Park(Franklinville)",
             "mapname":"Hunting Park",
             "shape_leng":32920.7993595,
             "shape_area":39024501.3163,
@@ -45599,7 +45599,7 @@
          "type":"Feature",
          "properties":{
             "name":"JUNIATA_PARK",
-            "listname":"Juniata Park",
+            "listname":"Juniata Park(Juniata)",
             "mapname":"Juniata Park",
             "shape_leng":30347.1877843,
             "shape_area":32441851.8233,
@@ -47271,7 +47271,7 @@
          "type":"Feature",
          "properties":{
             "name":"FISHTOWN",
-            "listname":"Fishtown - Lower Kensington",
+            "listname":"Fishtown (Lower Kensington)",
             "mapname":"Fishtown - Lower Kensington",
             "shape_leng":25973.3958005,
             "shape_area":33605828.4272,
@@ -49773,7 +49773,7 @@
          "type":"Feature",
          "properties":{
             "name":"GRADUATE_HOSPITAL",
-            "listname":"Graduate Hospital",
+            "listname":"Southwest Center City(Graduate Hospital)",
             "mapname":"Graduate Hospital",
             "shape_leng":18603.0117459,
             "shape_area":14126514.5652,

@@ -32,7 +32,7 @@ $(document).ready(function() {
     //http://zevross.com/blog/2014/04/01/google-maps-api-adds-geojson-support-here-is-an-example/
     //  Here's how to get an array of coordinates for one neighborhood:
     // MapData.Map[0].geometry.coordinates
-    // getMapData();
+    // loadMapData();
 
     // This button is necessary to access the data 
     // - we can't just load the data on page launch for some reason
@@ -43,6 +43,23 @@ $(document).ready(function() {
     makeQueryMapButton();
 
 });
+
+
+function makeLoadButton(label) {
+
+    var button = $("<button>").text(label).addClass("btn btn-primary btn-block");
+    button.on("click", function() {
+        console.log("Begin loading...")
+            // loadList();
+            // verifyCounts();
+        loadMapData();
+        loadIncomes();
+        console.log("Loading complete.")
+    });
+
+    $("#loader").append(button);
+}
+
 
 // TODO: Clay: use this example data query to find neighborhoods with income in a range.
 function makeQueryIncomeButton() {
@@ -88,19 +105,6 @@ function makeQueryMapButton() {
     $("#loader").append(button);
 }
 
-
-function makeLoadButton(label) {
-
-    var button = $("<button>").text(label).addClass("btn btn-primary btn-block");
-    button.on("click", function() {
-        // loadList();
-        // loadIncomes();
-        // verifyCounts();
-        getMapData();
-    });
-
-    $("#loader").append(button);
-}
 
 function verifyCounts() {
     // return Object.keys(MapData.Neighborhoods.Map).length;
@@ -163,30 +167,33 @@ function loadIncomes() {
         //puts the data in our global space
         window.Philly = jsonData;
 
-        database.ref("Philly").remove()
-        var hoodsRef = database.ref("Philly").child("hoods");
+        // database.ref("Philly").remove()
+        // var hoodsRef = database.ref("Philly").child("hoods");
+
+        var hoodsRef = database.ref("Geo").child("hoods");
 
         var hoodCount = 0;
+
         Philly.forEach(thisHood => {
+
+            // console.log(thisHood);
+            console.log(thisHood["Median household income in 2016"]);
             if (typeof thisHood["Median household income in 2016"] !== 'undefined') {
-                hoodsRef.child(hoodCount).child("name").set(thisHood.Name)
-                hoodsRef.child(hoodCount).child("median-income").set(thisHood["Median household income in 2016"][thisHood.Name])
+                // hoodsRef.child(hoodCount).child("name").set(thisHood.Name)
+                // hoodsRef.child(hoodCount).child("median-income").set(thisHood["Median household income in 2016"][thisHood.Name])
+                console.log(thisHood.name);
+                console.log(thisHood.listname);
+                console.log(thisHood["Median household income in 2016"][thisHood.listname]);
+                hoodsRef.child(thisHood.name).child("median-income").set(thisHood["Median household income in 2016"][thisHood.listname])
+
                 hoodCount += 1;
             }
 
+        }, function(error) {
+            // The Promise was rejected.
+            console.error(error);
         });
 
-
-        // hoodsRef.child(10).child("name").set(thisHood.Name)
-        // hoodsRef.child(10).child("median-income").set(thisHood["Median household income in 2016"][thisHood.Name])
-
-        // database.ref("Philly").child("hoods").child(10).child("name").set(Philly[10].Name)
-        // database.ref("Philly").child("hoods").child(10).child("median-income").set(Philly[10]["Median household income in 2016"][Philly[10].Name])
-
-        // console.log(Philly[10].Name);
-        // // console.log(Philly[10]["Median household income in 2016"]);
-        // console.log(Philly[10]["Median household income in 2016"][Philly[10].Name]);
-        // console.log(jsonData);
     });
 
 
@@ -212,9 +219,9 @@ function getData() {
 }
 
 // TODO: Merge this data with income data for searching.
-function getMapData() {
+function loadMapData() {
     // Only needs to run once on load.
-    var queryurl = "assets/data/n1.geojson";
+    var queryurl = "assets/data/n1.geo.json";
     $.ajax({
         url: queryurl,
         dataType: 'json',
@@ -234,9 +241,9 @@ function getMapData() {
             // console.log(thisHood.properties.name);
             // console.log(thisHood.properties.listname);
             // console.log(thisHood.geometry.coordinates);
-            hoodsRef.child(hoodCount).child("name").set(thisHood.properties.name);
-            hoodsRef.child(hoodCount).child("listname").set(thisHood.properties.listname);
-            hoodsRef.child(hoodCount).child("geometry").child("coordinates").set(thisHood.geometry.coordinates[0][0]);
+
+            hoodsRef.child(thisHood.properties.name).child("listname").set(thisHood.properties.listname);
+            // hoodsRef.child(thisHood.properties.name).child("geometry").child("coordinates").set(thisHood.geometry.coordinates[0][0]);
             hoodCount += 1;
         })
 
