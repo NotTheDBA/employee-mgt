@@ -1,0 +1,2070 @@
+[{
+        "Name": "3rd St Fabric Row",
+        "Area": "0.004 square miles",
+        "Population": "175",
+        "Population density": {
+            "3rd St Fabric Row": "40,972 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "3rd St Fabric Row": "$93,750 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "3rd St Fabric Row": "$1,180 ",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "96",
+            "Females": "79"
+        },
+        "Median age": {
+            "Males": "31.6 years",
+            "Females": "34.8 years"
+        },
+        "Most popular occupations of males": [
+            "management occupations (except farmers) (38.1%)"
+        ],
+        "Most popular occupations of females": [
+            "healthcare practitioners and technical occupations (28.9%)"
+        ],
+        "Roads and streets": [
+            "S 3rd St",
+            "Bainbridge St",
+            "Baxter Ave",
+            "Monroe St."
+        ],
+        "detailed profile": "3rd St Fabric Row neighborhood detailed profile"
+    },
+    {
+        "Name": "4th St Tattoo Alley",
+        "Area": "0.004 square miles",
+        "Population": "161",
+        "Population density": {
+            "4th St Tattoo Alley": "40,596 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "4th St Tattoo Alley": "$93,750 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "4th St Tattoo Alley": "$1,180 ",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "88",
+            "Females": "72"
+        },
+        "Median age": {
+            "Males": "31.6 years",
+            "Females": "34.8 years"
+        },
+        "Most popular occupations of males": [
+            "management occupations (except farmers) (38.1%)"
+        ],
+        "Most popular occupations of females": [
+            "healthcare practitioners and technical occupations (28.9%)"
+        ],
+        "Roads and streets": [
+            "S 4th St."
+        ],
+        "detailed profile": "4th St Tattoo Alley neighborhood detailed profile"
+    },
+    {
+        "Name": "52nd St Discount Shopping",
+        "Area": "0.122 square miles",
+        "Population": "3,554",
+        "Population density": {
+            "52nd St Discount Shopping": "29,244 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "52nd St Discount Shopping": "$29,319 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "52nd St Discount Shopping": "$717",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "1,627",
+            "Females": "1,926"
+        },
+        "Median age": {
+            "Males": "38.4 years",
+            "Females": "32.9 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [8.0% of all units]": {
+                "52nd St Discount Shopping": "$130,385 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [58.1% of all units]": {
+                "This neighborhood": "$174,969 ",
+                "city": "$162,850"
+            }
+        },
+        "Most popular occupations of males": [
+            "service occupations (37.4%)"
+        ],
+        "Most popular occupations of females": [
+            "service occupations (33.2%)"
+        ],
+        "Highways in this neighborhood": [
+            "S 52nd St",
+            "Walnut St(State Rte 3)",
+            "State Rte 3(Chestnut St)."
+        ],
+        "Roads and streets": [
+            "S 51st St",
+            "Ludlow St",
+            "Pine St",
+            "Ranstead St",
+            "Chancellor St",
+            "Spruce St",
+            "Irving St",
+            "Sansom St",
+            "Locust St",
+            "Delancey St",
+            "Market St."
+        ],
+        "detailed profile": "52nd St Discount Shopping neighborhood detailed profile"
+    },
+    {
+        "Name": "63rd St Discount Shopping",
+        "Area": "0.070 square miles",
+        "Population": "1,873",
+        "Population density": {
+            "63rd St Discount Shopping": "26,766 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "63rd St Discount Shopping": "$150,800 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "63rd St Discount Shopping": "$2,961 ",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "712",
+            "Females": "1,161"
+        },
+        "Median age": {
+            "Males": "206.8 years",
+            "Females": "197.1 years"
+        },
+        "Most popular occupations of males": [
+            "service occupations (26.7%)"
+        ],
+        "Most popular occupations of females": [
+            "sales and office occupations [61.8  %]",
+            "service occupations [19.0  %]",
+            "healthcare practitioners and technical occupations [14.4  %]",
+            "business and financial operations occupations [8.5  %]",
+            "management occupations [except farmers)(8.0  %]",
+            "production occupations [4.4  %]",
+            "material moving occupations [4.1 % )"
+        ],
+        "Highways in this neighborhood": [
+            "State Rte 3(Chestnut St)."
+        ],
+        "Roads and streets": [
+            "S 60th St",
+            "S Salford St",
+            "Sansom St",
+            "Ludlow St",
+            "Cedar Ave",
+            "Larchwood Ave",
+            "Hazel Ave."
+        ],
+        "detailed profile": "63rd St Discount Shopping neighborhood detailed profile"
+    },
+    {
+        "Name": "Abbotsford",
+        "Area": "0.777 square miles",
+        "Population": "7,739",
+        "Population density": {
+            "Abbotsford": "9,964 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Abbotsford": "$38,403 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Abbotsford": "$928",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "3,635",
+            "Females": "4,104"
+        },
+        "Median age": {
+            "Males": "31.4 years",
+            "Females": "37.2 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [9.1% of all units]": {
+                "Abbotsford": "$296,225 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [50.9% of all units]": {
+                "This neighborhood": "$79,734 ",
+                "city": "$162,850"
+            },
+            "Average estimated value of housing units in 2 - unit structures in 2016 [5.6% of all units]": {
+                "This neighborhood": "$157,361 ",
+                "Philadelphia": "$206,309"
+            }
+        },
+        "Most popular occupations of males": [
+            "service occupations [19.5  %]",
+            "sales and office occupations [18.8  %]",
+            "management occupations [except farmers)(9.7  %]",
+            "business and financial operations occupations [8.7  %]",
+            "production occupations [6.9  %]",
+            "healthcare practitioners and technical occupations [6.6  %]",
+            "computer and mathematical occupations [5.2 % )"
+        ],
+        "Most popular occupations of females": [
+            "sales and office occupations (32.4%)"
+        ],
+        "Highways in this neighborhood": [
+            "US Hwy 1(Roosevelt Blvd)",
+            "Wissahickon Ave",
+            "Roberts Ave",
+            "Henry Ave",
+            "US Hwy 13(W Hunting Park Ave)."
+        ],
+        "Roads and streets": [
+            "Fox St",
+            "W Queen Ln",
+            "W Abbottsford Ave",
+            "Abbottsford Ave",
+            "McMichael St",
+            "Berkeley Dr",
+            "Conrad St",
+            "Indian Queen Ln",
+            "Bowman St",
+            "Ainslie St",
+            "Tilden St",
+            "S Abbottsford Ave",
+            "Vaux St",
+            "Stokley St",
+            "W Roosevelt Blvd",
+            "Deacon St",
+            "Sunnyside Ave",
+            "Scotts Ln",
+            "Mc Michael St",
+            "Defense Ter",
+            "Division St",
+            "Barclay St",
+            "Authority Ter",
+            "Osmond St",
+            "Ruffner",
+            "Crawford St",
+            "W Stokley St",
+            "King St."
+        ],
+        "Railroad features": [
+            "Norfolk Southern Rlwy(Penn Central RR)",
+            "Reading RR(Norfolk Southern Rlwy)."
+        ],
+        "detailed profile": "Abbotsford neighborhood detailed profile"
+    },
+    {
+        "Name": "Academy Gardens",
+        "Area": "2.950 square miles",
+        "Population": "28,837",
+        "Population density": {
+            "Academy Gardens": "9,774 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Academy Gardens": "$55,281 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Academy Gardens": "$845",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "14,187",
+            "Females": "14,650"
+        },
+        "Median age": {
+            "Males": "38.7 years",
+            "Females": "42.2 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [15.8% of all units]": {
+                "Academy Gardens": "$195,064 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [55.8% of all units]": {
+                "This neighborhood": "$182,427 ",
+                "city": "$162,850"
+            },
+            "Average estimated value of housing units in 2 - unit structures in 2016 [12.7% of all units]": {
+                "This neighborhood": "$214,000 ",
+                "Philadelphia": "$206,309"
+            },
+            "Average estimated '16 value of housing units in 5-or-more-unit structures [8.1% of all units]": {
+                "Academy Gardens": "$125,950 ",
+                "Philadelphia": "$374,953"
+            }
+        },
+        "Most popular occupations of males": [
+            "service occupations (21.2%)"
+        ],
+        "Most popular occupations of females": [
+            "sales and office occupations (29.8%)"
+        ],
+        "Highways in this neighborhood": [
+            "Holme Ave",
+            "Grant Ave",
+            "Welsh Rd",
+            "Willits Rd",
+            "Academy Rd",
+            "Bustleton Ave."
+        ],
+        "Roads and streets": [
+            "Roosevelt Blvd",
+            "Ashton Rd",
+            "Tremont St",
+            "Blue Grass Rd",
+            "Convent Ave",
+            "Gregg St",
+            "Annapolis Rd",
+            "Fordham Rd",
+            "Primrose Rd",
+            "Walnut Hill St",
+            "Winchester Ave",
+            "Revere St",
+            "Fairfield St",
+            "Treaty Rd",
+            "Maxwell St",
+            "Outlook Ave",
+            "Colfax St",
+            "Andover Rd",
+            "Dewees St",
+            "Albion St",
+            "Nester St",
+            "Lansford St",
+            "Beyer Ave",
+            "Fitler St",
+            "Woodward St",
+            "Tolbut St",
+            "Holyoke Rd",
+            "Winthrop St",
+            "Hargrave St",
+            "Jamison Ave",
+            "Brous Ave",
+            "Calvert St",
+            "Wesleyan Rd",
+            "Stamford St",
+            "Holme Dr",
+            "Woodenbridge Rd",
+            "Cloverly Rd",
+            "Narvon St",
+            "Eden St",
+            "Old Bustleton Ave",
+            "Kirkwood Rd",
+            "Neil Rd",
+            "Exeter Rd",
+            "E Roosevelt Blvd",
+            "Goodnaw St",
+            "Old Newtown Rd",
+            "Woodbridge Rd",
+            "Stanwood St",
+            "Marshall St",
+            "Draper St",
+            "Campus Ln",
+            "Bickley St",
+            "Manchester Ave",
+            "Leonard St",
+            "Brocklehurst St",
+            "Macon St",
+            "Ryerson Rd",
+            "Angus Rd",
+            "Clayton St",
+            "Masland St",
+            "Michener St",
+            "Axe Factory Rd",
+            "Lenola St",
+            "Horatio Rd",
+            "Banes St",
+            "Ambassador St",
+            "Shipley Rd",
+            "Donaldson St",
+            "Bradford St",
+            "Wilson St",
+            "Brookdale Rd",
+            "Gelena Rd",
+            "Taunton St",
+            "Michael Rd",
+            "Joey Dr",
+            "Martindale St",
+            "Dale Rd",
+            "Puritan Rd",
+            "Weston St",
+            "Aubrey Ave",
+            "Chelfield St",
+            "Sebring Rd",
+            "Fairgreen Ln",
+            "Northview St",
+            "Danbury St",
+            "Clark St",
+            "Holme Cir",
+            "Hilspach St",
+            "Sperry St",
+            "Stoney Ln",
+            "Scotchbrook Dr",
+            "Arlan St",
+            "Lister St",
+            "Chase Rd",
+            "Legion St",
+            "Shelly Rd",
+            "Angus Pl",
+            "Norcross Ln",
+            "Hoff St",
+            "Pilgrim Ln",
+            "Jenny Pl",
+            "Maxwell Pl",
+            "Old Ashton Rd",
+            "Colima Rd",
+            "Diplomat Pl",
+            "Saxton Rd",
+            "Ryerson Pl",
+            "Lewin Pl",
+            "Wooden Bridge Rd",
+            "Colony Dr",
+            "Marcy Pl",
+            "Rachael St",
+            "Eastview St",
+            "Tracey St",
+            "Voits Ln",
+            "Dean Plz",
+            "Ambassador Pl",
+            "Northview Rd",
+            "Lavender St",
+            "Linden Ave",
+            "Nester Pl",
+            "Arthur St",
+            "Alicia St",
+            "Shipley Pl",
+            "Pearson Ave",
+            "Holyoke Pl",
+            "Haven Pl",
+            "Chestnut Ln",
+            "Pennypack St",
+            "Evans St."
+        ],
+        "Railroad features": [
+            "Norfolk Southern Rlwy(Penn Central RR)",
+            "Norfolk Southern Rlwy(Pennsylvania RR)."
+        ],
+        "detailed profile": "Academy Gardens neighborhood detailed profile"
+    },
+    {
+        "Name": "Allegheny West",
+        "Area": "1.646 square miles",
+        "Population": "18,561",
+        "Population density": {
+            "Allegheny West": "11,274 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Allegheny West": "$33,083 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Allegheny West": "$721",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "8,436",
+            "Females": "10,124"
+        },
+        "Median age": {
+            "Males": "29.1 years",
+            "Females": "35.6 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [6.4% of all units]": {
+                "Allegheny West": "$63,714 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [74.3% of all units]": {
+                "This neighborhood": "$76,186 ",
+                "city": "$162,850"
+            }
+        },
+        "Average estimated value of housing units in 2 - unit structures in 2016 [5.7% of all units]": {
+            "This neighborhood": "$157,361 ",
+            "Philadelphia": "$206,309"
+        },
+        "Most popular occupations of males": [
+            "service occupations (29.1%)"
+        ],
+        "Most popular occupations of females": [
+            "sales and office occupations (29.2%)"
+        ],
+        "Highways in this neighborhood": [
+            "W Lehigh Ave",
+            "W Allegheny Ave",
+            "Roosevelt Blvd(US Hwy 1)",
+            "US Hwy 13(Ridge Ave)",
+            "N 29th St",
+            "Henry Ave",
+            "Roberts Ave",
+            "State Rte 611(N Broad St)",
+            "Kelly Dr(E River Dr)."
+        ],
+        "Roads and streets": [
+            "W Clearfield St",
+            "W Hunting Park Ave",
+            "W Indiana Ave",
+            "W Somerset St",
+            "W Cambria St",
+            "Fox St",
+            "N 25th St",
+            "W Westmoreland St",
+            "N 26th St",
+            "N 27th St",
+            "N 23rd St",
+            "N 22nd St",
+            "W Lippincott St",
+            "N 24th St",
+            "Stokley St",
+            "N Marston St",
+            "N Bambrey St",
+            "N Stillman St",
+            "N Judson St",
+            "W Toronto St",
+            "W Willard St",
+            "N 21st St",
+            "Chalmers Ave",
+            "N 20th St",
+            "W Roosevelt Blvd",
+            "Abbottsford Ave",
+            "N Bailey St",
+            "W Seltzer St",
+            "W Glenwood Ave",
+            "N Taylor St",
+            "N Bonsall St",
+            "N Croskey St",
+            "N 19th St",
+            "McMichael St",
+            "N 17th St",
+            "Berkeley Dr",
+            "N Ringgold St",
+            "Scotts Ln",
+            "N 28th St",
+            "W Silver St",
+            "W Sterner St",
+            "W Sedgley Ave",
+            "N Hemberger St",
+            "N Newkirk St",
+            "N 34th St",
+            "N 35th St",
+            "N Taney St",
+            "N Garnet St",
+            "N Lambert St",
+            "N Woodstock St",
+            "W Wishart St",
+            "N Dover St",
+            "W Clementine St",
+            "N Opal St",
+            "N Shedwick St",
+            "N Van Pelt St",
+            "W Hilton St",
+            "W Stella St",
+            "N 32nd St",
+            "N 33rd St",
+            "N 16th St",
+            "N Spangler St",
+            "N 18th St",
+            "W Mayfield St",
+            "N 15th St",
+            "Mc Michael St",
+            "N 30th St",
+            "N Hicks St",
+            "N Napa St",
+            "Defense Ter",
+            "N Pennock St",
+            "W Commissioner St",
+            "W Elkhart St",
+            "N Etting St",
+            "N Sydenham St",
+            "N Patton St",
+            "Authority Ter",
+            "W Rush St",
+            "W Stokley St",
+            "Ferry Rd",
+            "N Hollywood St",
+            "N Gratz St",
+            "N Natrona St",
+            "Madison",
+            "Old Bridge Rd",
+            "Dobson Row",
+            "W Abbottsford Ave."
+        ],
+        "Railroad features": [
+            "Norfolk Southern Rlwy(Reading RR)",
+            "Penn Central RR(Norfolk Southern Rlwy)",
+            "Norfolk Southern Rlwy."
+        ],
+        "detailed profile": "Allegheny West neighborhood detailed profile"
+    }, {
+        "Name": "Andorra",
+        "Area": "2.665 square miles",
+        "Population": "6,931",
+        "Population density": {
+            "Andorra": "2,601 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Andorra": "$72,044 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Andorra": "$1,312 ",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "3,226",
+            "Females": "3,704"
+        },
+        "Median age": {
+            "Males": "38.7 years",
+            "Females": "46.4 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [29.7% of all units]": {
+                "Andorra": "$266,809 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [16.7% of all units]": {
+                "This neighborhood": "$201,643 ",
+                "city": "$162,850"
+            }
+        },
+        "Most popular occupations of males": [
+            "sales and office occupations [21.8  %]",
+            "service occupations [21.6  %]",
+            "management occupations [except farmers)(10.1  %]",
+            "architecture and engineering occupations [8.2  %]",
+            "production occupations [7.8  %]",
+            "transportation occupations [5.4  %]",
+            "business and financial operations occupations [3.9 % )"
+        ],
+        "Most popular occupations of females": [
+            "sales and office occupations (31.1%)"
+        ],
+        "Highways in this neighborhood": [
+            "Ridge Ave",
+            "Henry Ave."
+        ],
+        "Roads and streets": [
+            "Port Royal Ave",
+            "Cathedral Rd",
+            "Manatawna Ave",
+            "Bells Mill Rd",
+            "Old Line Rd",
+            "Spring Ln",
+            "Summit Ave",
+            "Caledonia St",
+            "Hagys Mill Rd",
+            "Lykens Ln",
+            "Wissahickon Dr",
+            "Grakyn Ln",
+            "Wissahickon Ave",
+            "Clyde Ln",
+            "Northwestern Ave",
+            "Chippewa Rd",
+            "Crestview Rd",
+            "Sagamore Rd",
+            "Sequoia Rd",
+            "Glen Campbell Rd",
+            "Hendren St",
+            "Scotia Rd",
+            "River Rd",
+            "Harner St",
+            "Thomas Mill Ter",
+            "Lantern Ln",
+            "Belfry Dr",
+            "Steeple Dr",
+            "Greenhill Ln",
+            "Lare St",
+            "Inverness Ln",
+            "Ayrdale Rd",
+            "Seffert St",
+            "Lomond Ln",
+            "Ronnie Cir",
+            "Green Valley Dr",
+            "Keely St",
+            "Ayrdale Cres",
+            "Parkwood Ln",
+            "Pembrook Rd",
+            "Ronnie Ln",
+            "Sunset Ave",
+            "Glenroy Rd",
+            "Tiona St",
+            "Ivins Rd",
+            "Buttonwood Pl",
+            "Eva St",
+            "Lawnton St",
+            "Ayrdale Pl",
+            "Lothian Pl",
+            "Cathedral Cir",
+            "Prelate Cir",
+            "Brierdale Rd",
+            "Nittany Ln",
+            "Sycamore Ln",
+            "Keely Pl",
+            "Vestry Cir",
+            "Basilica Cir",
+            "Cloister Cir",
+            "Ayrdalecrescent St",
+            "Campanile Rd",
+            "W Bells Mill Rd",
+            "Rex Ave."
+        ],
+        "Railroad features": "Norfolk Southern Rlwy(Reading RR).",
+        "detailed profile": "Andorra neighborhood detailed profile"
+    },
+    {
+        "Name": "Antique Row",
+        "Area": "0.021 square miles",
+        "Roads and streets": [
+            "Pine St",
+            "Waverly St",
+            "Waverly Walk",
+            "Panama St",
+            "S 13 th St",
+            "S 12 th St",
+            "S Quince St",
+            "S 11 th St",
+            "S 10th St",
+            "S Camac St."
+        ],
+        "detailed profile": "Antique Row neighborhood detailed profile"
+    },
+    {
+        "Name": "Ashton Woodenbridge",
+        "Area": "5.803 square miles",
+        "Population": "49,211",
+        "Population density": {
+            "Ashton Woodenbridge": "8,480 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Ashton Woodenbridge": "$57,595 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Ashton Woodenbridge": "$912",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "24,356",
+            "Females": "24,854"
+        },
+        "Median age": {
+            "Males": "39.0 years",
+            "Females": "42.4 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [12.9% of all units]": {
+                "Ashton Woodenbridge": "$236,349 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [61.1% of all units]": {
+                "This neighborhood": "$188,922 ",
+                "city": "$162,850"
+            }
+        },
+        "Average estimated value of housing units in 2 - unit structures in 2016 [23.8% of all units]": {
+            "This neighborhood": "$174,449 ",
+            "Philadelphia": "$206,309"
+        },
+        "Average estimated '16 value of housing units in 5-or-more-unit structures [3.4% of all units]": {
+            "Ashton Woodenbridge": "$110,933 ",
+            "Philadelphia": "$374,953"
+        },
+        "Most popular occupations of males": [
+            "sales and office occupations (21.4%)"
+        ],
+        "Most popular occupations of females": [
+            "sales and office occupations (36.7%)"
+        ],
+        "Highways in this neighborhood": [
+            "Woodhaven Rd(State Rte 63)",
+            "Grant Ave",
+            "Academy Rd",
+            "Knights Rd",
+            "US Hwy 13(Frankford Ave)."
+        ],
+        "Roads and streets": [
+            "Roosevelt Blvd",
+            "Red Lion Rd",
+            "Comly Rd",
+            "Morrell Ave",
+            "Norcom Rd",
+            "Waldemire Dr",
+            "Decatur Rd",
+            "Chalfont Dr",
+            "Chesterfield Rd",
+            "Normandy Dr",
+            "Blue Grass Rd",
+            "E Keswick Rd",
+            "Brookview Rd",
+            "Drummond Rd",
+            "Calera Rd",
+            "Templeton Dr",
+            "Caroline Rd",
+            "Kipling Ln",
+            "W Crown Ave",
+            "Glenfield Rd",
+            "Avalon St",
+            "Fairdale Rd",
+            "President St",
+            "Newberry Rd",
+            "Glenn St",
+            "E Crown Ave",
+            "Brandon Rd",
+            "Thornton Rd",
+            "Covert Rd",
+            "Primrose Rd",
+            "S Canterbury Rd",
+            "Nestling Rd",
+            "S Keswick Rd",
+            "Joseph Kelly Ter",
+            "Nightingale Rd",
+            "Dutton Rd",
+            "Alberta Dr",
+            "Salina Rd",
+            "Colman Rd",
+            "Wessex Ln",
+            "Legion St",
+            "Crestmont Ave",
+            "Sussex Ln",
+            "Elmore Rd",
+            "Ashfield Ln",
+            "Whitehall Ln",
+            "Basile Rd",
+            "Narcissus Rd",
+            "Derry Rd",
+            "Riverside Dr",
+            "Ashton Rd",
+            "Birch Rd",
+            "Nautilus Rd",
+            "Cromwell Rd",
+            "Drumore Dr",
+            "Modena Dr",
+            "Kirby Dr",
+            "Rayland Rd",
+            "Farwell Rd",
+            "Oakhill Rd",
+            "Albemarle Ln",
+            "Byrne Rd",
+            "Clarenden Rd",
+            "Pelle Cir",
+            "Patrician Dr",
+            "Heflin Rd",
+            "Berea St",
+            "Charter Rd",
+            "Ronnald Dr",
+            "Nottingham Ln",
+            "Dorchester Rd",
+            "Churchill Ln",
+            "N Hereford Ln",
+            "Neptune Rd",
+            "N Canterbury Rd",
+            "Kayford Cir",
+            "Andrea Rd",
+            "Darnell Rd",
+            "Helmer Dr",
+            "Stevenson Ln",
+            "Lavender St",
+            "Kyle Rd",
+            "Elliston Cir",
+            "Violet Dr",
+            "S Hereford Ln",
+            "Gloucester Ln",
+            "Kilburn Rd",
+            "W Keswick Rd",
+            "Nature Rd",
+            "Prince Cir",
+            "Lanett Rd",
+            "Carey Rd",
+            "Abby Rd",
+            "Carteret Dr",
+            "Essex Ln",
+            "Greenacres Rd",
+            "Dows Rd",
+            "Brook Ln",
+            "Millbrook Rd",
+            "Lancelot Pl",
+            "Corry Rd",
+            "Constance Rd",
+            "Avner St",
+            "Perrin Rd",
+            "Rhett Rd",
+            "Charteris Rd",
+            "Fordham Rd",
+            "Rowena Dr",
+            "Inwood Ln",
+            "Outlook St",
+            "Colman Ter",
+            "Morrell Cir",
+            "Philcrest Rd",
+            "Thornwood Pl",
+            "Hawley Rd",
+            "Comly Pl",
+            "Westbourne Pl",
+            "Academy Pl",
+            "Saxon Pl",
+            "E Roosevelt Blvd",
+            "Colman Pl",
+            "Lavender Pl",
+            "Carey Pl",
+            "Chelsea Pl",
+            "Ambridge Pl",
+            "Harrow Rd",
+            "Derry Pl",
+            "Vale Ln",
+            "Brandon Pl",
+            "Nestor Rd",
+            "Warfield Pl",
+            "Drumore Pl",
+            "Orchard Ln",
+            "Glenbrook Pl",
+            "Haldeman Ave",
+            "Alberta Pl",
+            "Salina Pl",
+            "Carey Ter",
+            "Pedrick Rd",
+            "Millbrook Pl",
+            "Kane Rd",
+            "Corry Pl",
+            "Derry Ter",
+            "Amity Rd",
+            "Tara Rd",
+            "Legion Pl",
+            "Daner Ln",
+            "Pitt Pl",
+            "Waterview Ln",
+            "Avalon Pl",
+            "Pelle Rd",
+            "Barbary Rd",
+            "S Keswick Ter",
+            "Fenn Dr",
+            "S Keswick Plz",
+            "Leon St",
+            "Woburn Pl",
+            "S Keswick Pl",
+            "Ashwood Ave",
+            "Modena Ter",
+            "Nedla Rd",
+            "Downing Pl",
+            "Byberry Rd",
+            "Medford Rd",
+            "Barner Dr",
+            "Thornbrook Pl",
+            "Biggans Pl",
+            "Kipling Pl",
+            "Elmore Pl",
+            "Carey Plz",
+            "Modena Pl",
+            "Ellicott Rd",
+            "Neptune Ct",
+            "Elmore Ter",
+            "Conwell Ave",
+            "Lott St",
+            "Alberta Ter",
+            "Waldemire Pl",
+            "Stewarts Way",
+            "Norcom Ct."
+        ],
+        "Other features": "Walton Run.",
+        "detailed profile": "Ashton Woodenbridge neighborhood detailed profile"
+    },
+    {
+        "Name": "Aston (Astonville)",
+        "Area": "0.931 square miles",
+        "Population": "7,417",
+        "Population density": {
+            "Aston (Astonville)": "7,966 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Aston (Astonville)": "$50,248 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Aston (Astonville)": "$1,049 ",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "3,040",
+            "Females": "4,377"
+        },
+        "Median age": {
+            "Males": "47.8 years",
+            "Females": "54.6 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [6.2% of all units]": {
+                "Aston (Astonville)": "$334,595 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [28.7% of all units]": {
+                "This neighborhood": "$156,782 ",
+                "city": "$162,850"
+            },
+            "Average estimated '16 value of housing units in 5-or-more-unit structures [49.1% of all units]": {
+                "Aston (Astonville)": "$409,214 ",
+                "Philadelphia": "$374,953"
+            }
+        },
+        "Most popular occupations of males": [
+            "sales and office occupations [22.6  %]",
+            "service occupations [21.0  %]",
+            "transportation occupations [13.3  %]",
+            "community and social services occupations [8.5  %]",
+            "computer and mathematical occupations [5.8  %]",
+            "legal occupations [5.6  %]",
+            "healthcare practitioners and technical occupations [4.5 % )"
+        ],
+        "Most popular occupations of females": [
+            "sales and office occupations (32.4%)"
+        ],
+        "Highways in this neighborhood": [
+            "City Ave (US Hwy 1, E City Ave)."
+        ],
+        "Roads and streets": [
+            "Chamounix Dr"
+        ],
+        "detailed profile": "Aston neighborhood detailed profile"
+    },
+    {
+        "Name": "Avenue Of The Arts - North",
+        "Area": "0.013 square miles",
+        "Population": "199",
+        "Population density": {
+            "Avenue Of The Arts - North": "15,850 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Avenue Of The Arts - North": "$87,752 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Avenue Of The Arts - North": "$1,850 ",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "98",
+            "Females": "100"
+        },
+        "Median age": {
+            "Males": "33.7 years",
+            "Females": "29.0 years"
+        },
+        "Most popular occupations of males": [
+            "service occupations (29.7%)"
+        ],
+        "Most popular occupations of females": [
+            "business and financial operations occupations (24.9%)"
+        ],
+        "Highways in this neighborhood": [
+            "State Rte 611(N Broad St)."
+        ],
+        "Roads and streets": [
+            "Cherry St."
+        ],
+        "detailed profile": "Avenue Of The Arts - North neighborhood detailed profile"
+    },
+    {
+        "Name": "Avenue Of The Arts - South",
+        "Area": "0.013 square miles",
+        "Population": "332",
+        "Population density": {
+            "Avenue Of The Arts - South": "26,031 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Avenue Of The Arts - South": "$55,633 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Avenue Of The Arts - South": "$1,688 ",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "166",
+            "Females": "166"
+        },
+        "Median age": {
+            "Males": "37.3 years",
+            "Females": "69.9 years"
+        },
+        "Most popular occupations of males": [
+            "healthcare practitioners and technical occupations (24.4%)"
+        ],
+        "Most popular occupations of females": [
+            "healthcare practitioners and technical occupations (45.1%)"
+        ],
+        "Highways in this neighborhood": [
+            "Broad St (State Rte 611, S Broad St)."
+        ],
+        "Roads and streets": [
+            "Spruce St."
+        ],
+        "detailed profile": "Avenue Of The Arts - South neighborhood detailed profile"
+    },
+    {
+        "Name": "Bainbridge St Booksellers Row",
+        "Area": "0.028 square miles",
+        "Population": "884",
+        "Population density": {
+            "Bainbridge St Booksellers Row": "31,789 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Bainbridge St Booksellers Row": "$151,330 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Bainbridge St Booksellers Row": "$2,079 ",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "426",
+            "Females": "457"
+        },
+        "Median age": {
+            "Males": "56.2 years",
+            "Females": "59.1 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [5.2% of all units]": {
+                "Bainbridge St Booksellers Row": "$73,405 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [50.4% of all units]": {
+                "This neighborhood": "$267,377 ",
+                "city": "$162,850"
+            },
+            "Average estimated value of housing units in 2 - unit structures in 2016 [15.3% of all units]": {
+                "This neighborhood": "$285,336 ",
+                "Philadelphia": "$206,309"
+            },
+            "Average estimated '16 value of housing units in 3-to-4-unit structures [23.0% of all units]": {
+                "Bainbridge St Booksellers Row": "$129,242 ",
+                "city": "$222,568"
+            },
+            "Average estimated '16 value of housing units in 5-or-more-unit structures [3.2% of all units]": {
+                "Bainbridge St Booksellers Row": "$225,733 ",
+                "Philadelphia": "$374,953"
+            }
+        },
+        "Most popular occupations of males": [
+            "management occupations (except farmers) (18.9%)"
+        ],
+        "Most popular occupations of females": [
+            "sales and office occupations (29.7%)"
+        ],
+        "Roads and streets": [
+            "Bainbridge St",
+            "Pemberton St",
+            "Kenilworth St",
+            "S 6th St",
+            "S Mildred St",
+            "S Marshall St",
+            "S 7th St",
+            "S Schell St",
+            "S 8th St",
+            "S Darien St",
+            "S Perth St."
+        ],
+        "detailed profile": "Bainbridge St Booksellers Row neighborhood detailed profile"
+    },
+    {
+        "Name": "Bainbridge Street",
+        "Area": "0.010 square miles",
+        "Population": "395",
+        "Population density": {
+            "Bainbridge Street": "39,544 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Bainbridge Street": "$93,750 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Bainbridge Street": "$1,180 ",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "217",
+            "Females": "178"
+        },
+        "Median age": {
+            "Males": "31.6 years",
+            "Females": "34.8 years"
+        },
+        "Most popular occupations of males": [
+            "management occupations (except farmers) (38.1%)"
+        ],
+        "Most popular occupations of females": [
+            "healthcare practitioners and technical occupations (28.9%)"
+        ],
+        "Roads and streets": [
+            "Bainbridge St",
+            "Monroe St",
+            "S Leithgow St",
+            "E Passyunk Ave",
+            "Bergan Ct",
+            "S Reese St."
+        ],
+        "detailed profile": "Bainbridge Street neighborhood detailed profile"
+    },
+    {
+        "Name": "Baring",
+        "Area": "0.545 square miles",
+        "Population": "19,554",
+        "Population density": {
+            "Baring": "35,891 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Baring": "$21,432 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Baring": "$742",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "10,256",
+            "Females": "9,297"
+        },
+        "Median age": {
+            "Males": "25.4 years",
+            "Females": "29.6 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [5.3% of all units]": {
+                "Baring": "$29,695 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [45.9% of all units]": {
+                "This neighborhood": "$69,386 ",
+                "city": "$162,850"
+            }
+        },
+        "Most popular occupations of males": [
+            "service occupations (26.3%)"
+        ],
+        "Most popular occupations of females": [
+            "service occupations (31.1%)"
+        ],
+        "Highways in this neighborhood": [
+            "Lancaster Ave",
+            "Spring Garden St",
+            "US Hwy 13(Powelton Ave)."
+        ],
+        "Roads and streets": [
+            "Haverford Ave",
+            "Mount Vernon St",
+            "Wallace St",
+            "Brandywine St",
+            "Fairmount Ave",
+            "Hamilton St",
+            "Mantua Ave",
+            "Baring St",
+            "N 33rd St",
+            "N 32nd St",
+            "Melon St",
+            "N 34th St",
+            "N 36th St",
+            "N 35th St",
+            "Aspen St",
+            "N 37th St",
+            "N 38th St",
+            "N 40th St",
+            "Pearl St",
+            "N 39th St",
+            "Brown St",
+            "N Union St",
+            "Race St",
+            "Parrish St",
+            "Reno St",
+            "N 31st St",
+            "Folsom St",
+            "Olive St",
+            "N Sloan St",
+            "Cherry St",
+            "Arch St",
+            "N Shedwick St",
+            "N Dekalb St",
+            "N Natrona St",
+            "N Spangler St",
+            "Ogden St",
+            "Summer St",
+            "Winter St",
+            "N Napa St",
+            "N Lowber St",
+            "N Douglas St",
+            "Sloan St",
+            "Carriage Ln."
+        ],
+        "Railroad features": "Penn Central RR(Norfolk Southern Rlwy).",
+        "detailed profile": "Baring neighborhood detailed profile"
+    },
+    {
+        "Name": "Bartram Gardens (Bartram's Gardens)",
+        "Area": "0.344 square miles",
+        "Population": "3,730",
+        "Population density": {
+            "Bartram Gardens (Bartram's Gardens)": "10,829 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Bartram Gardens (Bartram's Gardens)": "$27,384 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Bartram Gardens (Bartram's Gardens)": "$472",
+            "Philadelphia": "$808,"
+        },
+        "Male vs Females": {
+            "Males": "1,590",
+            "Females": "2,139,"
+        },
+        "Median age": {
+            "Males": "32.7 years",
+            "Females": "39.0 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [4.9% of all units]": {
+                "Bartram Gardens (Bartram's Gardens)": "$57,987 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [74.0% of all units]": {
+                "This neighborhood": "$63,999 ",
+                "city": "$162,850"
+            }
+        },
+        "Most popular occupations of males": [
+            "sales and office occupations (24.7%)"
+        ],
+        "Most popular occupations of females": [
+            "service occupations (45.4%)"
+        ],
+        "Highways in this neighborhood": [
+            "Lindbergh Blvd"
+        ],
+        "Roads and streets": [
+            "S 58th St"
+        ],
+        "Railroad features": [
+            "Baltimore and Ohio RR"
+        ],
+        "detailed profile": "Bartram Gardens neighborhood detailed profile"
+    },
+    {
+        "Name": "Belfield",
+        "Area": "0.804 square miles",
+        "Population": "20,683",
+        "Population density": {
+            "Belfield": "25,734 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Belfield": "$29,399 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Belfield": "$602",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "8,250",
+            "Females": "12,433"
+        },
+        "Median age": {
+            "Males": "36.2 years",
+            "Females": "38.0 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [8.7% of all units]": {
+                "Belfield": "$148,545 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [50.6% of all units]": {
+                "This neighborhood": "$103,619 ",
+                "city": "$162,850"
+            },
+            "Average estimated value of housing units in 2 - unit structures in 2016 [15.8% of all units]": {
+                "This neighborhood": "$125,593 ",
+                "Philadelphia": "$206,309"
+            }
+        },
+        "Most popular occupations of males": [
+            "service occupations (25.8%)"
+        ],
+        "Most popular occupations of females": [
+            "service occupations (31.8%)"
+        ],
+        "Highways in this neighborhood": [
+            "W Olney Ave"
+        ],
+        "Roads and streets": [
+            "Ogontz Ave"
+        ],
+        "Railroad features": [
+            "Norfolk Southern Rlwy(Reading RR)."
+        ],
+        "detailed profile": "Belfield neighborhood detailed profile"
+    },
+    {
+        "Name": "Bell's Corners",
+        "Area": "1.246 square miles",
+        "Population": "17,366",
+        "Population density": {
+            "Bell's Corners": "13,935 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Bell's Corners": "$45,493 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Bell's Corners": "$759",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "9,362",
+            "Females": "8,003"
+        },
+        "Median age": {
+            "Males": "39.1 years",
+            "Females": "40.2 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [26.7% of all units]": {
+                "Bell's Corners": "$220,167 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [31.7% of all units]": {
+                "This neighborhood": "$169,830 ",
+                "city": "$162,850"
+            },
+            "Average estimated value of housing units in 2 - unit structures in 2016 [24.4% of all units]": {
+                "This neighborhood": "$173,621 ",
+                "Philadelphia": "$206,309"
+            }
+        },
+        "Most popular occupations of males": [
+            "sales and office occupations (15.8%)"
+        ],
+        "Most popular occupations of females": [
+            "sales and office occupations [34.0 % )"
+        ],
+        "Highways in this neighborhood": [
+            "Rhawn St"
+        ],
+        "Roads and streets": [
+            "Roosevelt Blvd(E Roosevelt Blvd)"
+        ],
+        "Railroad features": "Csx RR(Reading RR).",
+        "detailed profile": "Bell's Corners neighborhood detailed profile"
+    },
+    {
+        "Name": "Bella Vista",
+        "Area": "0.154 square miles",
+        "Population": "8,643",
+        "Population density": {
+            "Bella Vista": "56,106 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Bella Vista": "$71,992 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Bella Vista": "$1,238 ",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "4,208",
+            "Females": "4,435"
+        },
+        "Median age": {
+            "Males": "33.3 years",
+            "Females": "34.6 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [5.0% of all units]": {
+                "Bella Vista": "$378,571 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [50.6% of all units]": {
+                "This neighborhood": "$250,514 ",
+                "city": "$162,850"
+            },
+            "Average estimated value of housing units in 2 - unit structures in 2016 [12.4% of all units]": {
+                "This neighborhood": "$429,208 ",
+                "Philadelphia": "$206,309"
+            },
+            "Average estimated '16 value of housing units in 3-to-4-unit structures [19.7% of all units]": {
+                "Bella Vista": "$420,974 ",
+                "city": "$222,568"
+            },
+            "Average estimated '16 value of housing units in 5-or-more-unit structures [19.2% of all units]": {
+                "Bella Vista": "$333,269 ",
+                "Philadelphia": "$374,953"
+            }
+        },
+        "Most popular occupations of males": [
+            "service occupations [16.6 % )"
+        ],
+        "Most popular occupations of females": [
+            "sales and office occupations (22.6%)"
+        ],
+        "Roads and streets": [
+            "S 6th St"
+        ],
+        "detailed profile": "Bella Vista neighborhood detailed profile"
+    },
+    {
+        "Name": "Belmont",
+        "Area": "1.290 square miles",
+        "Population": "38,783",
+        "Population density": {
+            "Belmont": "30,058 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Belmont": "$20,536 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Belmont": "$618",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "19,476",
+            "Females": "19,306"
+        },
+        "Median age": {
+            "Males": "26.4 years",
+            "Females": "31.1 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [4.7% of all units]": {
+                "Belmont": "$84,231 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [50.8% of all units]": {
+                "This neighborhood": "$80,102 ",
+                "city": "$162,850"
+            }
+        },
+        "Most popular occupations of males": [
+            "service occupations (35.1%)"
+        ],
+        "Most popular occupations of females": [
+            "service occupations (43.2%)"
+        ],
+        "Limited-access highways (interstate or state) in this neighborhood": "Schuylkill Expy (I- 76, US Hwy 30)",
+        "Highways in this neighborhood": [
+            "Haverford Ave"
+        ],
+        "Roads and streets": [
+            "Wallace St"
+        ],
+        "Railroad features": "Penn Central RR(Norfolk Southern Rlwy)",
+        "detailed profile": "Belmont neighborhood detailed profile"
+    },
+    {
+        "Name": "Ben Franklin Parkway - Kelly Drive",
+        "Area": "0.235 square miles",
+        "Population": "3,299",
+        "Population density": {
+            "Ben Franklin Parkway - Kelly Drive": "14,016 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Ben Franklin Parkway - Kelly Drive": "$82,021 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Ben Franklin Parkway - Kelly Drive": "$1,654 ",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "1,719",
+            "Females": "1,579"
+        },
+        "Median age": {
+            "Males": "34.5 years",
+            "Females": "32.0 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [4.2% of all units]": {
+                "Ben Franklin Parkway - Kelly Drive": "$263,478 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [44.5% of all units]": {
+                "This neighborhood": "$576,993 ",
+                "city": "$162,850"
+            },
+            "Average estimated '16 value of housing units in 5-or-more-unit structures [71.8% of all units]": {
+                "Ben Franklin Parkway - Kelly Drive": "$418,369 ",
+                "Philadelphia": "$374,953"
+            }
+        },
+        "Most popular occupations of males": [
+            "computer and mathematical occupations (17.9%)"
+        ],
+        "Most popular occupations of females": [
+            "business and financial operations occupations (18.4%)"
+        ],
+        "Limited-access highways (interstate or state) in this neighborhood": "I- 676 (US Hwy 30, Vine Street Expy).",
+        "Highways in this neighborhood": [
+            "Benjamin Franklin Pkwy"
+        ],
+        "Roads and streets": [
+            "Spring Garden St"
+        ],
+        "Railroad features": "Baltimore and Ohio RR.",
+        "detailed profile": "Ben Franklin Parkway - Kelly Drive neighborhood detailed profile"
+    },
+    {
+        "Name": "Big Hotels",
+        "Area": "0.040 square miles",
+        "Population": "1,266",
+        "Population density": {
+            "Big Hotels": "31,665 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Big Hotels": "$85,713 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Big Hotels": "$1,719 ",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "609",
+            " Females": "656"
+        },
+        "Median age": {
+            "Males": "36.3 years",
+            "Females": "32.2 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [2.0% of all units]": {
+                "Big Hotels": "$263,478 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [15.4% of all units]": {
+                "This neighborhood": "$576,993 ",
+                "city": "$162,850"
+            },
+            "Average estimated '16 value of housing units in 5-or-more-unit structures [58.3% of all units]": {
+                "Big Hotels": "$418,369 ",
+                "Philadelphia": "$374,953"
+            }
+        },
+        "Most popular occupations of males": [
+            "business and financial operations occupations [15.7 % )"
+        ],
+        "Most popular occupations of females": [
+            "business and financial operations occupations (22.9%)"
+        ],
+        "Limited-access highways (interstate or state) in this neighborhood": "Vine Street Expy (I- 676, US Hwy 30).",
+        "Highways in this neighborhood": [
+            "Vine St."
+        ],
+        "Roads and streets": [
+            "N 17th St"
+        ],
+        "detailed profile": "Big Hotels neighborhood detailed profile"
+    },
+    {
+        "Name": "Brewerytown",
+        "Area": "0.534 square miles",
+        "Population": "18,409",
+        "Population density": {
+            "Brewerytown": "34,468 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Brewerytown": "$33,420 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Brewerytown": "$655",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "8,376",
+            "Females": "10,032"
+        },
+        "Median age": {
+            "Males": "37.7 years",
+            "Females": "37.1 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [8.2% of all units]": {
+                "Brewerytown": "$166,720 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [69.1% of all units]": {
+                "This neighborhood": "$185,896 ",
+                "city": "$162,850"
+            }
+        },
+        "Most popular occupations of males": [
+            "service occupations (25.3%)"
+        ],
+        "Most popular occupations of females": [
+            "sales and office occupations (28.9%)"
+        ],
+        "Highways in this neighborhood": [
+            "W Girard Ave"
+        ],
+        "Roads and streets": [
+            "W Master St"
+        ],
+        "Railroad features": "Penn Central RR(Norfolk Southern Rlwy)",
+        "detailed profile": "Brewerytown neighborhood detailed profile"
+    },
+    {
+        "Name": "Bridesburg",
+        "Area": "1.608 square miles",
+        "Population": "8,367",
+        "Population density": {
+            "Bridesburg": "5,203 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Bridesburg": "$59,968 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Bridesburg": "$736",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "4,116",
+            "Females": "4,250"
+        },
+        "Median age": {
+            "Males": "38.4 years",
+            "Females": "42.8 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [14.1% of all units]": {
+                "Bridesburg": "$171,535 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [79.9% of all units]": {
+                "This neighborhood": "$143,109 ",
+                "city": "$162,850"
+            }
+        },
+        "Most popular occupations of males": [
+            "service occupations (18.5%)"
+        ],
+        "Most popular occupations of females": [
+            "sales and office occupations (34.8%)"
+        ],
+        "Limited - access highways(interstate or state) in this neighborhood": "Delaware Expy(I - 95).",
+        "Highways in this neighborhood": [
+            "State Rte 90(Betsy Ross Brg)"
+        ],
+        "Roads and streets": [
+            "E Thompson St"
+        ],
+        "Railroad features": "Penn Central RR(Norfolk Southern Rlwy)",
+        "Other features": "Frankford Crk.",
+        "detailed profile": "Bridesburg neighborhood detailed profile"
+    },
+    {
+        "Name": "Burholme",
+        "Area": "0.179 square miles",
+        "Population": "1,212",
+        "Population density": {
+            "Burholme": "6,779 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Burholme": "$66,533 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Burholme": "$1,015 ",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "694",
+            "Females": "518"
+        },
+        "Median age": {
+            "Males": "34.1 years",
+            "Females": "38.1 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [22.8% of all units]": {
+                "Burholme": "$181,894 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [53.2% of all units]": {
+                "This neighborhood": "$169,816 ",
+                "city": "$162,850"
+            },
+            "Average estimated value of housing units in 2 - unit structures in 2016 [14.7% of all units]": {
+                "This neighborhood": "$126,333 ",
+                "Philadelphia": "$206,309"
+            }
+        },
+        "Most popular occupations of males": [
+            "service occupations (24.7%)"
+        ],
+        "Most popular occupations of females": [
+            "sales and office occupations (28.3%)"
+        ],
+        "Highways in this neighborhood": [
+            "Cottman (State Rte 73, Cottman Ave)"
+        ],
+        "Roads and streets": [
+            "Jefferson Ave",
+            "Hasbrook Ave (Hasbrook Avenue)."
+        ],
+        "Other features": "Tacony Creek Br.",
+        "detailed profile": "Burholme neighborhood detailed profile"
+    },
+    {
+        "Name": "Bustleton",
+        "Area": "4.086 square miles",
+        "Population": "31,120",
+        "Population density": {
+            "Bustleton": "7,617 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Bustleton": "$71,011 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Bustleton": "$825",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "15,110",
+            "Females": "16,010"
+        },
+        "Median age": {
+            "Males": "43.2 years",
+            "Females": "46.3 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [38.9% of all units]": {
+                "Bustleton": "$299,550 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [39.8% of all units]": {
+                "This neighborhood": "$199,302 ",
+                "city": "$162,850"
+            },
+            "Average estimated value of housing units in 2 - unit structures in 2016 [13.0% of all units]": {
+                "This neighborhood": "$213,297 ",
+                "Philadelphia": "$206,309"
+            },
+            "Average estimated '16 value of housing units in 5-or-more-unit structures [16.0% of all units]": {
+                "Bustleton": "$108,181 ",
+                "Philadelphia": "$374,953"
+            }
+        },
+        "Most popular occupations of males": [
+            "sales and office occupations (24.8%)"
+        ],
+        "Most popular occupations of females": [
+            "sales and office occupations (30.0%)"
+        ],
+        "Highways in this neighborhood": [
+            "Welsh Rd"
+        ],
+        "Roads and streets": [
+            "Roosevelt Blvd"
+        ],
+        "Railroad features": "Csx RR(Reading RR)",
+        "detailed profile": "Bustleton neighborhood detailed profile"
+    },
+    {
+        "Name": "Byberry",
+        "Area": "3.737 square miles",
+        "Population": "13,796",
+        "Population density": {
+            "Byberry": "3,691 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Byberry": "$56,405 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Byberry": "$958",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "6,599",
+            "Females": "7,196"
+        },
+        "Median age": {
+            "Males": "38.6 years",
+            "Females": "40.9 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [12.0% of all units]": {
+                "Byberry": "$226,072 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [75.0% of all units]": {
+                "This neighborhood": "$189,499 ",
+                "city": "$162,850"
+            },
+            "Average estimated value of housing units in 2 - unit structures in 2016 [9.7% of all units]": {
+                "This neighborhood": "$189,127 ",
+                "Philadelphia": "$206,309"
+            },
+            "Average estimated '16 value of housing units in 5-or-more-unit structures [30.8% of all units]": {
+                "Byberry": "$110,933 ",
+                "Philadelphia": "$374,953"
+            },
+            "Average estimated value of mobile home in 2016 [3.2% of all units]": {
+                "Byberry": "$54,588 ",
+                "Philadelphia": "$159,865"
+            }
+        },
+        "Most popular occupations of males": [
+            "sales and office occupations (20.4%)"
+        ],
+        "Most popular occupations of females": [
+            "sales and office occupations (30.9%)"
+        ],
+        "Other features": [
+            "Poquessing Crk.",
+            "Byberry Crk"
+        ],
+        "Highways in this neighborhood": [
+            "Woodhaven Rd"
+        ],
+        "Roads and streets": [
+            "Roosevelt Blvd"
+        ],
+        "detailed profile": "Byberry neighborhood detailed profile"
+    },
+    {
+        "Name": "Callowhill",
+        "Area": "0.211 square miles",
+        "Population": "8,164",
+        "Population density": {
+            "Callowhill": "38,616 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Callowhill": "$76,285 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Callowhill": "$1,389 ",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "4,281",
+            "Females": "3,882"
+        },
+        "Median age": {
+            "Males": "32.5 years",
+            "Females": "30.4 years"
+        },
+        "Most popular occupations of males": [
+            "management occupations [except farmers)(18.3 % )"
+        ],
+        "Most popular occupations of females": [
+            "healthcare practitioners and technical occupations (22.9%)"
+        ],
+        "Limited-access highways (interstate or state) in this neighborhood": "US Hwy 30 (I- 676, Vine Street Expy).",
+        "Highways in this neighborhood": [
+            "Spring Garden St"
+        ],
+        "Roads and streets": [
+            "Callowhill St"
+        ],
+        "Railroad features": "Norfolk Southern Rlwy(Reading RR).",
+        "detailed profile": "Callowhill neighborhood detailed profile"
+    },
+    {
+        "Name": "Carroll Park",
+        "Area": "0.453 square miles",
+        "Population": "13,268",
+        "Population density": {
+            "Carroll Park": "29,305 people per square mile",
+            "Philadelphia": "11,606 people per square mile"
+        },
+        "Median household income in 2016": {
+            "Carroll Park": "$31,414 ",
+            "Philadelphia": "$41,449"
+        },
+        "Median rent in in 2016": {
+            "Carroll Park": "$646",
+            "Philadelphia": "$808"
+        },
+        "Male vs Females": {
+            "Males": "5,529",
+            "Females": "7,739"
+        },
+        "Median age": {
+            "Males": "34.1 years",
+            "Females": "36.8 years"
+        },
+        "Housing prices": {
+            "Average estimated value of detached houses in 2016 [7.9% of all units]": {
+                "Carroll Park": "$101,320 ",
+                "Philadelphia": "$278,085"
+            },
+            "Average estimated value of townhouses or other attached units in 2016 [71.1% of all units]": {
+                "This neighborhood": "$68,033 ",
+                "city": "$162,850"
+            },
+            "Average estimated value of housing units in 2 - unit structures in 2016 [14.8% of all units]": {
+                "This neighborhood": "$169,362 ",
+                "Philadelphia": "$206,309"
+            }
+        },
+        "Most popular occupations of males": [
+            "service occupations (39.4%)"
+        ],
+        "Most popular occupations of females": [
+            "sales and office occupations (35.9%)"
+        ],
+        "Highways in this neighborhood": [
+            "Haverford Ave"
+        ],
+        "Roads and streets": [
+            "W Girard Ave"
+        ],
+        "detailed profile": "Carroll Park neighborhood detailed profile"
+    }
+]
