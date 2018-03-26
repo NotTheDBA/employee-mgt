@@ -19,7 +19,7 @@ $(document).ready(function() {
     //this initializes a second global object called "Philly"
     // use:
     // Philly[10] - Get all neighborhood data
-    // Philly[10].Name - gets the name of neighborhood
+    // Philly[10].geoname - gets the name of neighborhood
     getData();
 
 
@@ -53,7 +53,6 @@ function makeLoadButton(label) {
             // loadList();
             // verifyCounts();
         loadMapData();
-        loadIncomes();
         console.log("Loading complete.")
     });
 
@@ -67,7 +66,7 @@ function makeQueryIncomeButton() {
     var button = $("<button>").text("Query Income").addClass("btn btn-primary btn-block");
     button.on("click", function() {
 
-        var hoodsRef = database.ref("Philly").child("hoods");
+        var hoodsRef = database.ref("Geo").child("hoods");
         var startIncome = "$25,000"
         var endIncome = "$30,000"
 
@@ -91,11 +90,11 @@ function makeQueryMapButton() {
     button.on("click", function() {
 
         var hoodsRef = database.ref("Geo").child("hoods");
-        var placeName = "PENNYPACK_PARK"
+        var findGeoName = "PENNYPACK_PARK"
 
         window.GeoResults = [];
 
-        hoodsRef.orderByChild("name").equalTo(placeName).on("child_added", function(snapshot) {
+        hoodsRef.orderByChild("geoname").equalTo(findGeoName).on("child_added", function(snapshot) {
             window.GeoResults.push(snapshot.val());
         });
 
@@ -117,9 +116,9 @@ function verifyCounts() {
     console.log(Object.keys(Philly).length);
     // console.log(Philly);
     // console.log(Philly[10]);
-    // console.log(Philly[10].Name);
+    // console.log(Philly[10].geoname);
     // console.log(Philly[10]["Median household income in 2016"]);
-    // console.log(Philly[10]["Median household income in 2016"][Philly[10].Name]);
+    // console.log(Philly[10]["Median household income in 2016"][Philly[10].geoname]);
 
     console.log(Object.keys(MapData.Map).length);
     // console.log(MapData);
@@ -167,26 +166,21 @@ function loadIncomes() {
         //puts the data in our global space
         window.Philly = jsonData;
 
-        // database.ref("Philly").remove()
-        // var hoodsRef = database.ref("Philly").child("hoods");
-
         var hoodsRef = database.ref("Geo").child("hoods");
 
-        var hoodCount = 0;
+        // var hoodCount = 0;
 
         Philly.forEach(thisHood => {
 
+            var namedHood = hoodsRef.child(thisHood.geoname);
             // console.log(thisHood);
-            console.log(thisHood["Median household income in 2016"]);
+            // console.log(thisHood.geoname);
+            // console.log(thisHood.listname);
+            // console.log(thisHood["Median household income in 2016"]);
             if (typeof thisHood["Median household income in 2016"] !== 'undefined') {
-                // hoodsRef.child(hoodCount).child("name").set(thisHood.Name)
-                // hoodsRef.child(hoodCount).child("median-income").set(thisHood["Median household income in 2016"][thisHood.Name])
-                console.log(thisHood.name);
-                console.log(thisHood.listname);
-                console.log(thisHood["Median household income in 2016"][thisHood.listname]);
-                hoodsRef.child(thisHood.name).child("median-income").set(thisHood["Median household income in 2016"][thisHood.listname])
+                namedHood.child("median-income").set(thisHood["Median household income in 2016"][thisHood.listname])
 
-                hoodCount += 1;
+                // hoodCount += 1;
             }
 
         }, function(error) {
@@ -237,19 +231,22 @@ function loadMapData() {
 
         var hoodCount = 0;
         jsonData.Map.forEach(thisHood => {
-            // // console.log(thisHood);
-            // console.log(thisHood.properties.name);
+            var namedHood = hoodsRef.child(thisHood.properties.geoname);
+            // console.log(thisHood);
+            // console.log(thisHood.properties.geoname);
             // console.log(thisHood.properties.listname);
             // console.log(thisHood.geometry.coordinates);
 
-            hoodsRef.child(thisHood.properties.name).child("listname").set(thisHood.properties.listname);
-            // hoodsRef.child(thisHood.properties.name).child("geometry").child("coordinates").set(thisHood.geometry.coordinates[0][0]);
+            namedHood.child("listname").set(thisHood.properties.listname);
+            namedHood.child("geoname").set(thisHood.properties.geoname);
+            namedHood.child("geometry").child("coordinates").set(thisHood.geometry.coordinates[0][0]);
             hoodCount += 1;
         })
 
         // database.ref("Geo").child("List").remove()
         // database.ref("Geo").child("List").set(jsonData.Map)
 
+        loadIncomes();
 
     });
 
