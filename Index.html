@@ -21,9 +21,11 @@
     <link href="assets/css/business-casual.min.css" rel="stylesheet">
     <link href="assets/css/business-casual.css" rel="stylesheet">
 
+    <!-- Firebase Reference -->
+   <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
 
-    <!-- Custom JS file for this template, firebase DB has been intergrated -->
-    <script src="assets/js/logic.js"></script>
+
+    
 
 </head>
 
@@ -47,43 +49,29 @@
                         <a class="nav-link text-uppercase text-expanded" href="index.html">Home
                 <span class="sr-only">(current)</span>
               </a>
-<<<<<<< HEAD
             </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="packages.html">Packages</a>
-            </li>
+            
+            
+            
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="Results.html">Results</a>
             </li>
+            
             <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="packages.html">Packages</a>
+              </li>
+            
+            <!-- <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="Details.html">Details</a>
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="index2.html">Index2 (The Point of No Return)</a>
-            </li>
+            </li> -->
           </ul>
-=======
-                    </li>
-                    <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="Results.html">Results</a>
-                    </li>
-                    <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="Details.html">Details</a>
-                    </li>
-                    <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="index2.html">Index2 (The Point of No Return)</a>
-                    </li>
-                </ul>
-            </div>
->>>>>>> aa1ccd6d225f554da724993f5d740c009d5e4ae4
         </div>
     </nav>
 
     <section class="page-section clearfix">
-<<<<<<< HEAD
       <div class="container">
         <div class="intro">
           <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/ps.jpg" alt="Philadelphia Skyline">
@@ -98,34 +86,17 @@
               
               <div class="form-group">
                 <label for="exampleInput1">Yearly Income</label>
-                <input type="input1" class="form-control" id="exampleInput1" placeholder="Income">
+                <input type="input" class="form-control" id="exampleInput1" placeholder="Income">
               </div>
               
             </form>
             <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="Results.html?name=Income&name=exampleInput1">Search within my budget!</a>
-=======
-        <div class="container">
-            <div class="intro">
-                <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/ps.jpg" alt="Philadelphia Skyline">
-                <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-                    <h2 class="section-heading mb-4">
-                        <span class="section-heading-upper">Fresh Coffee</span>
-                        <span class="section-heading-lower">Worth Drinking</span>
-                    </h2>
-                    <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
-                    </p>
-                    <div class="intro-button mx-auto">
-                        <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
-                    </div>
-                </div>
->>>>>>> aa1ccd6d225f554da724993f5d740c009d5e4ae4
+              <div class="btn btn-primary btn-xl" id="findIncome">Search within my budget!</div>
             </div>
         </div>
     </section>
 
     <section class="page-section cta">
-<<<<<<< HEAD
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
@@ -136,20 +107,6 @@
               </h2>
                 <p class="mb-0">When you use our service, we'll help you decide the right place to live in Philly, we compare publicly available data to assist in your decision making process. We want to ensure that your next move is to a place that's safe,fun, enjoyable and most importantly affordable! If you're not satisfied, or have suggestions on how to make our service better, please email our web admin (Philly@admin.com) and let us know.
                 </p>
-=======
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-9 mx-auto">
-                    <div class="cta-inner text-center rounded">
-                        <h2 class="section-heading mb-4">
-                            <span class="section-heading-upper">Our Promise</span>
-                            <span class="section-heading-lower">To You</span>
-                        </h2>
-                        <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied,
-                            please let us know and we will do whatever we can to make things right!</p>
-                    </div>
-                </div>
->>>>>>> aa1ccd6d225f554da724993f5d740c009d5e4ae4
             </div>
         </div>
     </section>
@@ -163,10 +120,15 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js">
+
+      </script>
+
+    <!-- Custom JS file for this template, firebase DB has been intergrated -->
+    <script src="assets/js/logic.js"></script>
     
   
     
-    </script>
+    
 
 </body>
 
