@@ -172,15 +172,28 @@ function loadIncomes() {
 
         Philly.forEach(thisHood => {
 
+            // hoodCount += 1;
             var namedHood = hoodsRef.child(thisHood.geoname);
             // console.log(thisHood);
             // console.log(thisHood.geoname);
             // console.log(thisHood.listname);
             // console.log(thisHood["Median household income in 2016"]);
-            if (typeof thisHood["Median household income in 2016"] !== 'undefined') {
-                namedHood.child("median-income").set(thisHood["Median household income in 2016"][thisHood.listname])
 
-                // hoodCount += 1;
+            if (typeof thisHood["Median household income in 2016"] !== 'undefined') {
+                namedHood.child("median-income").set(thisHood["Median household income in 2016"]["This neighborhood"].trim())
+
+            }
+            if (typeof thisHood["Median rent in 2016"] !== 'undefined') {
+                namedHood.child("median-rent").set(thisHood["Median rent in 2016"]["This neighborhood"].trim())
+
+            }
+
+            if (typeof thisHood["Housing prices"] !== 'undefined') {
+
+                if (typeof thisHood["Median rent in 2016"] !== 'undefined') {
+                    namedHood.child("median-rent").set(thisHood["Median rent in 2016"]["This neighborhood"].trim())
+
+                }
             }
 
         }, function(error) {
@@ -237,8 +250,8 @@ function loadMapData() {
             // console.log(thisHood.properties.listname);
             // console.log(thisHood.geometry.coordinates);
 
-            namedHood.child("listname").set(thisHood.properties.listname);
-            namedHood.child("geoname").set(thisHood.properties.geoname);
+            namedHood.child("listname").set(thisHood.properties.listname.trim());
+            namedHood.child("geoname").set(thisHood.properties.geoname.trim());
             namedHood.child("geometry").child("coordinates").set(thisHood.geometry.coordinates[0][0]);
             hoodCount += 1;
         })
