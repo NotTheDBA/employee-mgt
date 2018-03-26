@@ -22,6 +22,9 @@ h6 {
   /* border: 3px solid black; */
 }
 
+#resultsPage {
+  background-color: white !important;
+}
 
 .bundleTitle {
     font-family: Helvetica,sans-serif;
