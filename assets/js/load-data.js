@@ -42,6 +42,22 @@ $(document).ready(function() {
     makeQueryIncomeButton();
     makeQueryMapButton();
 
+
+    var hoodsRef = database.ref("Geo").child("hoods");
+    var startIncome = "$25,000"
+    var endIncome = "$30,000"
+
+    window.NeighborResults = [];
+
+    console.log("starting load...");
+    hoodsRef.orderByChild("median-income").startAt(startIncome).endAt(endIncome).on("child_added", function(snapshot) {
+
+        window.NeighborResults.push(snapshot.val());
+    });
+
+
+    console.log("loading complete...");
+    console.log(NeighborResults);
 });
 
 
