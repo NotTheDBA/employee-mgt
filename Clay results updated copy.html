@@ -24,12 +24,13 @@
   <!-- Custom JS file for this template, firebase DB has been intergrated -->
   <script src="assets/js/logic.js"></script>
   <style>
+
     h4 {
       padding: 38px;
       width: 100%;
       background-color: whitesmoke;
       margin-top: 5px;
-      border: 2px solid darkblue;
+      border: 1px solid darkblue;
       height: 50px;
     }
 
@@ -42,57 +43,21 @@
       background-color: whitesmoke;
       width: 100%;
       font-size: 500px;
-      ;
       text-align: center;
     }
+    
   </style>
 
 </head>
 
-<body>
+<body id="resultsPage">
   <div id="resultsPage">
 
 
-    <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-upper text-primary mb-3">Living Large in the City of Brotherly Love</span>
-      <span class="site-heading-lower">Bang for My Buck</span>
-    </h1>
 
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="Results.html">Results</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="Details.html">Details</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="index2.html">Index2 (The Point of No Return)</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-
-
+   
     <section class="page-section about-heading">
       <div class="resultsContainer">
 
@@ -101,29 +66,43 @@
           <div class="row" id="details">
             <div class="col-xl-7 col-lg-7 mx-auto">
               <div class="row">
-                <div class="col-xl-6">
-                  <h4 class="bundle">Bundle 1 Picture</h4>
+                
+                <div class="bundleClick col-xl-6">
+                  <h4 class="bundle">
+                    <img src="" alt="Bundle 1 Picture"> 
+                  </h4>
                   <h1 class="bundleTitle">Bundle One Title</h1>
                   <p class="bundleDescription">Bundle One Description</p>
                 </div>
-                <div class="even col-xl-6">
-                  <h4 class="bundle">Bundle 2 Picture</h4>
+
+                <div class="bundleClick even col-xl-6">
+                  <h4 class="bundle">
+                      <img src="" alt="Bundle 2 Picture">
+                  </h4>
                   <h1 class="bundleTitle">Bundle Two Title</h1>
                   <p class="bundleDescription">Bundle Two Description</p>
                 </div>
+
               </div>
 
               <div class="row">
-                <div class="col-xl-6">
-                  <h4 class="bundle">Bundle 3 Picture</h4>
+
+                <div class="bundleClick col-xl-6">
+                  <h4 class="bundle">
+                      <img src="" alt="Bundle 3 Picture">
+                  </h4>
                   <h1 class="bundleTitle">Bundle Three Title</h1>
                   <p class="bundleDescription">Bundle Three Description</p>
                 </div>
-                <div class="even col-xl-6">
-                  <h4 class="bundle">Bundle 4 Picture</h4>
+
+                <div class="bundleClick even col-xl-6">
+                  <h4 class="bundle">
+                      <img src="" alt="Bundle 4 Picture">
+                  </h4>
                   <h1 class="bundleTitle">Bundle Four Title</h1>
                   <p class="bundleDescription">Bundle Four Description</p>
                 </div>
+
               </div>
 
             </div>

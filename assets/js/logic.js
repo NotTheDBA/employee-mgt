@@ -12,7 +12,7 @@ firebase.initializeApp(config);
 // Create a variable to reference the database
 var database = firebase.database();
 
-$(document).ready(function() {
+$(document).ready(function () {
     //this initializes a global object called "neighborhoods"
     // use:
     // neighborhoods.list[0].value()
@@ -31,7 +31,7 @@ function loadData() {
         url: queryurl,
         dataType: 'json',
         method: "GET"
-    }).then(function(jsonData) {
+    }).then(function (jsonData) {
         //puts the data in our global space
         window.neighborhoods = jsonData;
     });
@@ -41,51 +41,27 @@ function loadData() {
 // Initial Values 
 var firstVar = "";
 
-
-// --------------------------------------------------------------
-database.ref().on("child_added", function(childSnapshot) {
-
-    // Log everything that's coming out of snapshot 
-    // console.log(childSnapshot.val());
-
-
-    // // full list of items to the well
-    // $("#full-member-list").append("<div class='well'><span class='member-name'> " + childSnapshot.val().name +
-    //     " </span><span class='member-email'> " + childSnapshot.val().email +
-    //     " </span><span class='member-age'> " + childSnapshot.val().age +
-    //     " </span><span class='member-comment'> " + childSnapshot.val().comment + " </span></div>");
-
-    // Handle the errors
-}, function(errorObject) {
-    console.log("Errors handled: " + errorObject.code);
-});
-
-database.ref().orderByChild("dateAdded").limitToLast(1).on("child_added", function(snapshot) {
-
-    // Change the HTML to reflect
-    $("#employee-name").text(snapshot.val());
-});
-
-// --------------------------------------------------------------
-
 // Whenever a user clicks the submit-bid button
-$("#add-employee").on("click", function(event) {
+$("#findIncome").on("click", function (event) {
     // Prevent form from submitting
     event.preventDefault();
+    window.location.replace("Results.html?Income=" + $("#exampleInput1").val())
 
-    // // Get the input values
-    // employeeRate = parseInt($("#employee-rate").val());
-    // employeeName = $("#employee-name").val();
+    //****window.location.href
 
-    firstVar = $("#employee-name").val();
+    // // // Get the input values
+    // // employeeRate = parseInt($("#employee-rate").val());
+    // // employeeName = $("#employee-name").val();
 
-    // if (employeeRate > highrate) {
-    // Save the new employee in Firebase
-    database.ref().push({
-        myVar: firstVar,
-        created: firebase.database.ServerValue.TIMESTAMP
+    // firstVar = $("#employee-name").val();
 
-    })
+    // // if (employeeRate > highrate) {
+    // // Save the new employee in Firebase
+    // database.ref().push({
+    //     myVar: firstVar,
+    //     created: firebase.database.ServerValue.TIMESTAMP
+
+    // })
 
     // } else {
     //     // Alert
@@ -93,3 +69,37 @@ $("#add-employee").on("click", function(event) {
     // }
 
 });
+
+$("#results-page").ready(function () {
+    var link = window.location.href;
+    var url = new URL(link);
+    var c = url.searchParams.get("Income");
+    console.log(c);
+
+    var button = $("<button>").text("Query Income").addClass("btn btn-primary btn-block");
+    button.on("click", function () {
+
+        var hoodsRef = database.ref("Philly").child("hoods");
+        var startIncome = "Income" - 5000
+        var endIncome = "Income" + 5000
+
+        window.NeighborResults = [];
+
+        hoodsRef.orderByChild("median-income").startAt(startIncome).endAt(endIncome).on("child_added", function (snapshot) {
+            window.NeighborResults.push(snapshot.val());
+        });
+
+        console.log(NeighborResults);
+
+    });
+});
+
+    $("#package").on("click", function (event) {
+        // Prevent form from submitting
+        event.preventDefault();
+        var geoName = "PENNYPACK_PARK"; 
+        window.location.replace("Details.html?package=" + geoName);
+        
+       
+
+    });
