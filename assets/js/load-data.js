@@ -19,7 +19,7 @@ $(document).ready(function() {
     //this initializes a second global object called "Philly"
     // use:
     // Philly[10] - Get all neighborhood data
-    // Philly[10].Name - gets the name of neighborhood
+    // Philly[10].geoname - gets the name of neighborhood
     getData();
 
 
@@ -32,7 +32,7 @@ $(document).ready(function() {
     //http://zevross.com/blog/2014/04/01/google-maps-api-adds-geojson-support-here-is-an-example/
     //  Here's how to get an array of coordinates for one neighborhood:
     // MapData.Map[0].geometry.coordinates
-    // getMapData();
+    // loadMapData();
 
     // This button is necessary to access the data 
     // - we can't just load the data on page launch for some reason
@@ -44,13 +44,29 @@ $(document).ready(function() {
 
 });
 
+
+function makeLoadButton(label) {
+
+    var button = $("<button>").text(label).addClass("btn btn-primary btn-block");
+    button.on("click", function() {
+        console.log("Begin loading...")
+            // loadList();
+            // verifyCounts();
+        loadMapData();
+        console.log("Loading complete.")
+    });
+
+    $("#loader").append(button);
+}
+
+
 // TODO: Clay: use this example data query to find neighborhoods with income in a range.
 function makeQueryIncomeButton() {
 
     var button = $("<button>").text("Query Income").addClass("btn btn-primary btn-block");
     button.on("click", function() {
 
-        var hoodsRef = database.ref("Philly").child("hoods");
+        var hoodsRef = database.ref("Geo").child("hoods");
         var startIncome = "$25,000"
         var endIncome = "$30,000"
 
@@ -74,11 +90,11 @@ function makeQueryMapButton() {
     button.on("click", function() {
 
         var hoodsRef = database.ref("Geo").child("hoods");
-        var placeName = "PENNYPACK_PARK"
+        var findGeoName = "PENNYPACK_PARK"
 
         window.GeoResults = [];
 
-        hoodsRef.orderByChild("name").equalTo(placeName).on("child_added", function(snapshot) {
+        hoodsRef.orderByChild("geoname").equalTo(findGeoName).on("child_added", function(snapshot) {
             window.GeoResults.push(snapshot.val());
         });
 
@@ -88,19 +104,6 @@ function makeQueryMapButton() {
     $("#loader").append(button);
 }
 
-
-function makeLoadButton(label) {
-
-    var button = $("<button>").text(label).addClass("btn btn-primary btn-block");
-    button.on("click", function() {
-        // loadList();
-        // loadIncomes();
-        // verifyCounts();
-        getMapData();
-    });
-
-    $("#loader").append(button);
-}
 
 function verifyCounts() {
     // return Object.keys(MapData.Neighborhoods.Map).length;
@@ -113,9 +116,9 @@ function verifyCounts() {
     console.log(Object.keys(Philly).length);
     // console.log(Philly);
     // console.log(Philly[10]);
-    // console.log(Philly[10].Name);
+    // console.log(Philly[10].geoname);
     // console.log(Philly[10]["Median household income in 2016"]);
-    // console.log(Philly[10]["Median household income in 2016"][Philly[10].Name]);
+    // console.log(Philly[10]["Median household income in 2016"][Philly[10].geoname]);
 
     console.log(Object.keys(MapData.Map).length);
     // console.log(MapData);
@@ -163,30 +166,50 @@ function loadIncomes() {
         //puts the data in our global space
         window.Philly = jsonData;
 
-        database.ref("Philly").remove()
-        var hoodsRef = database.ref("Philly").child("hoods");
+        var hoodsRef = database.ref("Geo").child("hoods");
 
-        var hoodCount = 0;
         Philly.forEach(thisHood => {
+            // console.log(thisHood);
+
+            var namedHood = hoodsRef.child(thisHood.geoname);
+            console.log(thisHood.geoname);
+
             if (typeof thisHood["Median household income in 2016"] !== 'undefined') {
-                hoodsRef.child(hoodCount).child("name").set(thisHood.Name)
-                hoodsRef.child(hoodCount).child("median-income").set(thisHood["Median household income in 2016"][thisHood.Name])
-                hoodCount += 1;
+                namedHood.child("median-income").set(thisHood["Median household income in 2016"]["This neighborhood"].trim())
+            }
+            if (typeof thisHood["Median rent in 2016"] !== 'undefined') {
+                namedHood.child("median-rent").set(thisHood["Median rent in 2016"]["This neighborhood"].trim())
             }
 
+
+            if (typeof thisHood["Male_vs_Females"] !== 'undefined') {
+
+                // console.log(thisHood["Male_vs_Females"]);
+
+                // console.log(thisHood["Most common occupations of males"]);
+                namedHood.child("Male_vs_Females").child("males").child("population").set(thisHood["Male_vs_Females"]["Males"]);
+                namedHood.child("Male_vs_Females").child("males").child("median_age").set(thisHood["Median age"]["Males"]);
+                namedHood.child("Male_vs_Females").child("males").child("occupations").set(thisHood["Most popular occupations of males"]);
+
+                namedHood.child("Male_vs_Females").child("females").child("population").set(thisHood["Male_vs_Females"]["Females"]);
+                namedHood.child("Male_vs_Females").child("females").child("median_age").set(thisHood["Median age"]["Males"]);
+                namedHood.child("Male_vs_Females").child("females").child("occupations").set(thisHood["Most popular occupations of females"]);
+
+            }
+
+            if (typeof thisHood["Housing prices"] !== 'undefined') {
+
+                if (typeof thisHood["Median rent in 2016"] !== 'undefined') {
+                    namedHood.child("median-rent").set(thisHood["Median rent in 2016"]["This neighborhood"].trim())
+
+                }
+            }
+
+        }, function(error) {
+            // The Promise was rejected.
+            console.error(error);
         });
 
-
-        // hoodsRef.child(10).child("name").set(thisHood.Name)
-        // hoodsRef.child(10).child("median-income").set(thisHood["Median household income in 2016"][thisHood.Name])
-
-        // database.ref("Philly").child("hoods").child(10).child("name").set(Philly[10].Name)
-        // database.ref("Philly").child("hoods").child(10).child("median-income").set(Philly[10]["Median household income in 2016"][Philly[10].Name])
-
-        // console.log(Philly[10].Name);
-        // // console.log(Philly[10]["Median household income in 2016"]);
-        // console.log(Philly[10]["Median household income in 2016"][Philly[10].Name]);
-        // console.log(jsonData);
     });
 
 
@@ -212,9 +235,9 @@ function getData() {
 }
 
 // TODO: Merge this data with income data for searching.
-function getMapData() {
+function loadMapData() {
     // Only needs to run once on load.
-    var queryurl = "assets/data/n1.geojson";
+    var queryurl = "assets/data/n1.geo.json";
     $.ajax({
         url: queryurl,
         dataType: 'json',
@@ -230,19 +253,22 @@ function getMapData() {
 
         var hoodCount = 0;
         jsonData.Map.forEach(thisHood => {
-            // // console.log(thisHood);
-            // console.log(thisHood.properties.name);
+            var namedHood = hoodsRef.child(thisHood.properties.geoname);
+            // console.log(thisHood);
+            // console.log(thisHood.properties.geoname);
             // console.log(thisHood.properties.listname);
             // console.log(thisHood.geometry.coordinates);
-            hoodsRef.child(hoodCount).child("name").set(thisHood.properties.name);
-            hoodsRef.child(hoodCount).child("listname").set(thisHood.properties.listname);
-            hoodsRef.child(hoodCount).child("geometry").child("coordinates").set(thisHood.geometry.coordinates[0][0]);
+
+            namedHood.child("listname").set(thisHood.properties.listname.trim());
+            namedHood.child("geoname").set(thisHood.properties.geoname.trim());
+            namedHood.child("geometry").child("coordinates").set(thisHood.geometry.coordinates[0][0]);
             hoodCount += 1;
         })
 
         // database.ref("Geo").child("List").remove()
         // database.ref("Geo").child("List").set(jsonData.Map)
 
+        loadIncomes();
 
     });
 
