@@ -45,12 +45,8 @@ var firstVar = "";
 $("#findIncome").on("click", function (event) {
     // Prevent form from submitting
     event.preventDefault();
-<<<<<<< HEAD
     window.location.replace("Results2.html?name="+ $("#exampleInput1").val())
     // console.log("Results.html?name="+ $("#exampleInput1").val())
-=======
-    window.location.replace("Results.html?Income=" + $("#exampleInput1").val())
->>>>>>> bd02dcc068264bf7bf88a5cd3fd03ee6bbe522a3
 
     //****window.location.href
 
