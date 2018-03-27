@@ -22,6 +22,8 @@ $(document).ready(function () {
     console.log(neighborhoods);
 
 });
+
+
 var neighborhoods;
 
 function loadData() {
@@ -45,7 +47,7 @@ var firstVar = "";
 $("#findIncome").on("click", function (event) {
     // Prevent form from submitting
     event.preventDefault();
-    window.location.replace("Results2.html?name="+ $("#exampleInput1").val())
+    window.location.replace("Results2.html?Income=" + $("#exampleInput1").val())
     // console.log("Results.html?name="+ $("#exampleInput1").val())
 
     //****window.location.href
@@ -77,30 +79,34 @@ $("#results-page").ready(function () {
     var c = url.searchParams.get("Income");
     console.log(c);
 
-    var button = $("<button>").text("Query Income").addClass("btn btn-primary btn-block");
-    button.on("click", function () {
+    var hoodsRef = database.ref("Geo").child("hoods");
+    var startIncome = (parseInt(c) - 5000);
+    var endIncome = (parseInt(c) + 5000);
 
-        var hoodsRef = database.ref("Philly").child("hoods");
-        var startIncome = "Income" - 5000
-        var endIncome = "Income" + 5000
+    console.log(startIncome);
+    console.log(endIncome);
 
-        window.NeighborResults = [];
+    window.NeighborResults = [];
 
-        hoodsRef.orderByChild("median-income").startAt(startIncome).endAt(endIncome).on("child_added", function (snapshot) {
-            window.NeighborResults.push(snapshot.val());
-        });
-
-        console.log(NeighborResults);
-
+   
+    hoodsRef.orderByChild("median-income").startAt(startIncome).endAt(endIncome).on("child_added", function(snapshot) {
+        window.NeighborResults.push(snapshot.val());
+    
+        console.log(snapshot);
     });
+   
+
+    console.log(NeighborResults);
+
 });
 
-    $("#package").on("click", function (event) {
-        // Prevent form from submitting
-        event.preventDefault();
-        var geoName = "PENNYPACK_PARK"; 
-        window.location.replace("Details.html?package=" + geoName);
-        
-       
 
-    });
+$("#package").on("click", function (event) {
+    // Prevent form from submitting
+    event.preventDefault();
+    var geoName = "PENNYPACK_PARK";
+    window.location.replace("Details.html?package=" + geoName);
+
+
+
+});

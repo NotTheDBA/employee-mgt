@@ -21,10 +21,6 @@
   <!-- Custom styles for this template -->
   <link href="assets/css/business-casual.css" rel="stylesheet">
 
-  <!-- Custom JS file for this template, firebase DB has been intergrated -->
-  <script src="assets/js/logic.js"></script>
-  
-  
   <!-- <style>
     h4 {
       padding: 38px;
@@ -63,7 +59,7 @@
     <a href="index.html">
       <h1 class="site-heading text-center text-white d-none d-lg-block">
         <span class="site-heading-upper text-primary mb-3">Living Large in the City of Brotherly Love</span>
-        <span class="site-heading-lower">Bang for My Buck</span>
+        <span class="site-heading-lower">Find My Spot Philly</span>
       </h1>
     </a>
 
@@ -101,12 +97,12 @@
             </li> -->
 
 
-          </ul>
-        </div>
-      </div>
-    </nav>
+    </ul>
+  </div>
+  </div>
+  </nav>
 
-    <!-- <section class="page-section">
+  <!-- <section class="page-section">
       <div class="container">
         <div class="product-item">
           <div class="product-item-title d-flex">
@@ -127,9 +123,9 @@
       </div>
     </section> -->
 
-    
-   
-   <section class="page-section about-heading">
+
+
+  <section class="page-section about-heading">
     <div class="resultsContainer">
 
       <br>
@@ -138,22 +134,26 @@
         <div class="row" id="details">
           <div class="col-xl-7 col-lg-7 mx-auto">
             <div class="row">
-              
+
               <div class="bundleClick col-xl-6">
                 <a href="packages.html">
-                  <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/fairmount.jpg" alt="Philly Skyline" style="width:400px;height:300px;">
+                  <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/fairmount.jpg" alt="Philly Skyline"
+                    style="width:400px;height:300px;">
                 </a>
-                <a class="bundleTitle" href="packages.html">Philadelphia: Fairmount</a><br>
+                <a class="bundleTitle" href="packages.html">Philadelphia: Fairmount</a>
+                <br>
                 <a class="bundleDescription" href="packages.html">Feel at home in Fairmount!</a>
 
-                
+
               </div>
 
               <div class="bundleClick even col-xl-6">
                 <a href="packages.html">
-                  <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/fishtown1.png" alt="Philly Skyline" style="width:400px;height:300px;">
+                  <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/fishtown1.png" alt="Philly Skyline"
+                    style="width:400px;height:300px;">
                 </a>
-                <a class="bundleTitle" href="packages.html">Philadelphia: Fishtown</a><br>
+                <a class="bundleTitle" href="packages.html">Philadelphia: Fishtown</a>
+                <br>
                 <a class="bundleDescription" href="packages.html">Live between the bridge and the city!</a>
               </div>
 
@@ -165,17 +165,19 @@
                 <a href="packages.html">
                   <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/unicity.jpg" alt="unicity" style="width:400px;height:300px;">
                 </a>
-                <a class="bundleTitle" href="packages.html">Philadelphia: University City</a><br>
+                <a class="bundleTitle" href="packages.html">Philadelphia: University City</a>
+                <br>
                 <a class="bundleDescription" href="packages.html">The academic heart of the city!</a>
 
-                
+
               </div>
 
               <div class="bundleClick even col-xl-6">
                 <a href="packages.html">
                   <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/oldcity.jpg" alt="Southwest" style="width:400px;height:300px;">
                 </a>
-                <a class="bundleTitle" href="packages.html">Philadelphia: Old City</a><br>
+                <a class="bundleTitle" href="packages.html">Philadelphia: Old City</a>
+                <br>
                 <a class="bundleDescription" href="packages.html">Where class and culture combine!</a>
               </div>
 
@@ -183,9 +185,9 @@
 
           </div>
           <div class="col-xl-5 col-lg-5 mx-auto">
-            
-              <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/philly3.jpg" alt="Philly Skyline">
-            
+
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/philly3.jpg" alt="Philly Skyline">
+
           </div>
 
         </div>
@@ -193,23 +195,32 @@
     </div>
   </section>
 
-  <a class="bundleTitle" href="index.html">Return to Home</a><br>
+  <a class="bundleTitle" href="index.html">Return to Home</a>
+  <br>
 
-    <footer class="footer text-faded text-center py-5">
-      <div class="container">
-        <p class="m-0 small">Copyright &copy; Your Website 2018</p>
-      </div>
-    </footer>
+  <footer class="footer text-faded text-center py-5">
+    <div class="container">
+      <p class="m-0 small">Copyright &copy; Your Website 2018</p>
+    </div>
+  </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   </div>
-</body>
+
+
+   <!-- Firebase Reference -->
+   <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+
+  <!-- Custom JS file for this template, firebase DB has been intergrated -->
+  <script src="assets/js/logic.js"></script>
 
 <!-- Script to highlight the active date in the hours list -->
 <script>
   $('.list-hours li').eq(new Date().getDay()).addClass('today');
 </script>
+
+</body>
 
 </html>
