@@ -19,7 +19,7 @@ $(document).ready(function() {
 $("#findIncome").on("click", function(event) {
     // Prevent form from submitting
     event.preventDefault();
-    window.location.replace("Results2.html?Income=" + $("#exampleInput1").val())
+    window.location.replace("Results.html?Income=" + $("#exampleInput1").val())
         // console.log("Results.html?name="+ $("#exampleInput1").val())
 
 });
