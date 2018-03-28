@@ -43,10 +43,6 @@ $("#findIncome").on("click", function(event) {
 //     // use:
 //     // neighborhoods.list[0].value()
 //     loadData();
-
-
-//     console.log(neighborhoods);
-
 // });
 // var neighborhoods;
 
