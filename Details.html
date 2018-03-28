@@ -5,10 +5,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Business Casual - Start Bootstrap Theme</title>
+    <title>Find My Spot Philly</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -73,7 +71,7 @@
 
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
         <div class="container">
             <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -98,14 +96,16 @@
             </div>
         </div>
     </nav>
-
+ -->
 
 
     <section class="page-section about-heading">
+
         <div class="container" id="details-page">
             <div id="map">
 
             </div>
+
             <div class="about-heading-content">
                 <div class="row" id="details">
                     <div class="col-xl-7 col-lg-7 mx-auto">
@@ -170,7 +170,11 @@
 
                 </div>
             </div>
+            <div style="margin: 10px;" class="btn btn-light">
+                <a class="" href="index.html">Return to Home</a>
+            </div>
         </div>
+
     </section>
 
     <footer class="footer text-faded text-center py-5">
@@ -211,8 +215,14 @@
 
         var link = window.location.href;
         var url = new URL(link);
-        var address = url.searchParams.get("package") + ", Philadelphia";
+        var address;
+        if (url.searchParams.get("package") === null) {
+            address = "Center City, Philadelphia";
+        } else {
+            address = url.searchParams.get("package") + ", Philadelphia";
+        }
 
+        console.log(address);
         // address = "Mantua, Philadelphia"
         geocoder.geocode({
             'address': address

@@ -17,7 +17,12 @@ var database = firebase.database();
 $("#details-page").ready(function() {
     var link = window.location.href;
     var url = new URL(link);
-    var c = url.searchParams.get("package");
+    var c;
+    if (url.searchParams.get("package") === null) {
+        c = "CENTER_CITY";
+    } else {
+        c = url.searchParams.get("package");
+    }
 
     var hoodsRef = database.ref("Geo").child("hoods");
     var findGeoName = url.searchParams.get("package");
