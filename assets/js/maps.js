@@ -1,126 +1,55 @@
-function initMap() {
+// Initialize Firebase
+var config = {
+    apiKey: "AIzaSyA7sNWS4IJJGYoqukX2Xp-EhDB39OqD36I",
+    authDomain: "find-my-spot-philly.firebaseapp.com",
+    databaseURL: "https://find-my-spot-philly.firebaseio.com",
+    projectId: "find-my-spot-philly",
+    storageBucket: "",
+    messagingSenderId: "818602970975"
+};
 
-    // var options = {
-    //     zoom: 12,
-    //     center: { lat: 39.9526, lng: -75.1652 },
-    // }
-    // var map = new google.maps.Map(document.getElementById("maps"), options);
+var g_geo;
 
-    $(window).on('load', function() {
-
-
-        var panorama = new google.maps.StreetViewPanorama(
-            document.getElementById('maps'), {
-                position: { lat: 39.9817, lng: -75.1281 },
-                pov: {
-                    heading: 34,
-                    pitch: 0
-                }
-            });
-        maps.StreetViewPanorama(panorama);
-    });
-}
-
-//        
-
-//     });
-
-// $("#old").on('click', function () {
-
-//     var marker = new google.maps.Marker({
-//         position: { lat: 39.9521, lng: -75.1407 },
-//         map: map,
-//         //icon :
-//     });
-//     var panorama = new google.maps.StreetViewPanorama(
-//         document.getElementById('pano'), {
-//             position: { lat: 39.9521, lng: -75.1407 },
-//             pov: {
-//                 heading: 34,
-//                 pitch: 0
-//             }
-//         });
-//     map.setStreetView(panorama);
-//     map.panTo(position);
-
-// });
-
-// $("#powel").on('click', function () {
-
-//     var marker = new google.maps.Marker({
-//         position: { lat: 39.9610, lng: -75.1917 },
-//         map: map,
-//         //icon :
-//     });
-//     var panorama = new google.maps.StreetViewPanorama(
-//         document.getElementById('pano'), {
-//             position: { lat: 39.9610, lng: -75.1917 },
-//             pov: {
-//                 heading: 34,
-//                 pitch: 0
-//             }
-//         });
-//     map.setStreetView(panorama);
-//     map.panTo(position);
-// });
-
-//         // function toggleMarker() {
-//         //     var toggle = marker.getVisible();
-//         //     if ('click' == false) {
-//         //         marker.setVisible(true);
-//         //     } else {
-//         //         marker.setVisible(false);
-//         //     }
-//         // }
-
-//             //kensington
-//             // addMarks({ lat: 39.9817, lng: -75.1281 });
-//             // //Old City
-//             // addMarks({ lat: 39.9521, lng: -75.1407 });
-//             // //Powelton Village
-//             // addMarks({ lat: 39.9610, lng: -75.1917 });
-
-
-
-//             // function addMarks() {
-//             //     var marker = new google.maps.Marker({
-//             //         position: { lat: 39.9817, lng: -75.1281 },
-//             //         map: map,
-//             //         //icon :
-
-//             //     });
-//             // }
-
-//             // marker.addListener('click',function(){
-
-//             //     https://maps.googleapis.com/maps/api/streetview?size=600x300&location=46.414382,10.013988&heading=151.78&pitch=-0.76&key=YOUR_API_KEY;
-//             //     var panorama = new google.maps.Panorama(document.getElementById("streetView"), options);
-
-//             // });
-//         }
-
+firebase.initializeApp(config);
+// Create a variable to reference the database
+var database = firebase.database();
 
 $("#details-page").ready(function() {
     var link = window.location.href;
     var url = new URL(link);
     var c = url.searchParams.get("package");
-    console.log(c);
 
     var hoodsRef = database.ref("Geo").child("hoods");
     var findGeoName = url.searchParams.get("package");
 
     hoodsRef.orderByChild("geoname").equalTo(findGeoName).on("child_added", function(snapshot) {
-        // console.log(snapshot.val());
+        console.log(snapshot.val());
 
-        var geo = snapshot.child("geometry").val();
+        var g_geo = snapshot.child("geometry").val();
 
-        // console.log(geo);
-        // console.log(geo.coordinates[0]);
+        console.log(g_geo);
+
+        var coOrdinates = [{ lat: g_geo.coordinates[0][1], lng: g_geo.coordinates[0][0] },
+            { lat: g_geo.coordinates[1][1], lng: g_geo.coordinates[1][0] },
+            { lat: g_geo.coordinates[2][1], lng: g_geo.coordinates[2][0] },
+            { lat: g_geo.coordinates[3][1], lng: g_geo.coordinates[3][0] }
+        ];
+
+        var map = new google.maps.Polygon({
+            paths: coOrdinates,
+            strokeColor: '#FF0000',
+            strokeOpacity: 0.8,
+            strokeWeight: 2,
+            fillColor: '#FF0000',
+            fillOpacity: 0.35
+        });
+
+
 
         $.each(snapshot, function() {
 
             $("#cityName").text(snapshot.child("listname").val());
-            var income = snapshot.child("median-income").val();
+            var income = snapshot.child("median-income").val()
             income = "$" + income.formatMoney(2);
             $("#medianIncome").text(income);
             $("#medianRent").text(snapshot.child("median-rent").val());
@@ -134,9 +63,8 @@ $("#details-page").ready(function() {
 
     });
 
-
-
 });
+
 
 Number.prototype.formatMoney = function(c, d, t) {
     var n = this,
