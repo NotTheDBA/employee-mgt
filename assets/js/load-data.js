@@ -20,7 +20,7 @@ $(document).ready(function() {
     // use:
     // Philly[10] - Get all neighborhood data
     // Philly[10].geoname - gets the name of neighborhood
-    getData();
+    // getData();
 
 
     //this initializes a third global object called "MapData"
@@ -42,22 +42,6 @@ $(document).ready(function() {
     makeQueryIncomeButton();
     makeQueryMapButton();
 
-
-    var hoodsRef = database.ref("Geo").child("hoods");
-    var startIncome = "$25,000"
-    var endIncome = "$30,000"
-
-    window.NeighborResults = [];
-
-    console.log("starting load...");
-    hoodsRef.orderByChild("median-income").startAt(startIncome).endAt(endIncome).on("child_added", function(snapshot) {
-
-        window.NeighborResults.push(snapshot.val());
-    });
-
-
-    console.log("loading complete...");
-    console.log(NeighborResults);
 });
 
 
@@ -83,8 +67,8 @@ function makeQueryIncomeButton() {
     button.on("click", function() {
 
         var hoodsRef = database.ref("Geo").child("hoods");
-        var startIncome = "$25,000"
-        var endIncome = "$30,000"
+        var startIncome = 25000
+        var endIncome = 30000
 
         window.NeighborResults = [];
 
@@ -121,6 +105,7 @@ function makeQueryMapButton() {
 }
 
 
+
 function verifyCounts() {
     // return Object.keys(MapData.Neighborhoods.Map).length;
 
@@ -129,7 +114,7 @@ function verifyCounts() {
     // console.log(Hoods.List); 
     // console.log(Hoods.List[10]);
 
-    console.log(Object.keys(Philly).length);
+    // console.log(Object.keys(Philly).length);
     // console.log(Philly);
     // console.log(Philly[10]);
     // console.log(Philly[10].geoname);
@@ -147,28 +132,28 @@ function verifyCounts() {
 }
 
 
-// function loadList() {
-//     //this initializes a global object called "Hoods"
-//     //It contains just a list of neighborhood names
-//     // use:
-//     // Hoods.List[0]  - gets the name of neighborhood
+function loadList() {
+    //this initializes a global object called "Hoods"
+    //It contains just a list of neighborhood names
+    // use:
+    // Hoods.List[0]  - gets the name of neighborhood
 
-//     // Only needs to run once on load.
-//     var queryurl = "assets/data/neighborhoods-list.json";
-//     $.ajax({
-//         url: queryurl,
-//         dataType: 'json',
-//         method: "GET"
-//     }).then(function(jsonData) {
-//         //puts the data in our global space
-//         window.Hoods = jsonData;
-//         // console.log(jsonData);
-//         // database.ref("Hoods").child("List").push(Hoods.List)
-//         database.ref("Hoods").child("List").remove()
-//         database.ref("Hoods").child("List").set(Hoods.List)
-//     });
+    // Only needs to run once on load.
+    var queryurl = "assets/data/neighborhoods-list.json";
+    $.ajax({
+        url: queryurl,
+        dataType: 'json',
+        method: "GET"
+    }).then(function(jsonData) {
+        //puts the data in our global space
+        window.Hoods = jsonData;
+        // console.log(jsonData);
+        // database.ref("Hoods").child("List").push(Hoods.List)
+        database.ref("Hoods").child("List").remove()
+        database.ref("Hoods").child("List").set(Hoods.List)
+    });
 
-// }
+}
 
 
 function loadIncomes() {
@@ -180,19 +165,23 @@ function loadIncomes() {
         method: "GET"
     }).then(function(jsonData) {
         //puts the data in our global space
-        window.Philly = jsonData;
+        // window.Philly = jsonData;
 
         var hoodsRef = database.ref("Geo").child("hoods");
 
-        Philly.forEach(thisHood => {
-            // console.log(thisHood);
+        jsonData.forEach(thisHood => {
+            console.log(thisHood);
+            console.log(thisHood["geoname"]);
 
             var namedHood = hoodsRef.child(thisHood.geoname);
-            console.log(thisHood.geoname);
 
             if (typeof thisHood["Median household income in 2016"] !== 'undefined') {
-                var income = thisHood["Median household income in 2016"]["This neighborhood"].trim().replace("$", "").replace(",", "")
-                namedHood.child("median-income").set(parseInt(income));
+
+                var income = thisHood["Median household income in 2016"]["This neighborhood"].trim();
+                // income.replace('$', '');
+                // income.replace("$", "").replace(",", "")
+                console.log(income)
+                namedHood.child("median-income").set(parseInt(income))
             }
             if (typeof thisHood["Median rent in 2016"] !== 'undefined') {
                 namedHood.child("median-rent").set(thisHood["Median rent in 2016"]["This neighborhood"].trim())
@@ -233,23 +222,23 @@ function loadIncomes() {
 }
 
 
-function getData() {
-    // Only needs to run once on load.
-    var queryurl = "assets/data/n1.json";
-    $.ajax({
-        url: queryurl,
-        dataType: 'json',
-        method: "GET"
-    }).then(function(jsonData) {
-        //puts the data in our global space
-        window.Philly = jsonData;
-        // console.log(jsonData);
-    });
+// function getData() {
+//     // Only needs to run once on load.
+//     var queryurl = "assets/data/n1.json";
+//     $.ajax({
+//         url: queryurl,
+//         dataType: 'json',
+//         method: "GET"
+//     }).then(function(jsonData) {
+//         //puts the data in our global space
+//         window.Philly = jsonData;
+//         // console.log(jsonData);
+//     });
 
-    // "Read more": "http": "//www.city-data.com/nbmaps/neigh-Philadelphia-Pennsylvania.html#N154#ixzz5AFDwsicQ"
+//     // "Read more": "http": "//www.city-data.com/nbmaps/neigh-Philadelphia-Pennsylvania.html#N154#ixzz5AFDwsicQ"
 
 
-}
+// }
 
 // TODO: Merge this data with income data for searching.
 function loadMapData() {

@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Find My Spot Philly</title>
+    <title>Business Casual - Start Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,8 +18,53 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/business-casual.min.css" rel="stylesheet">
     <link href="assets/css/business-casual.css" rel="stylesheet">
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_1lbdtBKugEcIftvmkwIE4nYKr5piAyA&callback=initMap" async defer></script>
+
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+
+
+
+    <style>
+        h4 {
+            padding: 38px;
+            width: 100%;
+            background-color: whitesmoke;
+            margin-top: 5px;
+            border: 2px solid darkblue;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        #details {
+            margin-top: 8rem;
+        }
+        
+        h3 {
+            height: 600px;
+            background-color: whitesmoke;
+            width: 100%;
+            font-size: 500px;
+            ;
+            text-align: center;
+        }
+        
+        hr {
+            border: 2px solid;
+        }
+        
+        th,
+        td {
+            border-bottom: 2px solid;
+            height: 50px;
+            width: 200px;
+        }
+        
+        #maps {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
 
 </head>
 
@@ -36,114 +81,108 @@
         <div class="container">
             <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
+                            <span class="sr-only">(current)</span>
+                        </a>
                     </li>
                     <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="packages.html">Packages</a>
+                        <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
                     </li>
                     <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="Results.html">Results</a>
                     </li>
-                    <li class="nav-item active px-lg-4">
+                    <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="Details.html">Details</a>
                     </li>
-                    <li class="nav-item px-lg-4">
+                    <!-- <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="index2.html">Index2 (The Point of No Return)</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section class="page-section cta">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-9 mx-auto">
-                    <div class="cta-inner text-center rounded">
-                        <h2 class="section-heading mb-5">
-                            <span class="section-heading-upper">Come On In</span>
-                            <span class="section-heading-lower">We're Open</span>
-                        </h2>
-                        <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                            <li class="list-unstyled-item list-hours-item d-flex">
-                                Sunday
-                                <span class="ml-auto">Closed</span>
-                            </li>
-                            <li class="list-unstyled-item list-hours-item d-flex">
-                                Monday
-                                <span class="ml-auto">7:00 AM to 8:00 PM</span>
-                            </li>
-                            <li class="list-unstyled-item list-hours-item d-flex">
-                                Tuesday
-                                <span class="ml-auto">7:00 AM to 8:00 PM</span>
-                            </li>
-                            <li class="list-unstyled-item list-hours-item d-flex">
-                                Wednesday
-                                <span class="ml-auto">7:00 AM to 8:00 PM</span>
-                            </li>
-                            <li class="list-unstyled-item list-hours-item d-flex">
-                                Thursday
-                                <span class="ml-auto">7:00 AM to 8:00 PM</span>
-                            </li>
-                            <li class="list-unstyled-item list-hours-item d-flex">
-                                Friday
-                                <span class="ml-auto">7:00 AM to 8:00 PM</span>
-                            </li>
-                            <li class="list-unstyled-item list-hours-item d-flex">
-                                Saturday
-                                <span class="ml-auto">9:00 AM to 5:00 PM</span>
-                            </li>
-                        </ul>
-                        <p class="address mb-5">
-                            <em>
-                  <strong>1116 Orchard Street</strong>
-                  <br>
-                  Golden Valley, Minnesota
-                </em>
-                        </p>
-                        <p class="mb-0">
-                            <small>
-                  <em>Call Anytime</em>
-                </small>
-                            <br> (317) 585-8468
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <section class="page-section about-heading">
-        <div class="container">
-            <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="">
+        <div class="container" id="details-page">
+            <div id="maps">
+
+            </div>
             <div class="about-heading-content">
-                <div class="row">
-                    <div class="col-xl-9 col-lg-10 mx-auto">
-                        <div class="bg-faded rounded p-5">
-                            <h2 class="section-heading mb-4">
-                                <span class="section-heading-upper">Strong Coffee, Strong Roots</span>
-                                <span class="section-heading-lower">About Our Cafe</span>
-                            </h2>
-                            <p>Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich coffee sourced from artisan farmers in various regions of South and Central America. We are dedicated to travelling the world, finding the
-                                best coffee, and bringing back to you here in our cafe.</p>
-                            <p class="mb-0">We guarantee that you will fall in
-                                <em>lust</em> with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine, an outing with friends, or simply just to enjoy some alone time.</p>
+                <div class="row" id="details">
+                    <div class="col-xl-7 col-lg-7 mx-auto">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <h4>City Name :
+                                    <hr>
+                                    <p id="cityName"></p>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <h4>Median Income :
+                                    <hr>
+                                    <p id="medianIncome"></p>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <h4>Median Rent :
+                                    <hr>
+                                    <p id="medianRent"></p>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <h4>
+                                    <table>
+                                        <tr>
+                                            <td></td>
+                                            <th>Male</th>
+                                            <th>Female</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Median Age</td>
+                                            <td id="maleAge"></td>
+                                            <td id="femaleAge"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Occupation</td>
+                                            <td id="maleOcp"></td>
+                                            <td id="femaleOcp"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Population</td>
+                                            <td id="malePop"></td>
+                                            <td id="femalePop"></td>
+                                        </tr>
+                                    </table>
+                                </h4>
+                            </div>
                         </div>
                     </div>
+                    <div class="col-xl-5 col-lg-5 mx-auto">
+                        <div class="place">
+                            <h3>?</h3>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
 
     <footer class="footer text-faded text-center py-5">
-        <div class="container" id="details-page">
+        <div class="container">
             <p class="m-0 small">Copyright &copy; Your Website 2018</p>
         </div>
     </footer>
@@ -151,18 +190,17 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Firebase Reference -->
-    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
-
     <!-- Custom JS file for this template, firebase DB has been intergrated -->
-    <script src="assets/js/details-logic.js"></script>
+
+    <script src="assets/js/logic.js"></script>
+    <script src="assets/js/maps.js"></script>
+
 
 </body>
 
 <!-- Script to highlight the active date in the hours list -->
-<script>
+<!-- <script>
     $('.list-hours li').eq(new Date().getDay()).addClass('today');
-</script>
+</script> -->
 
 </html>
