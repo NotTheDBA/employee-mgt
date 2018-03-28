@@ -78,7 +78,7 @@ function makeQueryIncomeButton() {
                 block.append("<div class='row' </div>");
                 block.append("<div class='bundleClick col-xl-6'>");
                 block.append("<a " + "href='Details.html?package=" + snapshot.child("geoname").val() + "'" + ">");
-                block.append("<img class='product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0' src='img/fairmount.jpg' alt='Philly Skyline'" +
+                block.append("<img class='product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0' src='img/Fairmount.jpg' alt='Philly Skyline'" +
                     "style='width:400px;height:300px;'>");
                 block.append("</a>");
                 block.append("<a class='bundleTitle' " + "href='Details.html?package=" + snapshot.child("geoname").val() + "'" + "></a>");
