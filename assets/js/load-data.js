@@ -147,28 +147,28 @@ function verifyCounts() {
 }
 
 
-function loadList() {
-    //this initializes a global object called "Hoods"
-    //It contains just a list of neighborhood names
-    // use:
-    // Hoods.List[0]  - gets the name of neighborhood
+// function loadList() {
+//     //this initializes a global object called "Hoods"
+//     //It contains just a list of neighborhood names
+//     // use:
+//     // Hoods.List[0]  - gets the name of neighborhood
 
-    // Only needs to run once on load.
-    var queryurl = "assets/data/neighborhoods-list.json";
-    $.ajax({
-        url: queryurl,
-        dataType: 'json',
-        method: "GET"
-    }).then(function(jsonData) {
-        //puts the data in our global space
-        window.Hoods = jsonData;
-        // console.log(jsonData);
-        // database.ref("Hoods").child("List").push(Hoods.List)
-        database.ref("Hoods").child("List").remove()
-        database.ref("Hoods").child("List").set(Hoods.List)
-    });
+//     // Only needs to run once on load.
+//     var queryurl = "assets/data/neighborhoods-list.json";
+//     $.ajax({
+//         url: queryurl,
+//         dataType: 'json',
+//         method: "GET"
+//     }).then(function(jsonData) {
+//         //puts the data in our global space
+//         window.Hoods = jsonData;
+//         // console.log(jsonData);
+//         // database.ref("Hoods").child("List").push(Hoods.List)
+//         database.ref("Hoods").child("List").remove()
+//         database.ref("Hoods").child("List").set(Hoods.List)
+//     });
 
-}
+// }
 
 
 function loadIncomes() {
@@ -191,7 +191,8 @@ function loadIncomes() {
             console.log(thisHood.geoname);
 
             if (typeof thisHood["Median household income in 2016"] !== 'undefined') {
-                namedHood.child("median-income").set(thisHood["Median household income in 2016"]["This neighborhood"].trim())
+                var income = thisHood["Median household income in 2016"]["This neighborhood"].trim().replace("$", "").replace(",", "")
+                namedHood.child("median-income").set(parseInt(income));
             }
             if (typeof thisHood["Median rent in 2016"] !== 'undefined') {
                 namedHood.child("median-rent").set(thisHood["Median rent in 2016"]["This neighborhood"].trim())
