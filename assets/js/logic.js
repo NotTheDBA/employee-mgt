@@ -12,33 +12,34 @@ firebase.initializeApp(config);
 // Create a variable to reference the database
 var database = firebase.database();
 
-$(document).ready(function () {
-    //this initializes a global object called "neighborhoods"
-    // use:
-    // neighborhoods.list[0].value()
-    loadData();
+$(document).ready(function() {
 
-
-    console.log(neighborhoods);
-
-});
+    window.NeighborResults = [];
+    console.log(NeighborResults);
+ 
+ });
+ 
+ $("#results-page").ready(function() {
+    var link = window.location.href;
+    var url = new URL(link);
+    var c = url.searchParams.get("Income");
+ 
+    var startIncome = (parseInt(c) - 5000);
+    var endIncome = (parseInt(c) + 5000);
+ 
+    var hoodsRef = database.ref("Geo").child("hoods");
+ 
+    hoodsRef.orderByChild("median-income").startAt(startIncome).endAt(endIncome).on("child_added", function(snapshot) {
+        // debugger
+        window.NeighborResults.push(snapshot.val());
+    });
+ 
+ 
+ });
 
 
 var neighborhoods;
 
-function loadData() {
-    // Only needs to run once on load.
-    var queryurl = "assets/data/neighborhoods-list.json";
-    $.ajax({
-        url: queryurl,
-        dataType: 'json',
-        method: "GET"
-    }).then(function (jsonData) {
-        //puts the data in our global space
-        window.neighborhoods = jsonData;
-    });
-
-}
 
 // Initial Values 
 var firstVar = "";
@@ -71,35 +72,8 @@ $("#findIncome").on("click", function (event) {
     //     alert("Sorry that bid is too low. Try again.");
     // }
 
-});
-
-$("#results-page").ready(function () {
-    var link = window.location.href;
-    var url = new URL(link);
-    var c = url.searchParams.get("Income");
-    console.log(c);
-
-    var hoodsRef = database.ref("Geo").child("hoods");
-    var startIncome = (parseInt(c) - 5000);
-    var endIncome = (parseInt(c) + 5000);
-
-    console.log(startIncome);
-    console.log(endIncome);
-
-    window.NeighborResults = [];
-
-   
-    hoodsRef.orderByChild("median-income").startAt(startIncome).endAt(endIncome).on("child_added", function(snapshot) {
-        window.NeighborResults.push(snapshot.val());
-    
-        console.log(snapshot);
-    });
-   
-
-    console.log(NeighborResults);
 
 });
-
 
 $("#package").on("click", function (event) {
     // Prevent form from submitting

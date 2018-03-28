@@ -105,6 +105,7 @@ function makeQueryMapButton() {
 }
 
 
+
 function verifyCounts() {
     // return Object.keys(MapData.Neighborhoods.Map).length;
 
