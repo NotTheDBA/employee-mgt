@@ -75,17 +75,17 @@ function makeQueryIncomeButton() {
 
             $.each(snapshot, function() {
                 var block = $("<div class='block-panel'>");
-                $(".packagePanel").append("<div class='row' </div>");
-                $(".packagePanel").append("<div class='bundleClick col-xl-6'>");
-                $(".packagePanel").append("<a " + "href='Details.html?package=" + snapshot.child("geoname").val() + "'" + ">");
-                $(".packagePanel").append("<img class='product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0' src='img/fairmount.jpg' alt='Philly Skyline'" +
+                block.append("<div class='row' </div>");
+                block.append("<div class='bundleClick col-xl-6'>");
+                block.append("<a " + "href='Details.html?package=" + snapshot.child("geoname").val() + "'" + ">");
+                block.append("<img class='product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0' src='img/fairmount.jpg' alt='Philly Skyline'" +
                     "style='width:400px;height:300px;'>");
-                $(".packagePanel").append("</a>");
-                $(".packagePanel").append("<a class='bundleTitle' " + "href='Details.html?package=" + snapshot.child("geoname").val() + "'" + "></a>");
+                block.append("</a>");
+                block.append("<a class='bundleTitle' " + "href='Details.html?package=" + snapshot.child("geoname").val() + "'" + "></a>");
                 $(".bundleTitle").text("City Name : " + snapshot.child("listname").val());
-                $(".packagePanel").append("<br>");
-                $(".packagePanel").append("<a class='bundleDescription' " + "href='Details.html?package=" + snapshot.child("geoname").val() + "'" + ">Feel at home in " + snapshot.child("listname").val() + "!</a>");
-                $(".packagePanel").append("</a>");
+                block.append("<br>");
+                block.append("<a class='bundleDescription' " + "href='Details.html?package=" + snapshot.child("geoname").val() + "'" + ">Feel at home in " + snapshot.child("listname").val() + "!</a>");
+                block.append("</a>");
 
                 $(".packagePanel").append(block);
             });
