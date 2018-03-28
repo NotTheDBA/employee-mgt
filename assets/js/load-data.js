@@ -71,21 +71,20 @@ function makeQueryIncomeButton() {
 
         hoodsRef.orderByChild("median-income").startAt(startIncome).endAt(endIncome).on("child_added", function(snapshot) {
             window.NeighborResults.push(snapshot.val());
+            var link = ""
 
             $.each(snapshot, function() {
                 var block = $("<div class='block-panel'>");
-
-                var link = "href='Details.html?package=" + snapshot.child("geoname").val() + "'" +
-                    $(".packagePanel").append("<div class='row' </div>");
+                $(".packagePanel").append("<div class='row' </div>");
                 $(".packagePanel").append("<div class='bundleClick col-xl-6'>");
-                $(".packagePanel").append("<a " + link + ">");
+                $(".packagePanel").append("<a " + "href='Details.html?package=" + snapshot.child("geoname").val() + "'" + ">");
                 $(".packagePanel").append("<img class='product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0' src='img/fairmount.jpg' alt='Philly Skyline'" +
                     "style='width:400px;height:300px;'>");
                 $(".packagePanel").append("</a>");
-                $(".packagePanel").append("<a class='bundleTitle' " + link + "></a>");
+                $(".packagePanel").append("<a class='bundleTitle' " + "href='Details.html?package=" + snapshot.child("geoname").val() + "'" + "></a>");
                 $(".bundleTitle").text("City Name : " + snapshot.child("listname").val());
                 $(".packagePanel").append("<br>");
-                $(".packagePanel").append("<a class='bundleDescription' " + link + ">Feel at home in " + snapshot.child("listname").val() + "!</a>");
+                $(".packagePanel").append("<a class='bundleDescription' " + "href='Details.html?package=" + snapshot.child("geoname").val() + "'" + ">Feel at home in " + snapshot.child("listname").val() + "!</a>");
                 $(".packagePanel").append("</a>");
 
                 $(".packagePanel").append(block);

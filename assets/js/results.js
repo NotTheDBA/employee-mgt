@@ -33,10 +33,11 @@ $("#results-page").ready(function() {
     window.NeighborResults = [];
 
     hoodsRef.orderByChild("median-income").startAt(startIncome).endAt(endIncome).on("child_added", function(snapshot) {
+        $(".packagePanel").empty()
         window.NeighborResults.push(snapshot.val());
 
         $.each(snapshot, function() {
-            var block = $("<div class='block-panel'>");
+            var block = $("<div class='block-panel' id='" + snapshot.child("geoname").val() + "'>");
 
             // var link = "href='Details.html?package=" + snapshot.child("geoname").val() + "'" +
             //     $(".packagePanel").append("<div class='row' </div>");
